@@ -169,7 +169,7 @@ def resolver_modalidade_menu(termo: str) -> Optional[ModalidadeMenu]:
 
     norm = _norm_busca(termo)
     norm_sub = norm.replace(' ', '')
-    candidatos: List[tuple[int, ModalidadeMenu]] = []
+    candidatos = []
     for mod in TODAS_MODALIDADES:
         for alvo in (mod.label, mod.tecla, mod.slug.replace('-', ' ')) + tuple(mod.keywords):
             if not alvo:
@@ -177,10 +177,11 @@ def resolver_modalidade_menu(termo: str) -> Optional[ModalidadeMenu]:
             na = _norm_busca(str(alvo))
             na_sub = na.replace(' ', '')
             if na and (na == norm or norm in na or na in norm or na_sub == norm_sub):
-                candidatos.append((len(na), mod))
+                is_exact = (na == norm or na_sub == norm_sub)
+                candidatos.append((is_exact, len(na), mod))
     if candidatos:
-        candidatos.sort(key=lambda x: -x[0])
-        return candidatos[0][1]
+        candidatos.sort(key=lambda x: (x[0], x[1]), reverse=True)
+        return candidatos[0][2]
     return None
 
 

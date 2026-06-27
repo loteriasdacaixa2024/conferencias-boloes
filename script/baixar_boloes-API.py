@@ -3,10 +3,11 @@
 Extrator de bolões via API (interceptação JSON) — Caixa.
 
 Fluxo [1] AUTOMÁTICO (principal):
-  1. Edge abre o site — faça LOGIN, modalidade, filtros e Aplicar
-  2. Volte ao terminal e pressione ENTER
-  3. Script extrai página 1, 2, 3… (Seguinte) até o botão desabilitar
-  4. JSON em json-boloes/
+  1. Terminal pede: MODALIDADE + CONCURSO (antes de abrir o Edge)
+  2. Edge abre — faça LOGIN, selecione modalidade e aplique filtros → APLICAR
+  3. Volte ao terminal e pressione ENTER
+  4. Script extrai pág. 1, 2, 3… (Seguinte) até o botão desabilitar
+  5. JSON gravado em json-boloes/ em tempo real (KBs crescem a cada página)
 
 Fluxo [2] MANUAL (opcional): ENTER a cada página / vários filtros na mesma sessão.
 """
@@ -102,16 +103,145 @@ ROTULO_ARQUIVO = None
 ROTULO_NOME = 'modalidade atual'
 SESSAO_AUTORIZADA = False
 
+# ─────────────────────────────────────────────────────────────────────────────
+# NOVO: coleta de modalidade + concurso ANTES de abrir o Edge
+# ─────────────────────────────────────────────────────────────────────────────
+
+MAPA_MODALIDADES_RAPIDO = {
+    '1': 'MEGA_SENA',
+    '2': 'QUINA',
+    '3': 'LOTOFACIL',
+    '4': 'LOTOMANIA',
+    '5': 'TIMEMANIA',
+    '6': 'DIA_DE_SORTE',
+    '7': 'SUPER_SETE',
+    '8': 'DUPLA_SENA',
+    '9': 'MAIS_MILIONARIA',
+}
+
+    # Especiais: usa diretamente o TECLAS_ESPECIAIS já definido no seu código
+
+
+def _separador(char='=', n=60):
+    print(char * n, flush=True)
+
 
 def _out(msg: str = '') -> None:
-    """Print imediato no terminal (evita parecer travado apos ENTER)."""
+    """Print imediato no terminal."""
     print(msg, flush=True)
 
 
+def _coletar_modalidade_pre_extracao() -> Optional[object]:
+    """
+    Pergunta a modalidade ANTES de abrir o Edge.
+    Retorna objeto de modalidade ou None (auto-detectar depois).
+    """
+    _separador()
+    _out('  PASSO 1 — MODALIDADE')
+    _out('  Informe a modalidade que você vai extrair no site:')
+    _out('')
+    _out('  [1] Mega-Sena       [2] Quina         [3] Lotofácil')
+    _out('  [4] Lotomania       [5] Timemania      [6] Dia de Sorte')
+    _out('  [7] Super Sete      [8] Dupla Sena     [9] +Milionária')
+    _out('  Especiais: QSJ | DSP | LTI | MSV | MS3')
+    _out('  ENTER = detectar automaticamente no site')
+    _separador('-')
+
+    try:
+        resp = input('  Modalidade: ').strip().upper()
+    except EOFError:
+        return None
+
+    if not resp:
+        _out('  [OK] Modalidade será detectada automaticamente ao iniciar.')
+        return None
+
+    # Número 1-9
+    if resp in MAPA_MODALIDADES_RAPIDO:
+        slug = MAPA_MODALIDADES_RAPIDO[resp]
+        mod = resolver_modalidade_menu(slug)
+        if mod:
+            _out(f'  [OK] Modalidade: {mod.label}')
+            return mod
+
+    # Especiais: QSJ, DSP, LTI, etc. — usa o mesmo TECLAS_ESPECIAIS do seu código
+    if resp in TECLAS_ESPECIAIS:
+        mod = resolver_modalidade_menu(resp)
+        if mod:
+            _out(f'  [OK] Modalidade especial: {mod.label}')
+            return mod
+
+    # Texto livre (MEGA_SENA, QUINA, etc.)
+    mod = resolver_modalidade_menu(resp)
+    if mod:
+        _out(f'  [OK] Modalidade: {mod.label}')
+        return mod
+
+    _out(f'  [AVISO] "{resp}" não reconhecido — será detectado automaticamente.')
+    return None
+
+
+def _coletar_concurso_pre_extracao() -> str:
+    """
+    Pergunta o número do concurso ANTES de abrir o Edge.
+    Retorna string com dígitos ou '' para auto-detectar.
+    """
+    _separador()
+    _out('  PASSO 2 — CONCURSO')
+    _out('  Informe o número do concurso que você vai extrair:')
+    _out('  Exemplo: 3024  |  ENTER = detectar automaticamente no site')
+    _separador('-')
+
+    try:
+        resp = input('  Concurso nº: ').strip()
+    except EOFError:
+        return ''
+
+    digits = re.sub(r'\D', '', resp)
+    if digits:
+        _out(f'  [OK] Concurso informado: {digits}')
+        return digits
+
+    _out('  [OK] Concurso será detectado automaticamente da primeira página.')
+    return ''
+
+
+def _exibir_resumo_pre_extracao(mod, concurso: str, cfg) -> None:
+    """Mostra no terminal o resumo completo antes de abrir o Edge."""
+    _separador()
+    _out('  RESUMO — CONFIGURAÇÃO DA EXTRAÇÃO')
+    _separador('-')
+    _out(f'  Modalidade  : {mod.label if mod else "detectar automaticamente"}')
+    _out(f'  Concurso    : {concurso if concurso else "detectar automaticamente"}')
+    if cfg:
+        if getattr(cfg, 'qualquer_loterica', False):
+            _out(f'  Lotérica    : QUALQUER + {cfg.qtd_dezenas or 15} dezenas')
+        elif cfg.termo:
+            _out(f'  Lotérica    : {cfg.termo}')
+        else:
+            _out('  Lotérica    : filtro manual no site')
+    _out(f'  Destino     : json-boloes/')
+    _out(f'  Gravação    : tempo real (KBs crescem a cada página)')
+    _separador()
+    _out('')
+    _out('  Agora:')
+    _out('  1. O Edge vai abrir')
+    _out('  2. Faça LOGIN na Caixa')
+    _out(f'  3. Escolha a modalidade: {mod.label if mod else "(a mesma informada acima)"}')
+    _out(f'  4. Informe o concurso nº {concurso if concurso else "(o mesmo informado acima)"}')
+    _out('  5. Aplique os filtros → clique APLICAR → página 1 carregada')
+    _out('  6. Volte aqui e pressione ENTER')
+    _separador()
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Utilitários gerais
+# ─────────────────────────────────────────────────────────────────────────────
+
 def _driver_url(timeout: float = 6.0) -> str:
-    """Le URL do Edge com timeout — evita travar se o navegador nao responder."""
     if driver is None:
         return ''
+
     def _ler() -> str:
         try:
             return (driver.execute_script('return window.location.href || "";') or '').strip()
@@ -122,14 +252,13 @@ def _driver_url(timeout: float = 6.0) -> str:
         with ThreadPoolExecutor(max_workers=1) as pool:
             return pool.submit(_ler).result(timeout=timeout)
     except FuturesTimeout:
-        _out('  [AVISO] Edge nao respondeu a tempo — clique na janela do navegador e tente de novo.')
+        _out('  [AVISO] Edge não respondeu a tempo — clique na janela do navegador.')
         return ''
     except Exception:
         return ''
 
 
 def _no_site_boloes() -> bool:
-    """Na area de boloes da Caixa (nao tela Keycloak). Verificacao rapida por URL."""
     url = _driver_url().lower()
     if not url:
         return driver is not None and sessao_caixa_ativa(driver)
@@ -162,18 +291,28 @@ def _imprimir_painel_pagina(pagina: int, n_novos: int, boloes: list, hashes: set
     caps_pag = painel.get('capturas_ultima_pagina', 0)
     n_det = painel.get('detalhes_tela_pagina', 0)
     pend = painel.get('pendentes_pagina', 0)
+
+    # Mostra tamanho do arquivo JSON em tempo real
+    ab = painel.get('arquivo_base', '')
+    kb_info = ''
+    if ab:
+        path_json = os.path.join(PASTA_JSON, f'{ab}.json')
+        if os.path.isfile(path_json):
+            kb = os.path.getsize(path_json) / 1024
+            kb_info = f' | 💾 {kb:.1f} KB no disco'
+
     print('\n  ' + '-' * 56)
-    print(f'  [PAINEL] Pagina {pagina} concluida')
-    linha = f'    Nesta pagina : +{n_novos} registro(s) | {caps_pag} captura(s) API'
+    print(f'  [PAINEL] Página {pagina} concluída{kb_info}')
+    linha = f'    Nesta página : +{n_novos} registro(s) | {caps_pag} captura(s) API'
     if n_det:
         linha += f' | detalhes_tela={n_det}'
         if pend:
             linha += f' | faltam={pend}'
     print(linha)
-    print(f'    Total sessao  : {len(boloes)} registro(s) | {len(hashes)} unico(s)')
-    print(f'    Paginas       : {pagina} processada(s) | {pag_com} com dados | {pag_vaz} vazia(s)')
+    print(f'    Total sessão  : {len(boloes)} registro(s) | {len(hashes)} único(s)')
+    print(f'    Páginas       : {pagina} processada(s) | {pag_com} com dados | {pag_vaz} vazia(s)')
     if painel['capturas_api']:
-        print(f'    Capturas API  : {painel["capturas_api"]} acumulada(s) na sessao')
+        print(f'    Capturas API  : {painel["capturas_api"]} acumulada(s) na sessão')
     if painel['descartados_loterica']:
         print(f'    Descartados   : {painel["descartados_loterica"]} (outra lotérica)')
     print('  ' + '-' * 56)
@@ -188,21 +327,22 @@ def _imprimir_resumo_final(
     tempo_seg: int,
 ) -> None:
     path_sessao = os.path.join(PASTA_JSON, f'{arquivo_base}.json')
+    kb_final = os.path.getsize(path_sessao) / 1024 if os.path.isfile(path_sessao) else 0
+
     print('\n' + '=' * 60)
-    print('  RESUMO FINAL DA EXTRACAO')
+    print('  RESUMO FINAL DA EXTRAÇÃO')
     print('=' * 60)
-    print(f'\n  Lotérica alvo     : {cfg.termo or ("QUALQUER" if cfg.qualquer_loterica else "(filtro manual no site)")}')
-    print(f'  Paginas processadas: {painel["paginas_processadas"]}')
-    print(f'  Paginas com dados  : {painel["paginas_com_dados"]}')
-    print(f'  Paginas vazias     : {painel["paginas_vazias"]}')
-    print(f'  Registros capturados: {len(boloes)} (nesta sessão)')
-    print(f'  Registros unicos   : {len(hashes)} (hash_bolao)')
+    print(f'\n  Lotérica alvo      : {cfg.termo or ("QUALQUER" if cfg.qualquer_loterica else "(filtro manual)")}')
+    print(f'  Páginas processadas: {painel["paginas_processadas"]}')
+    print(f'  Páginas com dados  : {painel["paginas_com_dados"]}')
+    print(f'  Páginas vazias     : {painel["paginas_vazias"]}')
+    print(f'  Registros no arquivo : {len(boloes)} (modalidade + concurso — pronto p/ importar)')
+    if painel.get('registros_loterica_alvo') is not None and cfg.termo:
+        print(f'  Lotérica alvo (ref.) : {painel["registros_loterica_alvo"]} reg.')
+    print(f'  Hashes únicos sessão : {len(hashes)}')
     cont = painel.get('continuidade')
     if cont:
-        print(
-            f'  Base preservada    : {cont["existentes"]} reg. em {cont["arquivo"]} '
-            f'({cont.get("kb", "?")} KB)'
-        )
+        print(f'  Base preservada    : {cont["existentes"]} reg. em {cont["arquivo"]} ({cont.get("kb", "?")} KB)')
     if os.path.isfile(path_sessao):
         total_disco = len(carregar_json_boloes(path_sessao))
         novos_sessao = max(0, total_disco - (cont['existentes'] if cont else 0))
@@ -213,14 +353,15 @@ def _imprimir_resumo_final(
     if painel.get('descartados_modalidade'):
         print(f'  Descartados        : {painel["descartados_modalidade"]} (modalidade diferente)')
     print(f'  Tempo              : {tempo_seg // 60}min {tempo_seg % 60}s')
-    print(f'\n  Arquivo sessao     : {path_sessao}')
+    print(f'  Arquivo            : {path_sessao}')
+    print(f'  Tamanho final      : {kb_final:.1f} KB')
 
     if painel['por_pagina']:
-        print('\n  Registros por pagina:')
+        print('\n  Registros por página:')
         for pg in sorted(painel['por_pagina']):
             n = painel['por_pagina'][pg]
             barra = '#' * min(n, 40) if n else '(vazia)'
-            print(f'    Pag {pg:>3}: {n:>4}  {barra}')
+            print(f'    Pág {pg:>3}: {n:>4}  {barra}')
     print('=' * 60)
 
 
@@ -229,9 +370,8 @@ def _rotulo_nome() -> str:
 
 
 def _rotulo_modalidade_menu() -> str:
-    """Ex.: [6] Dia de Sorte  ou  QSJ — Quina de São João"""
     if not ROTULO_ARQUIVO:
-        return '(nao configurada)'
+        return '(não configurada)'
     m = ROTULO_ARQUIVO
     if getattr(m, 'especial', False) and m.tecla:
         return f'{m.tecla} — {m.label}'
@@ -242,11 +382,10 @@ def _rotulo_modalidade_menu() -> str:
 
 
 def _imprimir_tabela_modalidades_resumida() -> None:
-    """Tabela compacta — opcional, so se quiser forcar parser no terminal."""
-    _out('\n  OPCIONAL — forcar parser no terminal (senao usa API do site):')
-    _out('  M1 Mega-Sena   M2 Quina        M3 Lotofacil')
+    _out('\n  OPCIONAL — forçar parser no terminal (senão usa API do site):')
+    _out('  M1 Mega-Sena   M2 Quina        M3 Lotofácil')
     _out('  M4 Lotomania   M5 Timemania    M6 Dia de Sorte')
-    _out('  M7 Super Sete  M8 Dupla Sena   M9 +Milionaria')
+    _out('  M7 Super Sete  M8 Dupla Sena   M9 +Milionária')
     _out('  Especiais: DSP | QSJ | LTI | MSV | MS3')
 
 
@@ -254,11 +393,10 @@ def _imprimir_status_modalidade() -> None:
     if ROTULO_ARQUIVO:
         _out(f'\n  Parser terminal (opcional): {_rotulo_modalidade_menu()}')
     else:
-        _out('\n  Modalidade: vem da API do site (MEGA_SENA, QUINA…) — nao precisa M1.')
+        _out('\n  Modalidade: vem da API do site (MEGA_SENA, QUINA…) — não precisa M1.')
 
 
 def _aplicar_modalidade(mod) -> bool:
-    """Define modalidade ativa e confirma no terminal."""
     global ROTULO_ARQUIVO, ROTULO_NOME
     if not mod:
         return False
@@ -266,9 +404,8 @@ def _aplicar_modalidade(mod) -> bool:
     ROTULO_NOME = _rotulo_nome()
     _out(f'\n>>> Modalidade: {_rotulo_modalidade_menu()}')
     if getattr(mod, 'especial', False):
-        _out(f'>>> Base: {mod.base_label} | Epoca: {mod.epoca}')
+        _out(f'>>> Base: {mod.base_label} | Época: {mod.epoca}')
     _out(f'>>> Extrai: {mod.extracao}')
-    _out('>>> Opcional: QSJ, 9, etc. ajustam só o parser do JSON.')
     return True
 
 
@@ -278,6 +415,10 @@ def _trocar_modalidade_por_entrada(entrada: str) -> bool:
         return False
     return _aplicar_modalidade(mod)
 
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Navegador
+# ─────────────────────────────────────────────────────────────────────────────
 
 def iniciar_navegador() -> bool:
     global driver
@@ -291,14 +432,12 @@ def iniciar_navegador() -> bool:
         driver.set_page_load_timeout(45)
         instalar_interceptador_api(driver)
         driver.get(URL_BOLOES)
-        _out('Edge aberto — faca LOGIN no navegador.')
-        _out('(Captura so comeca apos ENTER com sessao detectada.)')
-
-        # Aguarda o usuario fazer login antes de prosseguir
+        _out('Edge aberto — faça LOGIN no navegador.')
+        _out('(Captura só começa após ENTER com sessão detectada.)')
         _out('')
         _out('  Aguardando login no Edge...')
         if not _aguardar_login_inicial():
-            _out('  [AVISO] Login nao detectado — extracao pode falhar.')
+            _out('  [AVISO] Login não detectado — extração pode falhar.')
         else:
             _out('  [OK] Login detectado — pronto para extrair.')
         return True
@@ -310,16 +449,14 @@ def iniciar_navegador() -> bool:
 
 
 def _aguardar_login_inicial() -> bool:
-    """Aguarda ate o usuario estar logado no site (detecta via URL/DOM)."""
-    import time as _time
-    fim = _time.time() + 180  # 3 minutos max
-    while _time.time() < fim:
+    fim = time.time() + 180
+    while time.time() < fim:
         try:
             if _usuario_logado_caixa() or _no_site_boloes():
                 return True
         except Exception:
             pass
-        _time.sleep(2)
+        time.sleep(2)
     return False
 
 
@@ -334,15 +471,18 @@ def fechar_navegador() -> None:
         driver = None
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Configuração de lotérica e modalidade
+# ─────────────────────────────────────────────────────────────────────────────
+
 def configurar_modalidade_apenas() -> bool:
-    """Só modalidade — lotérica vem do filtro manual no site (modo [2])."""
     global ROTULO_ARQUIVO, ROTULO_NOME
     try:
         from boloes_modalidades import ler_modalidade_terminal
         ROTULO_ARQUIVO = ler_modalidade_terminal()
         ROTULO_NOME = _rotulo_nome()
         print(f'\n>>> Modalidade: {ROTULO_NOME}')
-        print('>>> Modo [2]: lotérica e dezenas voce escolhe NO SITE a cada rodada.')
+        print('>>> Modo [2]: lotérica e dezenas você escolhe NO SITE a cada rodada.')
         return True
     except KeyboardInterrupt:
         raise
@@ -357,7 +497,7 @@ def configurar_loterica() -> bool:
         FILTRO_LOTERICA, ROTULO_ARQUIVO = ler_config_extracao()
         ROTULO_NOME = _rotulo_nome()
         if not FILTRO_LOTERICA or not (FILTRO_LOTERICA.termo or '').strip():
-            print('\n>>> Lotérica invalida ou vazia. Tente de novo (ex.: 9833).')
+            print('\n>>> Lotérica inválida ou vazia. Tente de novo (ex.: 9833).')
             FILTRO_LOTERICA = None
             return False
         print(f'\n>>> Config OK | Lotérica: {FILTRO_LOTERICA.termo} | Modalidade: {ROTULO_NOME}')
@@ -365,13 +505,12 @@ def configurar_loterica() -> bool:
     except KeyboardInterrupt:
         raise
     except Exception as exc:
-        print(f'\n>>> ERRO na configuracao: {exc}')
+        print(f'\n>>> ERRO na configuração: {exc}')
         traceback.print_exc()
         return False
 
 
 def _exigir_config_extracao(acao: str = 'extrair') -> bool:
-    """[1] exige lotérica OU modo qualquer lotérica — abre [9] se faltar."""
     if FILTRO_LOTERICA and (
         (FILTRO_LOTERICA.termo or '').strip()
         or FILTRO_LOTERICA.codigo
@@ -380,37 +519,32 @@ def _exigir_config_extracao(acao: str = 'extrair') -> bool:
         return True
 
     print('\n' + '=' * 60)
-    print('  FILTRO NAO CONFIGURADO')
+    print('  FILTRO NÃO CONFIGURADO')
     print('=' * 60)
     print(f'\n  Para {acao}, use [9]:')
     print('    · lotérica fixa (ex.: 9833), ou')
-    print('    · * = QUALQUER lotérica + 15 dezenas (varredura SP / páginas)')
-    print('  Abrindo configuracao agora (ou CTRL+C para cancelar)...\n')
+    print('    · * = QUALQUER lotérica + 15 dezenas')
+    print('  Abrindo configuração agora (ou CTRL+C para cancelar)...\n')
 
     if configurar_loterica():
         return True
 
     print('\n>>> Sem filtro — use [9] no menu antes de [1].')
-    print('>>> Modo [2]: filtre no site (estado SP + 15 dez., sem lotérica).')
     return False
 
 
 def _exigir_modalidade(acao: str = 'extrair') -> bool:
-    """[2] multi-filtro: só modalidade (lotérica vem do filtro manual no site)."""
     if ROTULO_ARQUIVO:
         return True
     print('\n' + '=' * 60)
-    print('  MODALIDADE NAO CONFIGURADA')
+    print('  MODALIDADE NÃO CONFIGURADA')
     print('=' * 60)
-    print(f'\n  Para {acao}, escolha a modalidade (ex.: QSJ = Quina de São João).')
-    print('  Lotérica NAO precisa aqui — voce filtra no site a cada rodada.\n')
     if configurar_modalidade_apenas():
         return bool(ROTULO_ARQUIVO)
     return False
 
 
 def _cfg_filtro_site() -> FiltroLotericaConfig:
-    """Sem lotérica no terminal — só dezenas (usuário filtra estado no site)."""
     qtd = 15
     if FILTRO_LOTERICA and FILTRO_LOTERICA.qtd_dezenas:
         qtd = FILTRO_LOTERICA.qtd_dezenas
@@ -431,6 +565,10 @@ def _inferir_cfg_de_boloes(boloes: list) -> FiltroLotericaConfig:
     return FiltroLotericaConfig(termo=termo, codigo=cod or None, nome=nome or None)
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Login / sessão
+# ─────────────────────────────────────────────────────────────────────────────
+
 def _payload_tem_usuario(node) -> bool:
     if isinstance(node, dict):
         if node.get('cpf') or node.get('nome'):
@@ -446,7 +584,6 @@ def _payload_tem_usuario(node) -> bool:
 
 
 def _usuario_logado_caixa() -> bool:
-    """Sessao autenticada — heuristica rapida (nao trava no DOM)."""
     if not _no_site_boloes():
         return False
     try:
@@ -475,7 +612,7 @@ def _usuario_logado_caixa() -> bool:
     try:
         for cap in ler_capturas_api(driver):
             url = (cap.get('url') or '').lower()
-            if 'recuperar-dados' in url or 'dxn1yxjpb3' in url:
+            if 'recuperar-dados' in url or 'dxn1yXJpb3' in url:
                 if _payload_tem_usuario(cap.get('data')):
                     return True
     except Exception:
@@ -484,17 +621,16 @@ def _usuario_logado_caixa() -> bool:
 
 
 def aguardar_login_caixa() -> bool:
-    """Modo [2]: pausa após login (sem captura)."""
     print('\n' + '=' * 60)
-    print('  FACA LOGIN (script pausado)')
+    print('  FAÇA LOGIN (script pausado)')
     print('=' * 60)
     print('\n1. No Edge: LOGIN na Caixa')
-    print('2. Abra Boloes Caixa / lista de boloes')
-    print('\n3. Volte aqui e pressione ENTER apos o login')
+    print('2. Abra Bolões Caixa / lista de bolões')
+    print('\n3. Volte aqui e pressione ENTER após o login')
 
     while True:
         try:
-            input('\n>>> ENTER apos LOGIN no site... ')
+            input('\n>>> ENTER após LOGIN no site... ')
         except EOFError:
             return False
 
@@ -502,69 +638,63 @@ def aguardar_login_caixa() -> bool:
             _out('\n  Login OK.')
             return True
 
-        print('\n  >>> Ainda na tela de login. Faca login e tente de novo.')
-        print('  (Script pausado — zero captura.)')
+        print('\n  >>> Ainda na tela de login. Faça login e tente de novo.')
 
 
 def aguardar_site_pronto() -> bool:
-    """Um ENTER: login + modalidade + filtros no site — depois comeca a extracao."""
+    """Um ENTER: usuário já fez login + modalidade + filtros no site."""
     print('\n' + '=' * 60)
     print('  PREPARE NO SITE — depois ENTER aqui')
     print('=' * 60)
-    print('\n  1. LOGIN na Caixa')
-    print('  2. Escolha a MODALIDADE')
-    print('  3. Filtros (estado, dezenas, loterica…) + APLICAR — pagina 1')
-    print('  4. Volte aqui e pressione ENTER')
+    print('\n  Checklist:')
+    print('  ✔ LOGIN feito')
+    print('  ✔ Modalidade selecionada')
+    print('  ✔ Concurso informado')
+    print('  ✔ Filtros (estado, dezenas, lotérica…) aplicados → página 1 visível')
     print('')
-    print('  O script clica Seguinte sozinho ate desabilitar.')
-    print(f'  JSON: {PASTA_JSON}')
+    print('  O script clica Seguinte sozinho até desabilitar.')
+    print(f'  JSON: {PASTA_JSON}  (cresce em tempo real)')
     print('=' * 60)
 
     while True:
         try:
-            input('\n>>> ENTER para iniciar a extracao... ')
+            input('\n>>> ENTER para iniciar a extração... ')
         except EOFError:
             return False
 
-        # Valida se esta na pagina de boloes (nao Keycloak)
         if not _no_site_boloes():
             print('\n  [ERRO] Ainda na tela de login Keycloak!')
-            print('  Faca login no Edge e volte a pagina de boloes.')
+            print('  Faça login no Edge e volte à página de bolões.')
             continue
 
-        _out('\n  OK — iniciando extracao...')
+        _out('\n  OK — iniciando extração...')
         return True
 
 
 def aguardar_filtro_manual_pagina1(rodada: int = 1) -> bool:
-    """Modo [2]: usuário aplica filtro no site (pág. 1) e pressiona ENTER."""
     print('\n' + '=' * 60)
     if rodada == 1:
-        print('  FILTRO NO SITE — pagina 1')
+        print('  FILTRO NO SITE — página 1')
     else:
-        print(f'  FILTRO {rodada} — troque no site (mesma sessao logada)')
+        print(f'  FILTRO {rodada} — troque no site (mesma sessão logada)')
     print('=' * 60)
-    if rodada == 1:
-        print('\n  1. Configure no Edge → ENTER aqui')
-        print('  2. Script baixa bolões do filtro visível')
-        print('  3. Pag. 2+ → navegue no site → ENTER | FIM = acabou este filtro')
-    else:
-        print('\n  1. No site: ajuste filtro → pagina 1')
-        print('  2. ENTER aqui | paginas seguintes: navegue + ENTER | FIM')
 
     while True:
         try:
-            input(f'\n>>> ENTER apos filtro aplicado (rodada {rodada}, pagina 1)... ')
+            input(f'\n>>> ENTER após filtro aplicado (rodada {rodada}, página 1)... ')
         except EOFError:
             return False
-        _out('\n  OK — recebido! Verificando pagina de boloes...')
+        _out('\n  OK — verificando página de bolões...')
         if _no_site_boloes():
-            _out(f'  URL: {_driver_url()}')
             return True
         url = _driver_url() or '(sem resposta do Edge)'
-        _out(f'\n  >>> Nao esta na lista de boloes. URL atual: {url}')
-        _out('  Abra Boloes Caixa no Edge do script, aplique filtro e tente de novo.')
+        _out(f'\n  >>> Não está na lista de bolões. URL atual: {url}')
+        _out('  Abra Bolões Caixa no Edge, aplique filtro e tente de novo.')
 
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Filtros / modalidade
+# ─────────────────────────────────────────────────────────────────────────────
 
 def _modalidade_do_bolao_item(bolao: dict):
     for chave in ('modalidade_slug', 'modalidade'):
@@ -580,7 +710,6 @@ def _modalidade_do_bolao_item(bolao: dict):
 
 
 def _filtrar_boloes_modalidade(boloes: list, mod_esperada) -> tuple[list, int]:
-    """Descarta bolões de modalidade diferente da escolhida no site/terminal."""
     if not mod_esperada or not boloes:
         return list(boloes), 0
     ok: list = []
@@ -596,10 +725,48 @@ def _filtrar_boloes_modalidade(boloes: list, mod_esperada) -> tuple[list, int]:
     return ok, descartados
 
 
+def _concurso_de_arquivo_base(arquivo_base: str) -> str:
+    """Extrai concurso de boloes_3024_mega-sena → '3024'."""
+    m = re.match(r'boloes_(\d+)_', (arquivo_base or '').strip())
+    return m.group(1) if m else ''
+
+
+def _filtrar_boloes_concurso(boloes: list, concurso_alvo: str) -> list:
+    if not concurso_alvo:
+        return list(boloes)
+    alvo = re.sub(r'\D', '', str(concurso_alvo))
+    if not alvo:
+        return list(boloes)
+    return [
+        b for b in boloes
+        if re.sub(r'\D', '', str(b.get('concurso') or '')) == alvo
+    ]
+
+
+def _boloes_para_json_arquivo(boloes: list, mod_esperada, concurso_alvo: str = '') -> list:
+    """
+    Bolões que entram em boloes_{concurso}_{modalidade}.json:
+    modalidade + concurso — SEM filtro de lotérica (arquivo é da modalidade inteira).
+    """
+    filtrados, _ = _filtrar_boloes_modalidade(boloes, mod_esperada)
+    return _filtrar_boloes_concurso(filtrados, concurso_alvo)
+
+
+def _salvar_capturas_pagina_disco(pagina: int, rodada: int = 1) -> Optional[str]:
+    """Persiste capturas API da página em capturas-api/ (backup + recuperação)."""
+    if not driver:
+        return None
+    caminho = os.path.join(PASTA_CAPTURAS, f'api_r{rodada}_p{pagina}_{int(time.time())}.json')
+    try:
+        salvar_capturas_brutas(driver, caminho)
+        return caminho
+    except Exception:
+        return None
+
+
 def _modalidade_extracao(driver=None):
-    """Terminal (M1–M9) ou modalidade lida no site — define parser e filtro rigoroso."""
     if ROTULO_ARQUIVO:
-        _out(f'  Parser terminal (opcional): {ROTULO_ARQUIVO.label}')
+        _out(f'  Parser terminal: {ROTULO_ARQUIVO.label}')
         return ROTULO_ARQUIVO
     if driver is not None:
         slug = detectar_modalidade_site(driver)
@@ -608,38 +775,31 @@ def _modalidade_extracao(driver=None):
             if mod:
                 _out(f'  Modalidade no site: {mod.label}')
                 return mod
-    _out('  Modalidade: lida da API de cada bolao (campo MEGA_SENA, QUINA…)')
+    _out('  Modalidade: lida da API de cada bolão (campo MEGA_SENA, QUINA…)')
     return None
 
 
 def _validar_modalidade_coerencia(mod_esperada, boloes: list) -> None:
-    """Compara site/terminal vs modalidade gravada no JSON."""
     if not boloes:
         return
     mod_json = extrair_modalidade_de_boloes(boloes)
     label_json = mod_json.label if mod_json else str(boloes[0].get('modalidade') or '?')
-    label_site = mod_esperada.label if mod_esperada else '(nao definida)'
+    label_site = mod_esperada.label if mod_esperada else '(não definida)'
     concurso = extrair_concurso_de_boloes(boloes)
 
     if mod_esperada and mod_json and mod_esperada.slug != mod_json.slug:
-        _out(
-            f'\n  ERRO: Modalidade site/terminal ({label_site}) '
-            f'difere da gravada no JSON ({label_json}).'
-        )
+        _out(f'\n  ERRO: Modalidade site/terminal ({label_site}) difere da gravada no JSON ({label_json}).')
 
     if mod_esperada and mod_json:
         arq_ok = nome_arquivo_consolidado_padrao(concurso, mod_esperada)
         arq_json = nome_arquivo_consolidado_padrao(concurso, mod_json)
         if arq_ok != arq_json:
-            _out(
-                f'  ERRO: Nome do arquivo ({arq_json}) nao bate com modalidade do site ({arq_ok}).'
-            )
+            _out(f'  ERRO: Nome do arquivo ({arq_json}) não bate com modalidade do site ({arq_ok}).')
         else:
             _out(f'  OK modalidade: {label_site} | concurso {concurso} | {arq_ok}')
 
 
 def _renomear_json_sessao(arquivo_base: str, boloes: list, mod) -> str:
-    """Ajusta nome após 1ª página — boloes_{concurso}_{modalidade}.json"""
     if not boloes:
         return arquivo_base
     novo = nome_arquivo_sessao(extrair_concurso_de_boloes(boloes), extrair_modalidade_de_boloes(boloes) or mod)
@@ -665,14 +825,8 @@ def _iniciar_continuidade_inteligente(
     mod_esperada,
     painel: dict,
 ) -> Tuple[set, str]:
-    """
-    Carrega JSON existente da modalidade e prepara hashes para deduplicação.
-    Retorna (hashes_existentes, arquivo_base_efetivo).
-    """
     mod_slug = mod_esperada.slug if mod_esperada else ''
-    path, existentes = localizar_arquivo_sessao_existente(
-        PASTA_JSON, arquivo_base, mod_slug,
-    )
+    path, existentes = localizar_arquivo_sessao_existente(PASTA_JSON, arquivo_base, mod_slug)
     if not existentes:
         return set(), arquivo_base
 
@@ -685,29 +839,29 @@ def _iniciar_continuidade_inteligente(
         'existentes': len(existentes),
         'kb': round(kb, 1),
     }
-    _out(
-        f'  [CONTINUIDADE] {os.path.basename(path)} — '
-        f'{len(existentes)} reg. ({kb:.1f} KB) serão preservados.'
-    )
+    _out(f'  [CONTINUIDADE] {os.path.basename(path)} — {len(existentes)} reg. ({kb:.1f} KB) serão preservados.')
     _out('  [CONTINUIDADE] Apenas bolões inéditos serão acrescentados.')
     return hashes, arquivo_efetivo
 
 
 def preparar_login_unico() -> bool:
-    """Abre Edge + login. Mesma sessão para vários filtros manuais depois."""
     global SESSAO_AUTORIZADA
     SESSAO_AUTORIZADA = False
     if not iniciar_navegador():
         return False
-    print('\n  Edge aberto — faca LOGIN (script aguarda, nada roda ainda).')
+    print('\n  Edge aberto — faça LOGIN (script aguarda, nada roda ainda).')
     if not aguardar_login_caixa():
         return False
     if not _usuario_logado_caixa():
-        print('\n>>> Login nao confirmado. Extração cancelada.')
+        print('\n>>> Login não confirmado. Extração cancelada.')
         return False
-    print('\n  Sessao logada — pronta para configurar filtros no site.')
+    print('\n  Sessão logada — pronta para configurar filtros no site.')
     return True
 
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Salvar parcial (tempo real) — exibe KBs no terminal
+# ─────────────────────────────────────────────────────────────────────────────
 
 def salvar_parcial(boloes, arquivo_base, pagina: int = 0):
     path = os.path.join(PASTA_JSON, f'{arquivo_base}.json')
@@ -715,29 +869,126 @@ def salvar_parcial(boloes, arquivo_base, pagina: int = 0):
         if os.path.isfile(path):
             kb = os.path.getsize(path) / 1024
             _out(
-                f'  [SAVE] Pag {pagina or "?"}: 0 reg. nesta pag. — '
-                f'mantém {os.path.basename(path)} ({kb:.1f} KB).'
+                f'  [SAVE] Pág {pagina or "?"}: 0 novos nesta leva — '
+                f'arquivo mantém {len(carregar_json_boloes(path))} reg. ({kb:.1f} KB).'
             )
         else:
-            _out(f'  [SAVE] Pag {pagina or "?"}: 0 reg. — nada gravado (evita JSON vazio []).')
+            _out(f'  [SAVE] Pág {pagina or "?"}: 0 reg. — arquivo ainda não criado.')
         return path
+
+    sem_hash = sum(1 for b in boloes if not b.get('hash_bolao'))
+    if sem_hash:
+        _out(f'  [SAVE AVISO] {sem_hash} bolão(ões) sem hash — não entram no JSON.')
+
     final, novos, anteriores = salvar_json_continuacao(path, boloes)
-    if final:
-        kb = os.path.getsize(path) / 1024
-        extra = ''
-        if anteriores:
-            extra = f' | +{novos} novo(s) | {anteriores} já existiam'
-        if pagina:
-            _out(
-                f'  Salvo parcial: {len(final)} reg. total{extra} | pag {pagina} OK | '
-                f'{kb:.1f} KB | {os.path.basename(path)}'
-            )
-        else:
-            _out(
-                f'  Salvo: {path} ({len(final)} registro(s){extra}, {kb:.1f} KB)'
-            )
+    kb = os.path.getsize(path) / 1024 if os.path.isfile(path) else 0
+    _out(
+        f'  💾 SALVO pág {pagina or "?"}: {len(final)} reg. total (+{novos} novos) | '
+        f'{kb:.1f} KB | {os.path.basename(path)}'
+    )
     return path
 
+
+def _atualizar_arquivo_base_concurso(arquivo_base: str, concurso: str, mod_esperada) -> str:
+    """Renomeia boloes_sem-concurso_* → boloes_{concurso}_* assim que o concurso for detectado."""
+    conc = re.sub(r'\D', '', str(concurso or ''))
+    if not conc or not mod_esperada:
+        return arquivo_base
+    novo = nome_arquivo_sessao(conc, mod_esperada)
+    if novo == arquivo_base:
+        return arquivo_base
+    antigo = os.path.join(PASTA_JSON, f'{arquivo_base}.json')
+    destino = os.path.join(PASTA_JSON, f'{novo}.json')
+    if os.path.isfile(antigo) and antigo != destino:
+        if os.path.isfile(destino):
+            existentes = carregar_json_boloes(destino)
+            sessao = carregar_json_boloes(antigo)
+            final, _ = mesclar_listas(existentes, sessao)
+            salvar_json_boloes(destino, final)
+            os.remove(antigo)
+        else:
+            os.rename(antigo, destino)
+        _out(f'  [ARQUIVO] Renomeado → {novo}.json')
+    return novo
+
+
+def _persistir_json_pagina(
+    pagina: int,
+    rodada: int,
+    arquivo_base: str,
+    painel: dict,
+    mod_esperada,
+    parser_slug: str,
+    hashes: set,
+    boloes: list,
+) -> Tuple[int, str]:
+    """
+    Gravação garantida após cada página:
+    1) salva capturas API em disco
+    2) extrai bolões do arquivo de captura
+    3) mescla no JSON de sessão (modalidade + concurso)
+    """
+    from boloes_consolidar import boloes_de_capturas_api
+    from boloes_api_caixa import coletar_boloes_das_capturas
+
+    path_cap = _salvar_capturas_pagina_disco(pagina, rodada)
+    candidatos: list = []
+
+    if path_cap and os.path.isfile(path_cap):
+        candidatos = boloes_de_capturas_api([path_cap])
+
+    if not candidatos and driver:
+        candidatos = coletar_boloes_das_capturas(
+            driver, set(), None, None, parser_slug, filtrar_dezenas=False,
+        )
+
+    conc = painel.get('concurso_alvo') or _concurso_de_arquivo_base(arquivo_base)
+    alvo = _boloes_para_json_arquivo(candidatos, mod_esperada, conc)
+
+    if not conc and alvo:
+        conc = extrair_concurso_de_boloes(alvo)
+        painel['concurso_alvo'] = conc
+        alvo = _boloes_para_json_arquivo(candidatos, mod_esperada, conc)
+
+    if conc and mod_esperada:
+        arquivo_base = _atualizar_arquivo_base_concurso(arquivo_base, conc, mod_esperada)
+        painel['arquivo_base'] = arquivo_base
+
+    if not alvo:
+        path = os.path.join(PASTA_JSON, f'{arquivo_base}.json')
+        total = len(carregar_json_boloes(path))
+        kb = os.path.getsize(path) / 1024 if os.path.isfile(path) else 0
+        caps = os.path.basename(path_cap) if path_cap else '—'
+        _out(
+            f'  [SAVE] Pág {pagina}: 0 bolões parseáveis (captura: {caps}) | '
+            f'arquivo: {total} reg. ({kb:.1f} KB)'
+        )
+        return 0, arquivo_base
+
+    for b in alvo:
+        b['pagina'] = pagina
+        b['rodada_filtro'] = rodada
+        if painel.get('uf_varredura'):
+            b['uf_varredura'] = painel['uf_varredura']
+
+    hashes_antes = set(hashes)
+    novos_gravar = [b for b in alvo if (b.get('hash_bolao') or '') not in hashes_antes]
+
+    salvar_parcial(alvo, arquivo_base, pagina)
+
+    for b in novos_gravar:
+        h = b.get('hash_bolao')
+        if h:
+            hashes.add(h)
+        b['indice'] = len(boloes) + 1
+        boloes.append(b)
+
+    return len(novos_gravar), arquivo_base
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Captura de página
+# ─────────────────────────────────────────────────────────────────────────────
 
 def _capturas_da_rodada(rodada: int) -> list[str]:
     pat = os.path.join(PASTA_CAPTURAS, f'api_r{rodada}_p*.json')
@@ -745,13 +996,16 @@ def _capturas_da_rodada(rodada: int) -> list[str]:
 
 
 def _recuperar_boloes_das_capturas(
-    cfg: FiltroLotericaConfig,
-    parser_slug: str,
-    mod_slug: str,
-    arquivo_base: str,
-    rodada: int = 1,
-) -> list:
-    """Se a extração por cliques falhou, tenta montar bolões dos JSONs em capturas-api/."""
+    cfg,
+    parser_slug,
+    mod_slug,
+    arquivo_base,
+    rodada=1,
+    mod_esperada=None,
+    concurso_alvo: str = '',
+    aplicar_filtro_loterica: bool = False,
+):
+    """Recupera bolões das capturas em disco → JSON de sessão (modalidade+concurso)."""
     from boloes_consolidar import boloes_de_capturas_api
 
     arquivos = _capturas_da_rodada(rodada)
@@ -760,37 +1014,41 @@ def _recuperar_boloes_das_capturas(
     if not arquivos:
         return []
 
-    brutos = boloes_de_capturas_api(arquivos, cfg.codigo if not cfg.qualquer_loterica else None, cfg.qtd_dezenas)
-    boloes = _boloes_do_filtro(brutos, cfg)
-    if not boloes and brutos:
-        _out(f'  [RECUPERO] {len(brutos)} bolão(ões) na API, mas 0 passaram no filtro {cfg.termo or cfg.codigo}.')
+    conc = concurso_alvo or _concurso_de_arquivo_base(arquivo_base)
+    cod_lot = cfg.codigo if (aplicar_filtro_loterica and not cfg.qualquer_loterica) else None
+    qtd_dez = cfg.qtd_dezenas if aplicar_filtro_loterica else None
+    brutos = boloes_de_capturas_api(arquivos, cod_lot, qtd_dez)
+    boloes = _boloes_para_json_arquivo(brutos, mod_esperada, conc)
+    if aplicar_filtro_loterica:
+        boloes = _boloes_do_filtro(boloes, cfg)
+    elif not boloes and brutos:
+        _out(f'  [RECUPERO] {len(brutos)} bolão(ões) na API, mas 0 para modalidade/concurso alvo.')
 
     if boloes:
         path = os.path.join(PASTA_JSON, f'{arquivo_base}.json')
         final, novos, anteriores = salvar_json_continuacao(path, boloes)
-        if anteriores:
-            _out(f'  [RECUPERO] Continuidade: +{novos} novo(s), {anteriores} preservado(s).')
         mod_b = extrair_modalidade_de_boloes(boloes)
-        path_cons, _, _ = consolidar_sessao(
+        consolidar_sessao(
             PASTA_JSON,
-            extrair_concurso_de_boloes(boloes),
+            conc or extrair_concurso_de_boloes(boloes),
             mod_b.slug if mod_b else mod_slug,
             boloes,
         )
-        _out(f'\n  [RECUPERO] {len(boloes)} bolão(ões) a partir de {len(arquivos)} captura(s) API.')
-        _out(f'  Salvo: {path}')
-    return boloes
+        kb = os.path.getsize(path) / 1024 if os.path.isfile(path) else 0
+        _out(
+            f'\n  [RECUPERO] {len(final)} reg. no arquivo (+{novos} novos) | '
+            f'{kb:.1f} KB | {len(arquivos)} captura(s) API.'
+        )
+        return boloes
+    return []
 
 
-def _diagnosticar_capturas_sem_filtro(cfg: FiltroLotericaConfig, parser_slug: str) -> None:
-    """Mostra quantos bolões existem na API sem o filtro de lotérica."""
+def _diagnosticar_capturas_sem_filtro(cfg, parser_slug) -> None:
     if not driver:
         return
     from boloes_api_caixa import coletar_boloes_das_capturas
 
-    todos = coletar_boloes_das_capturas(
-        driver, set(), print, None, parser_slug, filtrar_dezenas=False,
-    )
+    todos = coletar_boloes_das_capturas(driver, set(), print, None, parser_slug, filtrar_dezenas=False)
     if not todos:
         _out('  [DIAG] Nenhum bolão parseável nas capturas API desta página.')
         return
@@ -819,22 +1077,266 @@ def _boloes_do_filtro(boloes: list, cfg: FiltroLotericaConfig) -> list:
     return [b for b in boloes if bolao_corresponde_loterica(b, cfg)]
 
 
-def _boloes_sem_dezenas(boloes: list) -> bool:
-    if not boloes:
-        return True
-    for b in boloes:
-        apostas = b.get('apostas') or []
-        if not apostas:
-            return True
-        dez = apostas[0].get('dezenas') if apostas else None
-        if not dez:
-            return True
-    return False
+def _capturar_pagina_atual(
+    cfg, parser_slug, hashes, pagina, boloes, manual, painel, mod_esperada=None, arquivo_base='',
+) -> int:
+    if not SESSAO_AUTORIZADA:
+        print('  [SESSÃO] Captura bloqueada — conclua login + filtro manual antes.')
+        return -1
+    if not garantir_sessao_caixa(driver, pagina, print):
+        print('  [SESSÃO] Extração interrompida — faça login e rode de novo.')
+        return -1
+
+    if pagina == 1:
+        print('  [FILTRO] Página 1 — aguardando botões Detalhes...')
+        n_det = aguardar_detalhes_visiveis(driver, minimo=1, timeout=12, log_fn=print)
+        if n_det:
+            print(f'  [TELA] {n_det} botão(ões) Detalhes visíveis.')
+        else:
+            print('  [TELA] Nenhum botão Detalhes detectado — confira filtro no site.')
+        time.sleep(0.8)
+    else:
+        meta_preservar = ler_metadados_paginacao_api(driver)
+        if meta_preservar:
+            painel['paginacao_api'] = meta_preservar
+        limpar_capturas_api(driver)
+        if not manual:
+            print(f'  [PÁGINA] Avançando para página {pagina} (Seguinte)...')
+            if not ir_proxima_pagina_lista(driver, print):
+                if cfg.termo:
+                    if not preparar_pagina_loterica(driver, cfg, pagina, print):
+                        print('  [FILTRO] Falha ao preparar página.')
+                        return -1
+                elif ultima_pagina_detectada(driver) or eh_ultima_pagina(driver):
+                    return -2
+                else:
+                    meta_nav = ler_metadados_paginacao_api(driver)
+                    ultima = (meta_nav or {}).get('ultima_pagina') or 0
+                    if pagina <= ultima and ir_para_pagina_lista(driver, pagina, print):
+                        print(f'  [PÁGINA] Navegou para página {pagina} (fallback Angular).')
+                    elif ultima_pagina_detectada(driver) or eh_ultima_pagina(driver):
+                        return -2
+                    else:
+                        print(f'  [PÁGINA] Seguinte falhou ao ir para página {pagina}.')
+                        return -1
+            time.sleep(1.2)
+            n_det = aguardar_detalhes_visiveis(driver, minimo=1, timeout=12)
+            if n_det:
+                print(f'  [TELA] Página {pagina}: {n_det} botão(ões) Detalhes visíveis.')
+        else:
+            print(f'  [FILTRO] Página {pagina} — modo manual (você navegou).')
+
+    aguardar_capturas_api(driver, minimo=1, timeout=12)
+    preparar_pagina_para_detalhes(driver, log_fn=print)
+    meta = detectar_detalhes_pagina(driver, cfg, 55, preparar=False, log_fn=print)
+    n_esperado = meta['n_esperado']
+    codigos = meta['codigos']
+
+    if n_esperado:
+        print(f'  [TELA] Meta desta página: {n_esperado} bolão(ões).')
+        print('  [TELA] Iniciando cliques em Detalhes...')
+    else:
+        print('  [TELA] Nenhum Detalhes visível — tentando lista API interceptada...')
+
+    # ── Callback: grava no JSON em tempo real a cada bloco de detalhes ───────
+    # IMPORTANTE: NÃO faz boloes.append aqui — isso é feito pelo loop principal
+    # depois que detalhar_pagina_ate_esperado retorna. O callback só grava no disco.
+    concurso_alvo = painel.get('concurso_alvo') or _concurso_de_arquivo_base(arquivo_base)
+
+    def _salvar_tempo_real(boloes_parciais):
+        if not arquivo_base or not boloes_parciais:
+            return
+        ca = painel.get('concurso_alvo') or concurso_alvo
+        alvo = _boloes_para_json_arquivo(boloes_parciais, mod_esperada, ca)
+        if alvo:
+            for b in alvo:
+                b['pagina'] = pagina
+                b['rodada_filtro'] = painel.get('rodada_filtro', 1)
+            salvar_parcial(alvo, painel.get('arquivo_base') or arquivo_base, pagina)
+
+    detalhar_pagina_ate_esperado(
+        driver, cfg, parser_slug, hashes, n_esperado, codigos, print,
+        on_progresso=_salvar_tempo_real if arquivo_base else None,
+    )
+
+    n_caps = len(ler_capturas_api(driver))
+    painel['capturas_ultima_pagina'] = n_caps
+    painel['capturas_api'] += n_caps
+    meta_pag = ler_metadados_paginacao_api(driver)
+    if meta_pag:
+        painel['paginacao_api'] = meta_pag
+    painel['detalhes_tela_pagina'] = n_esperado
+
+    ab = painel.get('arquivo_base') or arquivo_base
+    n_gravados, ab = _persistir_json_pagina(
+        pagina, painel.get('rodada_filtro', 1), ab, painel, mod_esperada, parser_slug, hashes, boloes,
+    )
+    painel['arquivo_base'] = ab
+
+    novos_loterica = _boloes_do_filtro(
+        [b for b in boloes if b.get('pagina') == pagina], cfg,
+    )
+    if cfg.termo and n_gravados and len(novos_loterica) != n_gravados:
+        _out(
+            f'  [FILTRO] Lotérica alvo nesta pág.: {len(novos_loterica)} de {n_gravados} '
+            f'(todos {n_gravados} foram gravados no JSON da modalidade).'
+        )
+
+    if not n_gravados and n_caps > 0:
+        _diagnosticar_capturas_sem_filtro(cfg, parser_slug)
+
+    painel['pendentes_pagina'] = max(0, n_esperado - n_gravados) if n_esperado else 0
+    if n_esperado and n_gravados < n_esperado:
+        print(f'  [AVISO] Página incompleta: {n_gravados}/{n_esperado} bolões gravados no JSON.')
+
+    return n_gravados
 
 
-def _trocar_modalidade_rapida(tecla: str) -> bool:
-    """Atalho DSP QSJ LTI MSV MS3 ou numero 1-9 no menu principal."""
-    return _trocar_modalidade_por_entrada(tecla)
+# ─────────────────────────────────────────────────────────────────────────────
+# Loop principal de páginas
+# ─────────────────────────────────────────────────────────────────────────────
+
+def _loop_extracao_paginas(
+    cfg, parser_slug, mod_slug, arquivo_base,
+    manual_paginas, rodada_filtro=1, voce_encerra=False,
+    painel_extra=None, mod_esperada=None, concurso_alvo: str = '',
+):
+    boloes: list = []
+    hashes: set = set()
+    hashes_pagina_anterior: set = set()
+    painel = _novo_painel_extracao()
+    painel['rodada_filtro'] = rodada_filtro
+    painel['arquivo_base'] = arquivo_base
+    painel['concurso_alvo'] = concurso_alvo or _concurso_de_arquivo_base(arquivo_base)
+    if painel_extra:
+        painel.update(painel_extra)
+    inicio = time.time()
+    pagina = 1
+
+    limpar_capturas_api(driver)
+    _out('  [API] Capturas anteriores limpas — só dados desta extração.')
+
+    hashes_base, arquivo_base = _iniciar_continuidade_inteligente(arquivo_base, mod_esperada, painel)
+    hashes.update(hashes_base)
+    painel['arquivo_base'] = arquivo_base
+    if not painel.get('concurso_alvo'):
+        painel['concurso_alvo'] = _concurso_de_arquivo_base(arquivo_base)
+
+    dez = cfg.qtd_dezenas or 'qualquer'
+    lot_txt = 'QUALQUER lotérica' if cfg.qualquer_loterica else (cfg.termo or '(filtro manual no site)')
+    conc_txt = painel.get('concurso_alvo') or 'auto'
+    print('\n  [PAINEL] Contadores: páginas | registros/página | total | únicos')
+    print(f'  Filtro lotérica: {lot_txt} | dezenas: {dez} (painel/resumo)')
+    print(f'  JSON arquivo  : json-boloes/{arquivo_base}.json  (modalidade + concurso {conc_txt})')
+    print('  Gravação      : tempo real — KBs crescem a cada página com bolões novos')
+    if mod_esperada:
+        print(f'  Modalidade alvo: {mod_esperada.label}')
+
+    while True:
+        if manual_paginas and pagina > 1:
+            try:
+                resp = input(
+                    f'\n>>> [{cfg.termo}] PÁGINA {pagina} no site — '
+                    f'navegue e ENTER | FIM=acabou este filtro: '
+                ).strip().upper()
+            except EOFError:
+                break
+            if resp == 'FIM':
+                print('  Fim deste filtro (você encerrou).')
+                break
+
+        print(f'\n>>> Processando PÁGINA {pagina}...')
+        n_novos = _capturar_pagina_atual(
+            cfg, parser_slug, hashes, pagina, boloes, manual_paginas, painel, mod_esperada,
+            arquivo_base=arquivo_base,
+        )
+        arquivo_base = painel.get('arquivo_base') or arquivo_base
+        if n_novos == -2:
+            print(f'\n  {MSG_ULTIMA_PAGINA}')
+            break
+        if n_novos < 0:
+            print('\n  Extração interrompida (sessão).')
+            break
+
+        page_boloes = [b for b in boloes if b.get('pagina') == pagina]
+        page_loterica = _boloes_do_filtro(page_boloes, cfg)
+        h_pag = hashes_pagina(page_boloes)
+        if n_novos and h_pag and h_pag == hashes_pagina_anterior:
+            print('  [AVISO] Página igual à anterior — confira navegação.')
+        hashes_pagina_anterior = h_pag
+
+        _imprimir_painel_pagina(pagina, len(page_boloes), boloes, hashes, painel)
+        if page_loterica and cfg.termo:
+            print(f'  [FILTRO] Lotérica alvo nesta pág.: {len(page_loterica)} de {len(page_boloes)}')
+
+        conc = painel.get('concurso_alvo') or _concurso_de_arquivo_base(arquivo_base)
+        subset_arquivo = _boloes_para_json_arquivo(boloes, mod_esperada, conc)
+        if not conc and subset_arquivo:
+            conc = extrair_concurso_de_boloes(subset_arquivo)
+            painel['concurso_alvo'] = conc
+            subset_arquivo = _boloes_para_json_arquivo(boloes, mod_esperada, conc)
+
+        if subset_arquivo:
+            novo_base = _renomear_json_sessao(arquivo_base, subset_arquivo, mod_esperada)
+            if novo_base != arquivo_base:
+                arquivo_base = novo_base
+                painel['arquivo_base'] = arquivo_base
+                if not painel.get('concurso_alvo'):
+                    painel['concurso_alvo'] = _concurso_de_arquivo_base(arquivo_base)
+
+        path_json = os.path.join(PASTA_JSON, f'{arquivo_base}.json')
+        total_disco = len(carregar_json_boloes(path_json))
+        if total_disco:
+            kb = os.path.getsize(path_json) / 1024
+            _out(f'  📁 Arquivo: {total_disco} reg. | {kb:.1f} KB | {os.path.basename(path_json)}')
+
+        if subset_arquivo or os.path.isfile(path_json):
+            _consolidar_e_resumir(
+                carregar_json_boloes(path_json) or subset_arquivo, mod_esperada,
+            )
+
+        if voce_encerra:
+            print(
+                f'\n  Página {pagina} concluída ({len(page_boloes)} reg. no JSON | '
+                f'{len(page_loterica)} da lotérica alvo). '
+                f'Arquivo: {total_disco} reg.'
+            )
+            print(f'  Próxima página? Navegue no site e ENTER. Era a última? Digite FIM.')
+
+        if not voce_encerra:
+            meta_pag = ler_metadados_paginacao_api(driver) or painel.get('paginacao_api')
+            if meta_pag:
+                pa = int(meta_pag.get('pagina_atual') or pagina)
+                up = int(meta_pag.get('ultima_pagina') or pagina)
+                print(f'  [PÁGINA] API: página {pa} de {up} ({meta_pag.get("total_registros", "?")} bolões).')
+            if ultima_pagina_detectada(driver):
+                print(f'\n  {MSG_ULTIMA_PAGINA}')
+                break
+
+        pagina += 1
+
+    tempo = int(time.time() - inicio)
+    conc = painel.get('concurso_alvo') or _concurso_de_arquivo_base(arquivo_base)
+    recuperados = _recuperar_boloes_das_capturas(
+        cfg, parser_slug, mod_slug, arquivo_base, rodada_filtro,
+        mod_esperada=mod_esperada, concurso_alvo=conc,
+    )
+    path_json = os.path.join(PASTA_JSON, f'{arquivo_base}.json')
+    subset_final = carregar_json_boloes(path_json)
+    if recuperados:
+        boloes = recuperados
+    elif not subset_final:
+        subset_final = _boloes_para_json_arquivo(boloes, mod_esperada, conc)
+
+    subset_loterica = _boloes_do_filtro(boloes, cfg)
+    painel['registros_loterica_alvo'] = len(subset_loterica)
+
+    _imprimir_resumo_final(subset_final, hashes, painel, arquivo_base, cfg, tempo)
+    if subset_final:
+        _out(f'\n  Arquivo final: {path_json}')
+    elif painel.get('capturas_api', 0) > 0:
+        _out('\n  [AVISO] Extração vazia apesar de capturas API — veja [DIAG] acima.')
+    return subset_final, hashes, painel, arquivo_base
 
 
 def _consolidar_e_resumir(boloes_sessao, mod_esperada):
@@ -847,426 +1349,37 @@ def _consolidar_e_resumir(boloes_sessao, mod_esperada):
     _validar_modalidade_coerencia(mod_esperada, boloes_sessao)
     path, final, novos = consolidar_sessao(PASTA_JSON, concurso, mod_slug, boloes_sessao)
     print(f'\n  CONSOLIDADO: {path}')
-    print(f'  Sessao: {len(boloes_sessao)} | +{novos} novos | total unico: {len(final)}')
+    print(f'  Sessão: {len(boloes_sessao)} | +{novos} novos | total único: {len(final)}')
     return path, final
 
 
-def _capturar_pagina_atual(
-    cfg, parser_slug, hashes, pagina, boloes, manual: bool, painel: dict,
-    mod_esperada=None, arquivo_base: str = '',
-) -> int:
-    """Captura bolões da página atual. Retorna quantidade de novos válidos.
-
-    Se arquivo_base for informado, salva parcialmente no JSON a cada rodada
-    de detalhes (tempo real), para que o arquivo crescimento seja visível
-    durante a extração.
-    """
-    if not SESSAO_AUTORIZADA:
-        print('  [SESSAO] Captura bloqueada — conclua login + filtro manual antes.')
-        return -1
-    if not garantir_sessao_caixa(driver, pagina, print):
-        print('  [SESSAO] Extração interrompida — faca login e rode de novo.')
-        return -1
-
-    if pagina == 1 and painel.get('varredura_estados'):
-        print(f'  [FILTRO] Pagina 1 — {painel.get("uf_varredura", "UF")} (filtro aplicado pelo script).')
-    elif pagina == 1:
-        print('  [FILTRO] Pagina 1 — filtro manual (mantém capturas da lista).')
-        print('  [TELA] Procurando botoes Detalhes na pagina...')
-        n_det = aguardar_detalhes_visiveis(driver, minimo=1, timeout=12, log_fn=print)
-        if n_det:
-            print(f'  [TELA] {n_det} botao(oes) Detalhes visiveis na pagina.')
-        else:
-            print('  [TELA] Nenhum botao Detalhes detectado — confira filtro no site.')
-        time.sleep(0.8)
-    else:
-        meta_preservar = ler_metadados_paginacao_api(driver)
-        if meta_preservar:
-            painel['paginacao_api'] = meta_preservar
-        limpar_capturas_api(driver)
-        if not manual:
-            print(f'  [PAGINA] Avancando para pagina {pagina} (Seguinte)...')
-            if not ir_proxima_pagina_lista(driver, print):
-                if cfg.termo:
-                    print(f'  [PAGINA] Seguinte falhou — tentando lotérica {cfg.termo} + navegação...')
-                    if not preparar_pagina_loterica(driver, cfg, pagina, print):
-                        print('  [FILTRO] Falha ao preparar pagina.')
-                        return -1
-                elif ultima_pagina_detectada(driver) or eh_ultima_pagina(driver):
-                    return -2
-                else:
-                    meta_nav = ler_metadados_paginacao_api(driver)
-                    ultima = (meta_nav or {}).get('ultima_pagina') or 0
-                    if pagina <= ultima and ir_para_pagina_lista(driver, pagina, print):
-                        print(f'  [PAGINA] Navegou para pagina {pagina} (fallback Angular).')
-                    elif ultima_pagina_detectada(driver) or eh_ultima_pagina(driver):
-                        return -2
-                    else:
-                        print(
-                            f'  [PAGINA] Seguinte falhou ao ir para pagina {pagina} '
-                            f'(API: {meta_nav or "sem metadados"}).'
-                        )
-                        return -1
-            time.sleep(1.2)
-            n_det = aguardar_detalhes_visiveis(driver, minimo=1, timeout=12)
-            if n_det:
-                print(f'  [TELA] Pagina {pagina}: {n_det} botao(oes) Detalhes visiveis.')
-            elif pagina >= 2 and cfg.termo:
-                print(f'  [FILTRO] Lista vazia — reaplicando lotérica {cfg.termo}...')
-                aplicar_filtro_loterica(driver, cfg, print, somente_loterica=True)
-                for _ in range(pagina - 1):
-                    if not ir_proxima_pagina_lista(driver, print):
-                        break
-                    time.sleep(0.8)
-                aguardar_detalhes_visiveis(driver, minimo=1, timeout=10)
-            elif pagina >= 2:
-                print('  [PAGINA] Lista vazia — confira filtro manual ou navegacao.')
-        else:
-            print(f'  [FILTRO] Pagina {pagina} — modo manual (voce navegou).')
-
-    aguardar_capturas_api(driver, minimo=1, timeout=12)
-
-    preparar_pagina_para_detalhes(driver, log_fn=print)
-    meta = detectar_detalhes_pagina(driver, cfg, 55, preparar=False, log_fn=print)
-    n_esperado = meta['n_esperado']
-    codigos = meta['codigos']
-
-    if n_esperado:
-        print(f'  [TELA] Meta desta pagina: {n_esperado} bolao(oes) (= botoes Detalhes no site).')
-        print('  [TELA] Iniciando cliques visiveis em Detalhes...')
-    else:
-        print('  [TELA] Nenhum Detalhes visivel — tentando lista API interceptada...')
-
-    # Callback para salvar em tempo real a cada rodada de detalhes
-    def _salvar_tempo_real(boloes_parciais):
-        if arquivo_base and boloes_parciais:
-            novos_filtrados = _boloes_do_filtro(boloes_parciais, cfg)
-            novos_filtrados, _ = _filtrar_boloes_modalidade(novos_filtrados, mod_esperada)
-            if novos_filtrados:
-                for b in novos_filtrados:
-                    b['pagina'] = pagina
-                    b['rodada_filtro'] = painel.get('rodada_filtro', 1)
-                    if painel.get('uf_varredura'):
-                        b['uf_varredura'] = painel['uf_varredura']
-                    boloes.append(b)
-                salvar_parcial(novos_filtrados, arquivo_base, pagina)
-
-    novos = detalhar_pagina_ate_esperado(
-        driver, cfg, parser_slug, hashes, n_esperado, codigos, print,
-        on_progresso=_salvar_tempo_real if arquivo_base else None,
-    )
-
-    if not novos and n_esperado == 0:
-        from boloes_api_caixa import coletar_boloes_das_capturas
-        novos = coletar_boloes_das_capturas(
-            driver, hashes, print, cfg, parser_slug, filtrar_dezenas=True,
-        )
-        if novos:
-            print(f'  [RECUPERO] {len(novos)} bolão(ões) via lista API (sem botões Detalhes).')
-
-    n_caps = len(ler_capturas_api(driver))
-    painel['capturas_ultima_pagina'] = n_caps
-    painel['capturas_api'] += n_caps
-    meta_pag = ler_metadados_paginacao_api(driver)
-    if meta_pag:
-        painel['paginacao_api'] = meta_pag
-    painel['detalhes_tela_pagina'] = n_esperado
-    antes_filtro = len(novos)
-    novos = _boloes_do_filtro(novos, cfg)
-    novos, desc_mod = _filtrar_boloes_modalidade(novos, mod_esperada)
-    if desc_mod:
-        painel['descartados_modalidade'] = painel.get('descartados_modalidade', 0) + desc_mod
-        alvo = mod_esperada.label if mod_esperada else '?'
-        print(f'  [FILTRO] {desc_mod} descartado(s) — modalidade diferente de {alvo}')
-    painel['pendentes_pagina'] = max(0, n_esperado - len(novos)) if n_esperado else 0
-
-    if n_esperado and len(novos) < n_esperado:
-        print(
-            f'  [AVISO] Pagina incompleta: {len(novos)}/{n_esperado} bolões '
-            f'({painel["pendentes_pagina"]} Detalhes ainda sem JSON).'
-        )
-
-    descartados = antes_filtro - len(novos)
-    if descartados:
-        painel['descartados_loterica'] += descartados
-        dez = f' | {cfg.qtd_dezenas} dez.' if cfg.qtd_dezenas else ''
-        print(f'  [FILTRO] {descartados} descartado(s) — fora do filtro {cfg.termo}{dez}')
-
-    if not novos and n_caps > 0:
-        _diagnosticar_capturas_sem_filtro(cfg, parser_slug)
-
-    for b in novos:
-        b['pagina'] = pagina
-        b['indice'] = len(boloes) + 1
-        b['rodada_filtro'] = painel.get('rodada_filtro', 1)
-        if painel.get('uf_varredura'):
-            b['uf_varredura'] = painel['uf_varredura']
-        boloes.append(b)
-
-    return len(novos)
-
-
-def _loop_extracao_paginas(
-    cfg: FiltroLotericaConfig,
-    parser_slug: str,
-    mod_slug: str,
-    arquivo_base: str,
-    manual_paginas: bool,
-    rodada_filtro: int = 1,
-    voce_encerra: bool = False,
-    painel_extra: Optional[dict] = None,
-    mod_esperada=None,
-) -> Tuple[list, set, dict, str]:
-    """Baixa paginas do filtro atual. voce_encerra=True: digite FIM para parar (modo [2])."""
-    boloes: list = []
-    hashes: set = set()
-    hashes_pagina_anterior: set = set()
-    painel = _novo_painel_extracao()
-    painel['rodada_filtro'] = rodada_filtro
-    if painel_extra:
-        painel.update(painel_extra)
-    inicio = time.time()
-    pagina = 1
-
-    limpar_capturas_api(driver)
-    _out('  [API] Capturas anteriores limpas — só dados desta extração.')
-
-    hashes_base, arquivo_base = _iniciar_continuidade_inteligente(arquivo_base, mod_esperada, painel)
-    hashes.update(hashes_base)
-    if hashes_base:
-        painel['hashes_existentes'] = len(hashes_base)
-
-    dez = cfg.qtd_dezenas or 'qualquer'
-    lot_txt = 'QUALQUER lotérica' if cfg.qualquer_loterica else (cfg.termo or '(filtro manual no site)')
-    uf_txt = f' | UF: {painel.get("uf_varredura")}' if painel.get('uf_varredura') else ''
-    print('\n  [PAINEL] Contadores: paginas | registros/pagina | total | unicos')
-    print(f'  Filtro ativo: {lot_txt} | dezenas: {dez}{uf_txt}')
-    print(f'  JSON desta rodada: json-boloes/{arquivo_base}.json')
-    if mod_esperada:
-        print(f'  Modalidade alvo: {mod_esperada.label} — ignora bolões de outras modalidades.')
-    if voce_encerra:
-        print('  Cada filtro: pag.1 automatica apos ENTER | pag.2+ voce navega + ENTER')
-        print('  FIM = encerra SOMENTE o filtro atual (nao o login nem a sessao)')
-
-    while True:
-        if manual_paginas and pagina > 1:
-            try:
-                resp = input(
-                    f'\n>>> [{cfg.termo}] PAGINA {pagina} no site — '
-                    f'navegue e ENTER | FIM=acabou este filtro: '
-                ).strip().upper()
-            except EOFError:
-                break
-            if resp == 'FIM':
-                print('  Fim deste filtro (voce encerrou).')
-                break
-
-        print(f'\n>>> Processando PAGINA {pagina}...')
-        n_novos = _capturar_pagina_atual(
-            cfg, parser_slug, hashes, pagina, boloes, manual_paginas, painel, mod_esperada,
-            arquivo_base=painel.get('arquivo_base', arquivo_base),
-        )
-        if n_novos == -2:
-            print(f'\n  {MSG_ULTIMA_PAGINA}')
-            break
-        if n_novos < 0:
-            print('\n  Extração interrompida (sessao).')
-            break
-
-        page_boloes = _boloes_do_filtro(
-            [b for b in boloes if b.get('pagina') == pagina], cfg,
-        )
-        h_pag = hashes_pagina(page_boloes)
-        if n_novos and h_pag and h_pag == hashes_pagina_anterior:
-            print('  [AVISO] Pagina igual a anterior — confira navegacao.')
-        hashes_pagina_anterior = h_pag
-
-        _imprimir_painel_pagina(pagina, len(page_boloes), boloes, hashes, painel)
-
-        if len(page_boloes) == 0:
-            print(f'  Capturas API:\n{resumo_capturas(driver)}')
-            dbg = os.path.join(PASTA_CAPTURAS, f'api_r{rodada_filtro}_p{pagina}_{int(time.time())}.json')
-            salvar_capturas_brutas(driver, dbg)
-            print(f'  Debug: {dbg}')
-
-        subset = _boloes_do_filtro(boloes, cfg)
-        subset, desc_mod = _filtrar_boloes_modalidade(subset, mod_esperada)
-        if desc_mod:
-            painel['descartados_modalidade'] = painel.get('descartados_modalidade', 0) + desc_mod
-
-        if subset:
-            arquivo_base = _renomear_json_sessao(arquivo_base, subset, mod_esperada)
-
-        salvar_parcial(subset, arquivo_base, pagina)
-        if subset:
-            _consolidar_e_resumir(subset, mod_esperada)
-
-        if voce_encerra:
-            print(
-                f'\n  [FILTRO] Pagina {pagina} concluida ({len(page_boloes)} reg. nesta pag.). '
-                f'Total deste filtro: {len(subset)} reg.'
-            )
-            print(
-                f'  Proxima pagina deste filtro? Va para pag. {pagina + 1} no site e ENTER.'
-            )
-            print('  Era a ultima pagina? Na proxima pergunta digite FIM.')
-
-        if not voce_encerra:
-            meta_pag = ler_metadados_paginacao_api(driver) or painel.get('paginacao_api')
-            if meta_pag:
-                pa = int(meta_pag.get('pagina_atual') or pagina)
-                up = int(meta_pag.get('ultima_pagina') or pagina)
-                print(
-                    f'  [PAGINA] API (info): pagina {pa} de {up} '
-                    f'({meta_pag.get("total_registros", "?")} bolões).'
-                )
-            if ultima_pagina_detectada(driver):
-                print(f'\n  {MSG_ULTIMA_PAGINA}')
-                break
-
-        pagina += 1
-
-    tempo = int(time.time() - inicio)
-    subset_final = _boloes_do_filtro(boloes, cfg)
-    subset_final, _ = _filtrar_boloes_modalidade(subset_final, mod_esperada)
-    if not subset_final:
-        recuperados = _recuperar_boloes_das_capturas(
-            cfg, parser_slug, mod_slug, arquivo_base, rodada_filtro,
-        )
-        if recuperados:
-            subset_final = _boloes_do_filtro(recuperados, cfg) or recuperados
-            boloes = recuperados
-    _imprimir_resumo_final(subset_final, hashes, painel, arquivo_base, cfg, tempo)
-    if subset_final:
-        _out(f'\n  Arquivo final: {os.path.join(PASTA_JSON, f"{arquivo_base}.json")}')
-    elif painel.get('capturas_api', 0) > 0:
-        _out('\n  [AVISO] Extração vazia apesar de capturas API — veja [DIAG] acima.')
-        _out('  Confira: modalidade no site (QSJ = Quina de São João), lotérica e filtro de dezenas.')
-    return subset_final, hashes, painel, arquivo_base
-
-
-def _detectar_modalidade_api(driver) -> Optional[str]:
-    """Detecta a modalidade a partir das capturas da API na página atual."""
-    if driver is None:
-        return None
-    try:
-        from boloes_api_caixa import ler_capturas_api, _eh_url_lista_boloes, _eh_url_detalhar
-    except Exception:
-        return None
-
-    for cap in ler_capturas_api(driver):
-        url = (cap.get('url') or '').lower()
-        if not (_eh_url_lista_boloes(url) or _eh_url_detalhar(url)):
-            continue
-        data = cap.get('data')
-        if not isinstance(data, dict):
-            continue
-        # procura campo modalidade/modalidade_slug na arvore do payload
-        from boloes_api_parser import _unwrap_payload
-        root = _unwrap_payload(data)
-        if isinstance(root, dict):
-            for chave in ('modalidade', 'modalidade_slug', 'tipoModalidade', 'modalidadeSlug'):
-                val = root.get(chave)
-                if val and isinstance(val, str) and val.strip():
-                    return val.strip()
-        # procura em listas de items
-        for chave_lista in ('boloes', 'itens', 'lista', 'registros', 'dados'):
-            items = None
-            if isinstance(data, dict):
-                items = data.get(chave_lista)
-            if not isinstance(items, list):
-                continue
-            for item in items:
-                if isinstance(item, dict):
-                    for chave in ('modalidade', 'modalidade_slug', 'tipoModalidade', 'modalidadeSlug'):
-                        val = item.get(chave)
-                        if val and isinstance(val, str) and val.strip():
-                            return val.strip()
-    return None
-
-
-def _perguntar_concurso_e_modalidade(driver, mod_label: str) -> tuple:
-    """Detecta modalidade e concurso do site e permite o usuario confirmar/sobrescrever.
-
-    Retorna (concurso, modalidade_slug) — ambos podem ser '' para auto-detectar.
-    """
-    detectado_concurso = None
-    detectada_modalidade = None
-
-    if driver is not None:
-        try:
-            from boloes_api_caixa import detectar_concurso_api
-            detectado_concurso = detectar_concurso_api(driver)
-        except Exception:
-            pass
-        try:
-            detectada_modalidade = _detectar_modalidade_api(driver)
-        except Exception:
-            pass
-
-    # Pergunta modalidade (mostra detectada ou pergunta)
-    if detectada_modalidade:
-        _out(f'\n  Modalidade detectada no site: {detectada_modalidade}')
-        _out('  ENTER para aceitar | ou digite a modalidade correta (ex.: MEGA_SENA):')
-        try:
-            resp = input('  Modalidade: ').strip()
-        except EOFError:
-            mod_final = detectada_modalidade
-            return detectado_concurso or '', mod_final
-        if resp:
-            _out(f'  [OK] Modalidade informada: {resp}')
-            mod_final = resp
-        else:
-            _out(f'  [OK] Usando modalidade detectada: {detectada_modalidade}')
-            mod_final = detectada_modalidade
-    else:
-        _out(f'\n  Modalidade atual: {mod_label}')
-        _out('  Digite a modalidade (ex.: MEGA_SENA, QUINA, LOTOFACIL) ou ENTER para auto-detectar:')
-        try:
-            resp = input('  Modalidade: ').strip()
-        except EOFError:
-            return detectado_concurso or '', ''
-        if resp:
-            _out(f'  [OK] Modalidade informada: {resp}')
-            mod_final = resp
-        else:
-            _out('  Modalidade sera detectada automaticamente.')
-            mod_final = ''
-
-    # Pergunta concurso (mostra detectado ou pergunta)
-    if detectado_concurso:
-        _out(f'  Concurso detectado no site: {detectado_concurso}')
-        _out('  ENTER para aceitar | ou digite o numero correto (ex.: 3024):')
-        try:
-            resp = input('  Concurso: ').strip()
-        except EOFError:
-            return detectado_concurso, mod_final
-        if resp:
-            digits = re.sub(r'\D', '', resp)
-            if digits:
-                _out(f'  [OK] Concurso informado: {digits}')
-                return digits, mod_final
-        _out(f'  [OK] Usando concurso detectado: {detectado_concurso}')
-        return detectado_concurso, mod_final
-
-    _out('  Digite o numero do concurso (ex.: 3024) ou ENTER para detectar automaticamente:')
-    try:
-        resp = input('  Concurso: ').strip()
-    except EOFError:
-        return '', mod_final
-    if resp:
-        digits = re.sub(r'\D', '', resp)
-        if digits:
-            _out(f'  [OK] Concurso informado: {digits}')
-            return digits, mod_final
-    _out('  Concurso sera detectado automaticamente da primeira pagina.')
-    return '', mod_final
-
+# ─────────────────────────────────────────────────────────────────────────────
+# EXTRAÇÃO AUTOMÁTICA — fluxo [1] com pergunta pré-Edge
+# ─────────────────────────────────────────────────────────────────────────────
 
 def extrair_automatico() -> Tuple[list, Optional[str]]:
-    """[1] Edge abre o site -> voce prepara tudo -> ENTER -> extrai ate Seguinte desabilitar."""
-    global SESSAO_AUTORIZADA
+    """
+    [1] Fluxo completo:
+        Terminal → pede MODALIDADE + CONCURSO
+        Edge abre → usuário faz login + configura filtros → ENTER
+        Script extrai todas as páginas automaticamente
+        JSON gravado em tempo real
+    """
+    global SESSAO_AUTORIZADA, ROTULO_ARQUIVO, ROTULO_NOME
 
+    # ── PASSO 1 e 2: coletar ANTES de abrir o Edge ──────────────────────────
+    mod_pre = _coletar_modalidade_pre_extracao()
+    if mod_pre:
+        ROTULO_ARQUIVO = mod_pre
+        ROTULO_NOME = mod_pre.label
+
+    concurso_pre = _coletar_concurso_pre_extracao()
+
+    # Mostra o resumo e instrui o usuário
+    cfg_atual = FILTRO_LOTERICA or _cfg_filtro_site()
+    _exibir_resumo_pre_extracao(mod_pre or ROTULO_ARQUIVO, concurso_pre, cfg_atual)
+
+    # ── Abre o Edge ─────────────────────────────────────────────────────────
     if driver is None:
         if not iniciar_navegador():
             return [], None
@@ -1283,38 +1396,32 @@ def extrair_automatico() -> Tuple[list, Optional[str]]:
 
     SESSAO_AUTORIZADA = True
 
+    # ── Lê filtros do site ───────────────────────────────────────────────────
     _out('\n  Lendo filtros do site...')
-    cfg = ler_filtro_aplicado_site(driver, _out) or _cfg_filtro_site()
-    mod = _modalidade_extracao(driver)
+    cfg = ler_filtro_aplicado_site(driver, _out) or cfg_atual
+
+    # Modalidade: preferência ao que o usuário digitou no terminal
+    mod = ROTULO_ARQUIVO or _modalidade_extracao(driver)
     mod_slug = mod.slug if mod else 'boloes'
     parser_slug = mod.parser_slug if mod else ''
 
-    # Detecta modalidade e concurso do site ANTES de iniciar a extracao
-    concurso_digitado, mod_digitada = _perguntar_concurso_e_modalidade(
-        driver, mod.label if mod else 'desconhecida'
-    )
+    # Concurso: preferência ao digitado; fallback = detectar da API
+    concurso_final = concurso_pre  # já foi digitado antes
 
-    # Se o usuario informou a modalidade, usa o slug dela no nome do arquivo
-    if mod_digitada and not mod:
-        from boloes_modalidades import resolver_modalidade_menu, nome_arquivo_sessao
-        mod_resolvida = resolver_modalidade_menu(mod_digitada)
-        if mod_resolvida:
-            mod_slug = mod_resolvida.slug
-            parser_slug = mod_resolvida.parser_slug
-            mod = mod_resolvida
-
-    arquivo_base = gerar_arquivo_base(cfg, mod, concurso_digitado)
+    arquivo_base = gerar_arquivo_base(cfg, mod, concurso_final)
 
     print('\n' + '=' * 60)
-    print('  EXTRACAO AUTOMATICA')
+    print('  EXTRAÇÃO AUTOMÁTICA — INICIANDO')
     print('=' * 60)
-    print('  Pagina 1 = filtro que voce aplicou no site')
-    print('  Paginas 2, 3… = Seguinte automatico ate desabilitar')
-    print(f'  Arquivo: json-boloes/boloes_{{concurso}}_{{modalidade}}.json')
+    print(f'  Modalidade : {mod.label if mod else "auto-detectar"}')
+    print(f'  Concurso   : {concurso_final if concurso_final else "auto-detectar"}')
+    print(f'  Arquivo    : {arquivo_base}.json (gravado em tempo real)')
     print(LEGENDA_API)
 
     boloes, _, _, ab = _loop_extracao_paginas(
-        cfg, parser_slug, mod_slug, arquivo_base, manual_paginas=False, mod_esperada=mod,
+        cfg, parser_slug, mod_slug, arquivo_base,
+        manual_paginas=False, mod_esperada=mod,
+        concurso_alvo=concurso_final,
     )
     if boloes:
         mod_final = extrair_modalidade_de_boloes(boloes) or mod
@@ -1323,32 +1430,23 @@ def extrair_automatico() -> Tuple[list, Optional[str]]:
     return boloes, ab
 
 
-def _carregar_config_inicio() -> bool:
-    """Carrega loterica salva — modalidade NAO vem do cache (evita Dia de Sorte fantasma)."""
-    global FILTRO_LOTERICA, ROTULO_ARQUIVO, ROTULO_NOME
-    cached = _carregar_config_cache()
-    if not cached:
-        return False
-    FILTRO_LOTERICA, _mod_cache = cached
-    ROTULO_ARQUIVO = None
-    ROTULO_NOME = 'modalidade atual'
-    return bool(FILTRO_LOTERICA)
+# ─────────────────────────────────────────────────────────────────────────────
+# EXTRAÇÃO MANUAL — fluxo [2]
+# ─────────────────────────────────────────────────────────────────────────────
 
-
-def _resolver_cfg_filtro_rodada() -> Optional[FiltroLotericaConfig]:
-    """Le filtro do site; se falhar, usa config do terminal ou digitacao manual."""
+def _resolver_cfg_filtro_rodada():
     _out('\n  Lendo filtro aplicado no site...')
     cfg = ler_filtro_aplicado_site(driver, _out)
     if cfg and (cfg.termo or cfg.codigo or cfg.qualquer_loterica):
         return cfg
 
     _out('\n' + '-' * 60)
-    _out('  Filtro no site nao lido automaticamente.')
+    _out('  Filtro no site não lido automaticamente.')
     if FILTRO_LOTERICA and FILTRO_LOTERICA.qualquer_loterica:
-        _out(f'  [ENTER] = qualquer lotérica + {FILTRO_LOTERICA.qtd_dezenas or 15} dezenas (config salva)')
+        _out(f'  [ENTER] = qualquer lotérica + {FILTRO_LOTERICA.qtd_dezenas or 15} dezenas')
     elif FILTRO_LOTERICA and FILTRO_LOTERICA.termo:
         _out(f'  [ENTER] = usar config salva ({FILTRO_LOTERICA.termo})')
-    _out('  * = qualquer lotérica + 15 dezenas | ou codigo/nome | X = menu')
+    _out('  * = qualquer + 15 dez | ou código/nome | X = menu')
     _out('-' * 60)
     try:
         resp = input('>>> ').strip()
@@ -1356,43 +1454,27 @@ def _resolver_cfg_filtro_rodada() -> Optional[FiltroLotericaConfig]:
         return None
     if not resp:
         if FILTRO_LOTERICA:
-            if FILTRO_LOTERICA.qualquer_loterica or FILTRO_LOTERICA.qtd_dezenas:
-                _out('  [FILTRO] Qualquer lotérica (config salva).')
-                return FILTRO_LOTERICA
-            if FILTRO_LOTERICA.termo:
-                _out(f'  [FILTRO] Usando config: {FILTRO_LOTERICA.termo}')
-                return FILTRO_LOTERICA
-        qtd = FILTRO_LOTERICA.qtd_dezenas if FILTRO_LOTERICA and FILTRO_LOTERICA.qtd_dezenas else 15
-        _out(f'  [FILTRO] Qualquer lotérica + {qtd} dezenas (padrao).')
-        return cfg_qualquer_loterica(qtd)
+            return FILTRO_LOTERICA
+        return cfg_qualquer_loterica(15)
     if resp.upper() == 'X':
         return None
     if resp in ('*', '-', 'todas', 'qualquer', 'QUALQUER', 'TODAS'):
         qtd = FILTRO_LOTERICA.qtd_dezenas if FILTRO_LOTERICA and FILTRO_LOTERICA.qtd_dezenas else 15
         return cfg_qualquer_loterica(qtd)
-    if resp:
-        codigo, nome = parse_termo_loterica(resp)
-        _out(f'  [FILTRO] Usando loterica informada: {resp}')
-        qtd = FILTRO_LOTERICA.qtd_dezenas if FILTRO_LOTERICA else None
-        return FiltroLotericaConfig(termo=resp, codigo=codigo, nome=nome, qtd_dezenas=qtd)
-    return None
+    codigo, nome = parse_termo_loterica(resp)
+    qtd = FILTRO_LOTERICA.qtd_dezenas if FILTRO_LOTERICA else None
+    return FiltroLotericaConfig(termo=resp, codigo=codigo, nome=nome, qtd_dezenas=qtd)
 
 
 def extrair_sessao_multi_filtros() -> None:
-    """
-    Mesma sessao logada:
-    - Voce aplica filtro no site → ENTER → script detecta filtro e baixa pagina 1
-    - Mesmo filtro: paginas 2, 3, 4, 5… — voce navega no site → ENTER a cada uma
-    - FIM encerra o filtro atual; troca filtro no site → ENTER → comeca pag. 1 de novo
-    """
     global SESSAO_AUTORIZADA
 
     print('\n' + '=' * 60)
-    print('  MODO FILTRO MANUAL — MESMA SESSAO LOGADA')
+    print('  MODO FILTRO MANUAL — MESMA SESSÃO LOGADA')
     print('=' * 60)
-    print('\n  Login 1x → filtro no site → ENTER → baixa pag. 1')
-    print('  Mesmo filtro: pag. 2, 3, 4, 5… → ENTER a cada pagina → FIM')
-    print('  Novo filtro: aplique no site (pag. 1) → ENTER → repete')
+    print('\n  Login 1x → filtro no site → ENTER → baixa pág. 1')
+    print('  Mesmo filtro: pág. 2, 3… → ENTER a cada página → FIM')
+    print('  Novo filtro: aplique no site → ENTER → repete')
     print(LEGENDA_API)
 
     if driver is None:
@@ -1400,9 +1482,9 @@ def extrair_sessao_multi_filtros() -> None:
             return
     elif not _usuario_logado_caixa():
         if _no_site_boloes():
-            print('\n  [AVISO] Login nao confirmado pela API, mas site de boloes aberto — continuando.')
+            print('\n  [AVISO] Login não confirmado, mas site de bolões aberto — continuando.')
         else:
-            print('\n  Sessao expirada — faca login de novo.')
+            print('\n  Sessão expirada — faça login de novo.')
             if not preparar_login_unico():
                 return
 
@@ -1421,10 +1503,6 @@ def extrair_sessao_multi_filtros() -> None:
             _out('\n  Rodada cancelada — voltando ao menu.')
             break
 
-        if cfg.qualquer_loterica:
-            dez = cfg.qtd_dezenas or 15
-            _out(f'\n  Modo: QUALQUER lotérica | somente {dez} dezenas por aposta')
-
         mod = _modalidade_extracao(driver)
         mod_slug = mod.slug if mod else mod_slug
         parser_slug = mod.parser_slug if mod else parser_slug
@@ -1433,13 +1511,11 @@ def extrair_sessao_multi_filtros() -> None:
         limpar_capturas_api(driver)
         arquivo_base = gerar_arquivo_base(cfg, mod)
 
-        print(f'\n  Iniciando rodada {rodada} — somente filtro detectado acima.')
+        print(f'\n  Iniciando rodada {rodada}...')
         boloes, hashes, painel, arquivo_base = _loop_extracao_paginas(
             cfg, parser_slug, mod_slug, arquivo_base,
-            manual_paginas=True,
-            rodada_filtro=rodada,
-            voce_encerra=True,
-            mod_esperada=mod,
+            manual_paginas=True, rodada_filtro=rodada,
+            voce_encerra=True, mod_esperada=mod,
         )
 
         resumos_rodadas.append({
@@ -1451,10 +1527,7 @@ def extrair_sessao_multi_filtros() -> None:
         })
 
         print('\n' + '-' * 60)
-        print(
-            f'  RODADA {rodada} CONCLUIDA — {len(boloes)} registro(s) | '
-            f'filtro {cfg.termo} | dez. {cfg.qtd_dezenas or "qualquer"}'
-        )
+        print(f'  RODADA {rodada} CONCLUÍDA — {len(boloes)} reg. | filtro {cfg.termo}')
         print('-' * 60)
 
         try:
@@ -1464,23 +1537,64 @@ def extrair_sessao_multi_filtros() -> None:
         if resp == 'n':
             break
         rodada += 1
-        print('\n  Mesma sessao — novo filtro no site, comecando pela pagina 1.')
 
     if resumos_rodadas:
         print('\n' + '=' * 60)
-        print('  RESUMO — TODOS OS FILTROS DESTA SESSAO')
+        print('  RESUMO — TODOS OS FILTROS DESTA SESSÃO')
         print('=' * 60)
         total = 0
         for r in resumos_rodadas:
-            print(
-                f"  Rodada {r['rodada']}: {r['registros']:>4} reg. | "
-                f"{r['loterica']} | dez.{r['dezenas']} | {r['arquivo']}"
-            )
+            print(f"  Rodada {r['rodada']}: {r['registros']:>4} reg. | {r['loterica']} | {r['arquivo']}")
             total += r['registros']
-        print(f'\n  Total: {total} registro(s) em {len(resumos_rodadas)} filtro(s).')
+        print(f'\n  Total: {total} reg. em {len(resumos_rodadas)} filtro(s).')
         print('=' * 60)
-    else:
-        print('\n  Nenhum filtro concluido.')
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Configurações iniciais / menu
+# ─────────────────────────────────────────────────────────────────────────────
+
+def _carregar_config_inicio() -> bool:
+    global FILTRO_LOTERICA, ROTULO_ARQUIVO, ROTULO_NOME
+    cached = _carregar_config_cache()
+    if not cached:
+        return False
+    FILTRO_LOTERICA, _mod_cache = cached
+    ROTULO_ARQUIVO = None
+    ROTULO_NOME = 'modalidade atual'
+    return bool(FILTRO_LOTERICA)
+
+
+def configurar_loterica() -> bool:
+    global FILTRO_LOTERICA, ROTULO_ARQUIVO, ROTULO_NOME
+    try:
+        FILTRO_LOTERICA, ROTULO_ARQUIVO = ler_config_extracao()
+        ROTULO_NOME = _rotulo_nome()
+        if not FILTRO_LOTERICA or not (FILTRO_LOTERICA.termo or '').strip():
+            print('\n>>> Lotérica inválida ou vazia.')
+            FILTRO_LOTERICA = None
+            return False
+        print(f'\n>>> Config OK | Lotérica: {FILTRO_LOTERICA.termo} | Modalidade: {ROTULO_NOME}')
+        return True
+    except KeyboardInterrupt:
+        raise
+    except Exception as exc:
+        print(f'\n>>> ERRO: {exc}')
+        traceback.print_exc()
+        return False
+
+
+def _menu_consolidar_capturas() -> None:
+    from boloes_consolidar import consolidar_capturas_pasta
+
+    mod_slug = ROTULO_ARQUIVO.slug if ROTULO_ARQUIVO else 'quina'
+    path, total = consolidar_capturas_pasta(
+        PASTA_CAPTURAS, PASTA_JSON, 'sem-concurso', mod_slug,
+        FILTRO_LOTERICA.codigo if FILTRO_LOTERICA else None,
+        FILTRO_LOTERICA.qtd_dezenas if FILTRO_LOTERICA else None,
+    )
+    print(f'\n>>> Consolidado a partir de capturas-api/: {path}')
+    print(f'>>> Total único: {total}')
 
 
 def menu_principal() -> None:
@@ -1489,38 +1603,37 @@ def menu_principal() -> None:
     while True:
         try:
             print('\n' + '=' * 60)
-            print('  EXTRATOR DE BOLOES — Caixa (API)')
+            print('  EXTRATOR DE BOLÕES — Caixa (API)')
             print('=' * 60)
             _imprimir_status_modalidade()
             _imprimir_tabela_modalidades_resumida()
             print(f'\n  JSON: {PASTA_JSON}')
-            print('  Arquivo: boloes_{concurso}_{modalidade}_CONSOLIDADO.json')
-            print('\n[1] EXTRAIR AUTOMATICO')
-            print('    -> Edge abre -> login + modalidade + filtros NO SITE')
-            print('    -> ENTER aqui -> Seguinte ate desabilitar -> JSON em json-boloes/')
-            print('[2] EXTRAIR MANUAL (ENTER a cada pagina / varios filtros)')
+            print('\n[1] EXTRAIR AUTOMÁTICO')
+            print('    → Terminal: modalidade + concurso → Edge abre → login + filtros → ENTER')
+            print('    → Seguinte automático até desabilitar → JSON cresce em tempo real')
+            print('[2] EXTRAIR MANUAL (ENTER a cada página / vários filtros)')
             print('[3] Consolidar capturas-api/')
             print('[M] Tabela completa de modalidades')
             print('[0] Fechar navegador')
             print('-' * 60)
-            print('  Opcional: M1-M9 | QSJ | DSP — so se quiser forcar parser')
+            print('  Opcional: M1-M9 | QSJ | DSP — só para forçar parser')
             print('-' * 60)
 
-            opcao = input('Opcao: ').strip().upper()
+            opcao = input('Opção: ').strip().upper()
 
             if not opcao:
                 continue
             if opcao.startswith('M') and len(opcao) == 2 and opcao[1].isdigit():
-                if _trocar_modalidade_rapida(opcao[1]):
+                if _trocar_modalidade_por_entrada(opcao[1]):
                     continue
             if opcao == 'M':
                 imprimir_menu_modalidades()
                 continue
             if opcao in TECLAS_ESPECIAIS:
-                _trocar_modalidade_rapida(opcao)
+                _trocar_modalidade_por_entrada(opcao)
                 continue
             if opcao in ('4', '5', '6', '7', '8', '9'):
-                if _trocar_modalidade_rapida(opcao):
+                if _trocar_modalidade_por_entrada(opcao):
                     continue
             if opcao not in ('0', '1', '2', '3', 'M'):
                 mod_direto = resolver_modalidade_menu(opcao)
@@ -1535,9 +1648,9 @@ def menu_principal() -> None:
                 _menu_consolidar_capturas()
             elif opcao == '0':
                 fechar_navegador()
-                print('\n>>> Navegador fechado. Press CTRL+C to quit')
+                print('\n>>> Navegador fechado. CTRL+C para sair.')
             else:
-                print('\n>>> Opcao invalida.')
+                print('\n>>> Opção inválida.')
 
         except KeyboardInterrupt:
             raise
@@ -1546,25 +1659,8 @@ def menu_principal() -> None:
             traceback.print_exc()
 
 
-def _menu_consolidar_capturas() -> None:
-    from boloes_consolidar import consolidar_capturas_pasta
-
-    mod_slug = ROTULO_ARQUIVO.slug if ROTULO_ARQUIVO else 'quina'
-    path, total = consolidar_capturas_pasta(
-        PASTA_CAPTURAS,
-        PASTA_JSON,
-        'sem-concurso',
-        mod_slug,
-        FILTRO_LOTERICA.codigo if FILTRO_LOTERICA else None,
-        FILTRO_LOTERICA.qtd_dezenas if FILTRO_LOTERICA else None,
-    )
-    print(f'\n>>> Consolidado a partir de capturas-api/: {path}')
-    print(f'>>> Total unico: {total}')
-
-
 def main() -> None:
     global FILTRO_LOTERICA, ROTULO_ARQUIVO, ROTULO_NOME
-
     _carregar_config_inicio()
     menu_principal()
 
@@ -1573,7 +1669,7 @@ if __name__ == '__main__':
     try:
         main()
     except KeyboardInterrupt:
-        print('\n\nEncerrado pelo usuario (CTRL+C).')
+        print('\n\nEncerrado pelo usuário (CTRL+C).')
     finally:
         fechar_navegador()
         print('Fim!')
