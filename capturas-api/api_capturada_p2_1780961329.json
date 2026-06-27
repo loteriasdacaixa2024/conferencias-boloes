@@ -1,0 +1,4902 @@
+[
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:27:56.238",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              4,
+              7,
+              14,
+              18,
+              30,
+              31,
+              32,
+              35,
+              43,
+              49,
+              54,
+              60
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              16,
+              17,
+              19,
+              24,
+              41,
+              42,
+              43,
+              47,
+              51,
+              58,
+              63,
+              67
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 2,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 14,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 3,
+        "qtdNumeros": 12,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 128.3,
+        "vrCotaSemTarifa": 95.04,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1663.19,
+        "vrTarifaServicoCota": 33.26,
+        "vrTarifaServicoUltimaCota": 33.45,
+        "vrTotalBolaoComTarifa": 6415.19,
+        "vrTotalBolaoSemTarifa": 4752,
+        "vrUltimaCotaComTarifa": 128.49,
+        "vrUltimaCotaSemTarifa": 95.04
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961275319,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A(%C2%A4c)d%C2%8F%C2%B1R%10%10%C2%82k%14%C3%B3M%C3%A2%C3%9Fg%C2%B4%C2%B9%C2%82Hg%C3%89@%C2%A6%C2%B6%C3%B0%C3%B6%C2%94P%C3%9B!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:27:58.032",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              13,
+              15,
+              18,
+              25,
+              26,
+              41,
+              42,
+              45,
+              56,
+              68,
+              75
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              4,
+              10,
+              19,
+              21,
+              30,
+              33,
+              46,
+              47,
+              49,
+              69,
+              77
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              5,
+              6,
+              14,
+              38,
+              39,
+              48,
+              58,
+              63,
+              70,
+              74,
+              79
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              2,
+              7,
+              8,
+              12,
+              17,
+              43,
+              44,
+              60,
+              61,
+              73
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              9,
+              11,
+              22,
+              27,
+              34,
+              36,
+              51,
+              62,
+              66,
+              67,
+              76
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              3,
+              16,
+              24,
+              28,
+              32,
+              37,
+              52,
+              55,
+              59,
+              71,
+              72
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              20,
+              23,
+              29,
+              35,
+              40,
+              50,
+              53,
+              54,
+              57,
+              78,
+              80
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              6,
+              24,
+              25,
+              39,
+              43,
+              60,
+              61,
+              65,
+              74,
+              77,
+              80
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              3,
+              5,
+              20,
+              22,
+              40,
+              41,
+              42,
+              46,
+              51,
+              64,
+              67
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              9,
+              13,
+              27,
+              35,
+              38,
+              47,
+              48,
+              49,
+              54,
+              57,
+              66
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": false,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 7,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 6,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 4,
+        "qtdNumeros": 11,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 374.22,
+        "vrCotaSemTarifa": 277.2,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 4851,
+        "vrTarifaServicoCota": 97.02,
+        "vrTarifaServicoUltimaCota": 97.02,
+        "vrTotalBolaoComTarifa": 18711,
+        "vrTotalBolaoSemTarifa": 13860,
+        "vrUltimaCotaComTarifa": 374.22,
+        "vrUltimaCotaSemTarifa": 277.2
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961277126,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C3%98%1D%C3%86Q%C3%BA%C3%ADj5%C2%A9%C2%B7a2%2FkS%C2%9A%C2%80%C3%BA%C3%970mwOe%C3%B7%C2%B6%C3%98%C2%9F%C2%AE%C3%8455!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:27:59.962",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              7,
+              8,
+              10,
+              18,
+              24,
+              25,
+              28,
+              32,
+              34,
+              50,
+              72
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              6,
+              8,
+              11,
+              12,
+              49,
+              64,
+              67,
+              69,
+              73,
+              80
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              3,
+              5,
+              9,
+              30,
+              48,
+              51,
+              60,
+              74,
+              75,
+              76,
+              79
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              26,
+              29,
+              31,
+              37,
+              43,
+              45,
+              53,
+              56,
+              66,
+              71,
+              78
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              2,
+              13,
+              15,
+              19,
+              23,
+              33,
+              38,
+              39,
+              47,
+              61,
+              63
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              17,
+              22,
+              27,
+              35,
+              36,
+              40,
+              41,
+              44,
+              46,
+              57,
+              58
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              4,
+              14,
+              16,
+              20,
+              21,
+              42,
+              54,
+              59,
+              62,
+              68,
+              77
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              3,
+              7,
+              11,
+              13,
+              18,
+              19,
+              21,
+              25,
+              55,
+              70,
+              78
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              15,
+              24,
+              26,
+              27,
+              42,
+              54,
+              59,
+              62,
+              68,
+              77
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              4,
+              12,
+              34,
+              37,
+              48,
+              54,
+              56,
+              59,
+              61,
+              68,
+              74
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": false,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 7,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 7,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 3,
+        "qtdNumeros": 11,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 374.22,
+        "vrCotaSemTarifa": 277.2,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 4851,
+        "vrTarifaServicoCota": 97.02,
+        "vrTarifaServicoUltimaCota": 97.02,
+        "vrTotalBolaoComTarifa": 18711,
+        "vrTotalBolaoSemTarifa": 13860,
+        "vrUltimaCotaComTarifa": 374.22,
+        "vrUltimaCotaSemTarifa": 277.2
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961279065,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1AM%7C~p%01%C2%B4*%C2%A7r%C2%90%0D%2B%C2%B6%C3%AF%60u0%C2%87%C2%90h%C3%81%C3%B9%23%C3%92%C3%93S%C2%B3B%12:9%C3%A2!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:01.578",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              3,
+              6,
+              9,
+              23,
+              31,
+              40,
+              45,
+              49,
+              66,
+              68,
+              79
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              7,
+              13,
+              17,
+              21,
+              32,
+              36,
+              49,
+              51,
+              55,
+              71
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              2,
+              5,
+              18,
+              22,
+              26,
+              30,
+              35,
+              57,
+              62,
+              69,
+              78
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              3,
+              9,
+              12,
+              17,
+              25,
+              38,
+              43,
+              55,
+              57,
+              76,
+              78
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 4,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 9,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 6,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 2,
+        "qtdNumeros": 11,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 149.68,
+        "vrCotaSemTarifa": 110.88,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1940.39,
+        "vrTarifaServicoCota": 38.8,
+        "vrTarifaServicoUltimaCota": 39.19,
+        "vrTotalBolaoComTarifa": 7484.39,
+        "vrTotalBolaoSemTarifa": 5544,
+        "vrUltimaCotaComTarifa": 150.07,
+        "vrUltimaCotaSemTarifa": 110.88
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961280693,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C3%A2t%5D.y%C3%91S%C3%B1%C3%B3%25%C3%A2%C3%8B%C2%96%04%7D;%C3%A8,W%C3%A2%C2%A6%C2%ACV%C2%8C%13%60%C3%B4%09%C3%A6%C2%A3%C3%97%C2%A9!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:03.311",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              2,
+              7,
+              12,
+              18,
+              25,
+              26,
+              27,
+              34,
+              41,
+              49,
+              55
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              5,
+              8,
+              11,
+              17,
+              30,
+              31,
+              32,
+              38,
+              44,
+              51,
+              59
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              6,
+              9,
+              13,
+              21,
+              33,
+              34,
+              35,
+              39,
+              46,
+              53,
+              60
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              10,
+              14,
+              20,
+              36,
+              37,
+              38,
+              42,
+              48,
+              54,
+              62
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              4,
+              12,
+              16,
+              23,
+              40,
+              41,
+              42,
+              47,
+              52,
+              57,
+              63
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              3,
+              7,
+              15,
+              22,
+              43,
+              44,
+              45,
+              50,
+              56,
+              61,
+              66
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              9,
+              13,
+              18,
+              26,
+              60,
+              61,
+              62,
+              64,
+              68,
+              71,
+              77
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              11,
+              19,
+              25,
+              29,
+              65,
+              66,
+              67,
+              70,
+              74,
+              78,
+              80
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              14,
+              17,
+              24,
+              28,
+              53,
+              54,
+              55,
+              58,
+              63,
+              69,
+              73
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              16,
+              20,
+              31,
+              37,
+              72,
+              73,
+              74,
+              75,
+              76,
+              79,
+              80
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": false,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 6,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 9,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 2,
+        "qtdNumeros": 11,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 374.22,
+        "vrCotaSemTarifa": 277.2,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 4851,
+        "vrTarifaServicoCota": 97.02,
+        "vrTarifaServicoUltimaCota": 97.02,
+        "vrTotalBolaoComTarifa": 18711,
+        "vrTotalBolaoSemTarifa": 13860,
+        "vrUltimaCotaComTarifa": 374.22,
+        "vrUltimaCotaSemTarifa": 277.2
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961282394,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C3%ACW%C3%82Q%C2%BAB~dC%C3%A1%23%1B7k%C3%A5j%C3%B5%C3%88T%C3%A4%C2%AC6%C3%B8%C3%BF%3E'%14e%16%12%C3%A3%2F!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:05.280",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              3,
+              12,
+              14,
+              37,
+              48,
+              55,
+              59,
+              63,
+              64,
+              65,
+              72
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              4,
+              8,
+              9,
+              18,
+              29,
+              31,
+              37,
+              39,
+              40,
+              49,
+              59
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              4,
+              13,
+              21,
+              24,
+              32,
+              37,
+              40,
+              43,
+              46,
+              48,
+              49
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              10,
+              14,
+              22,
+              26,
+              31,
+              37,
+              53,
+              55,
+              59,
+              66,
+              68
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 4,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 9,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 7,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 1,
+        "qtdNumeros": 11,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 149.68,
+        "vrCotaSemTarifa": 110.88,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1940.39,
+        "vrTarifaServicoCota": 38.8,
+        "vrTarifaServicoUltimaCota": 39.19,
+        "vrTotalBolaoComTarifa": 7484.39,
+        "vrTotalBolaoSemTarifa": 5544,
+        "vrUltimaCotaComTarifa": 150.07,
+        "vrUltimaCotaSemTarifa": 110.88
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961284412,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A$%12%C3%BA%C3%8C%C3%AA%C3%A2%1C%C3%AA%C2%A6%C2%98)x%C2%83%C3%B4c,T%C2%B1%042%07%1D%C2%B9%09%C3%83.%1E%C3%B5t%C2%81%C2%BFq!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:06.957",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              2,
+              25,
+              33,
+              36,
+              38,
+              40,
+              55,
+              57,
+              59,
+              72,
+              74,
+              75
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              12,
+              14,
+              17,
+              28,
+              35,
+              42,
+              47,
+              48,
+              49,
+              53,
+              66,
+              67
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 2,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 7,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 9,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 1,
+        "qtdNumeros": 12,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 128.3,
+        "vrCotaSemTarifa": 95.04,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1663.19,
+        "vrTarifaServicoCota": 33.26,
+        "vrTarifaServicoUltimaCota": 33.45,
+        "vrTotalBolaoComTarifa": 6415.19,
+        "vrTotalBolaoSemTarifa": 4752,
+        "vrUltimaCotaComTarifa": 128.49,
+        "vrUltimaCotaSemTarifa": 95.04
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961286044,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C3%8D%C2%8D%C2%A4%C3%89%C3%A8%C2%BF%C3%8B%C3%ABI%C2%97_%22%C2%B4%C2%BA%C2%9C%01,%25%C3%B2%11%C2%8C%1E%C3%9A%C3%80%C2%A23%C3%BDd%26%C3%9F1%C2%8B!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:08.811",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              4,
+              12,
+              23,
+              27,
+              28,
+              32,
+              34,
+              41,
+              45,
+              51,
+              70
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              2,
+              4,
+              5,
+              14,
+              32,
+              36,
+              41,
+              65,
+              71,
+              73,
+              78
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              2,
+              3,
+              12,
+              21,
+              30,
+              32,
+              33,
+              34,
+              47,
+              53,
+              68
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              23,
+              27,
+              37,
+              42,
+              46,
+              47,
+              57,
+              60,
+              66,
+              73,
+              75
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 4,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 7,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 4,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 6,
+        "qtdNumeros": 11,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 149.68,
+        "vrCotaSemTarifa": 110.88,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1940.39,
+        "vrTarifaServicoCota": 38.8,
+        "vrTarifaServicoUltimaCota": 39.19,
+        "vrTotalBolaoComTarifa": 7484.39,
+        "vrTotalBolaoSemTarifa": 5544,
+        "vrUltimaCotaComTarifa": 150.07,
+        "vrUltimaCotaSemTarifa": 110.88
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961287893,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1Ax%0F%C2%99%C2%A2U%7D%C3%88,%18%C2%A0%C2%A4%C2%9E%C3%92%C3%82%C2%BF%C2%908%C3%AFN2%11%C3%97%17'%C3%87%C2%B9%2BC%C2%90%C3%A1%C2%9AV!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:10.595",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              9,
+              13,
+              19,
+              21,
+              27,
+              33,
+              34,
+              36,
+              39,
+              52,
+              59,
+              71
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              3,
+              9,
+              12,
+              14,
+              18,
+              20,
+              21,
+              25,
+              36,
+              37,
+              39,
+              48
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 2,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 7,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 5,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 5,
+        "qtdNumeros": 12,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 128.3,
+        "vrCotaSemTarifa": 95.04,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1663.19,
+        "vrTarifaServicoCota": 33.26,
+        "vrTarifaServicoUltimaCota": 33.45,
+        "vrTotalBolaoComTarifa": 6415.19,
+        "vrTotalBolaoSemTarifa": 4752,
+        "vrUltimaCotaComTarifa": 128.49,
+        "vrUltimaCotaSemTarifa": 95.04
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961289690,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%95%C3%B7oV%C2%94%C2%B8%C3%81%C3%A0%C3%9B%23%C3%B2%C2%81%C2%B8bOP%C3%A7f%11%5E%0E%2B%C3%91%C2%95%C3%A6Q%C2%BA%16;%C3%95xR!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:12.365",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              6,
+              15,
+              24,
+              33,
+              35,
+              42,
+              45,
+              51,
+              55,
+              65,
+              77,
+              78
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              5,
+              13,
+              20,
+              22,
+              28,
+              41,
+              46,
+              52,
+              55,
+              64,
+              68
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 2,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 7,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 8,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 2,
+        "qtdNumeros": 12,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 128.3,
+        "vrCotaSemTarifa": 95.04,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1663.19,
+        "vrTarifaServicoCota": 33.26,
+        "vrTarifaServicoUltimaCota": 33.45,
+        "vrTotalBolaoComTarifa": 6415.19,
+        "vrTotalBolaoSemTarifa": 4752,
+        "vrUltimaCotaComTarifa": 128.49,
+        "vrUltimaCotaSemTarifa": 95.04
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961291431,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1Al%26%C3%8A%C2%8B%3D%C2%94k%05%C3%B9%C3%BC'%C3%92%05%3FT%C3%91%C3%AC%C2%96-%C3%8CR%C3%AD%1D3Y%17%C3%BF%05%C2%BF%1F%C2%B7%C2%86!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:14.362",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              13,
+              20,
+              26,
+              28,
+              30,
+              36,
+              45,
+              55,
+              60,
+              61,
+              80
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              5,
+              8,
+              12,
+              20,
+              22,
+              36,
+              40,
+              44,
+              49,
+              52,
+              63
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              12,
+              21,
+              27,
+              30,
+              31,
+              38,
+              44,
+              48,
+              52,
+              62,
+              67
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              4,
+              8,
+              23,
+              24,
+              26,
+              39,
+              41,
+              44,
+              51,
+              66
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 4,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 9,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 5,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 3,
+        "qtdNumeros": 11,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 149.68,
+        "vrCotaSemTarifa": 110.88,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1940.39,
+        "vrTarifaServicoCota": 38.8,
+        "vrTarifaServicoUltimaCota": 39.19,
+        "vrTotalBolaoComTarifa": 7484.39,
+        "vrTotalBolaoSemTarifa": 5544,
+        "vrUltimaCotaComTarifa": 150.07,
+        "vrUltimaCotaSemTarifa": 110.88
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961293434,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C3%96%5C%C2%B2%13%C3%B9%C2%B2%5D%C2%AA%C2%B3%C2%96%C2%B0%C3%A3%17Y:Z%1BY%0D%C3%88%C3%91%C3%A33O%C3%BE6%C2%87K%C2%B3%C3%B1%C3%BE%C3%8F!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:16.313",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              4,
+              14,
+              26,
+              30,
+              36,
+              38,
+              45,
+              51,
+              63,
+              70,
+              80
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              6,
+              7,
+              8,
+              17,
+              19,
+              24,
+              25,
+              37,
+              58,
+              73,
+              79
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              5,
+              10,
+              11,
+              16,
+              20,
+              47,
+              50,
+              69,
+              71,
+              76,
+              77
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              23,
+              42,
+              43,
+              44,
+              53,
+              59,
+              60,
+              61,
+              74,
+              78
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 4,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 12,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 5,
+        "qtdNumeros": 11,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 149.68,
+        "vrCotaSemTarifa": 110.88,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1940.39,
+        "vrTarifaServicoCota": 38.8,
+        "vrTarifaServicoUltimaCota": 39.19,
+        "vrTotalBolaoComTarifa": 7484.39,
+        "vrTotalBolaoSemTarifa": 5544,
+        "vrUltimaCotaComTarifa": 150.07,
+        "vrUltimaCotaSemTarifa": 110.88
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961295442,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%96%C2%9B%C3%87%2B~%C2%88%C2%AA%C2%8C%C3%B9%C2%8B%C2%98%0C%C3%A7%03%C2%93%15Kf%C3%8B%7B%C2%88%C2%B9-%C3%B3%19-v%19l~%C2%B2%C3%A0!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:17.620",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              6,
+              11,
+              17,
+              19,
+              29,
+              33,
+              39,
+              51,
+              57,
+              64,
+              79
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              2,
+              5,
+              18,
+              23,
+              25,
+              30,
+              41,
+              48,
+              55,
+              68,
+              71
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              2,
+              7,
+              16,
+              25,
+              33,
+              44,
+              51,
+              60,
+              68,
+              74,
+              79
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              12,
+              19,
+              28,
+              35,
+              42,
+              49,
+              58,
+              64,
+              70,
+              77
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 4,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 7,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 8,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 2,
+        "qtdNumeros": 11,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 149.68,
+        "vrCotaSemTarifa": 110.88,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1940.39,
+        "vrTarifaServicoCota": 38.8,
+        "vrTarifaServicoUltimaCota": 39.19,
+        "vrTotalBolaoComTarifa": 7484.39,
+        "vrTotalBolaoSemTarifa": 5544,
+        "vrUltimaCotaComTarifa": 150.07,
+        "vrUltimaCotaSemTarifa": 110.88
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961296704,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%25%C3%82%C2%A0%C3%A1%C2%97%C2%BB%085%C2%9E%11%C2%B3%C2%81H!JC4uO%C3%82%C3%B4%13%C3%8D%16(%C3%B2%C2%A9W8%C2%A3%C2%90%C2%94!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:19.381",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              1,
+              3,
+              4,
+              10,
+              24,
+              29,
+              37,
+              43,
+              50,
+              55,
+              66,
+              68
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              3,
+              6,
+              8,
+              10,
+              15,
+              21,
+              23,
+              37,
+              39,
+              45,
+              52
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 2,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 7,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 7,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 3,
+        "qtdNumeros": 12,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 128.3,
+        "vrCotaSemTarifa": 95.04,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1663.19,
+        "vrTarifaServicoCota": 33.26,
+        "vrTarifaServicoUltimaCota": 33.45,
+        "vrTotalBolaoComTarifa": 6415.19,
+        "vrTotalBolaoSemTarifa": 4752,
+        "vrUltimaCotaComTarifa": 128.49,
+        "vrUltimaCotaSemTarifa": 95.04
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961298489,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%2B%C2%81D%C3%98%C2%88%06O,%C3%9D%0C%C2%BC%60H%C2%B3%10%7F7%C2%9FN%3F%C2%AA%2F%0F'%13%C3%B19%C3%A6%17%17%C3%A5j!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:21.187",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              2,
+              6,
+              9,
+              14,
+              25,
+              33,
+              39,
+              47,
+              51,
+              54,
+              67,
+              73
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              5,
+              16,
+              22,
+              28,
+              35,
+              43,
+              54,
+              59,
+              66,
+              71,
+              79
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 2,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 7,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 9,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 1,
+        "qtdNumeros": 12,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 128.3,
+        "vrCotaSemTarifa": 95.04,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1663.19,
+        "vrTarifaServicoCota": 33.26,
+        "vrTarifaServicoUltimaCota": 33.45,
+        "vrTotalBolaoComTarifa": 6415.19,
+        "vrTotalBolaoSemTarifa": 4752,
+        "vrUltimaCotaComTarifa": 128.49,
+        "vrUltimaCotaSemTarifa": 95.04
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961300268,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1Ap%C2%BC%1A$%5B%C2%9CM%C3%89P%C3%8A%1FB'%C3%B9%C2%8C%C2%B8%C2%98%C3%9C_%C2%9E%C2%84CC%C2%8B%C2%97%C3%89%C2%857'S%C3%A7*!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:22.912",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              2,
+              11,
+              14,
+              17,
+              34,
+              38,
+              52,
+              57,
+              61,
+              64,
+              71,
+              78
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              4,
+              7,
+              18,
+              21,
+              23,
+              26,
+              33,
+              42,
+              45,
+              48,
+              78
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 2,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 7,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 8,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 2,
+        "qtdNumeros": 12,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 128.3,
+        "vrCotaSemTarifa": 95.04,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1663.19,
+        "vrTarifaServicoCota": 33.26,
+        "vrTarifaServicoUltimaCota": 33.45,
+        "vrTotalBolaoComTarifa": 6415.19,
+        "vrTotalBolaoSemTarifa": 4752,
+        "vrUltimaCotaComTarifa": 128.49,
+        "vrUltimaCotaSemTarifa": 95.04
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961301997,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%1AE%C2%AB%C3%9E%C3%8Fw%C3%AB%02%05%C2%9D%C3%A0%C3%BBs)%C3%8A%C2%8D%5D%C2%A5%C3%AAD%C2%8A%C2%96%09%19%0Ff%C3%99%C3%95@%C3%AB8!!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:24.739",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              6,
+              11,
+              19,
+              24,
+              28,
+              32,
+              37,
+              43,
+              49,
+              56,
+              58
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              3,
+              11,
+              15,
+              19,
+              32,
+              35,
+              37,
+              39,
+              55,
+              67,
+              69
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              2,
+              5,
+              10,
+              17,
+              23,
+              25,
+              41,
+              43,
+              63,
+              66,
+              71
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              6,
+              9,
+              24,
+              27,
+              30,
+              45,
+              48,
+              58,
+              60,
+              65,
+              68
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              3,
+              18,
+              20,
+              24,
+              31,
+              47,
+              50,
+              54,
+              58,
+              67,
+              80
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              14,
+              22,
+              26,
+              27,
+              34,
+              35,
+              42,
+              47,
+              53,
+              56,
+              58
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              4,
+              17,
+              23,
+              25,
+              34,
+              38,
+              39,
+              47,
+              49,
+              59,
+              60
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              5,
+              23,
+              36,
+              42,
+              45,
+              57,
+              64,
+              68,
+              79,
+              80
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              13,
+              21,
+              38,
+              41,
+              45,
+              46,
+              47,
+              54,
+              72,
+              73,
+              74
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              22,
+              25,
+              33,
+              36,
+              44,
+              45,
+              54,
+              56,
+              57,
+              64,
+              65
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": false,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 15,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 2,
+        "qtdNumeros": 11,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 374.22,
+        "vrCotaSemTarifa": 277.2,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 4851,
+        "vrTarifaServicoCota": 97.02,
+        "vrTarifaServicoUltimaCota": 97.02,
+        "vrTotalBolaoComTarifa": 18711,
+        "vrTotalBolaoSemTarifa": 13860,
+        "vrUltimaCotaComTarifa": 374.22,
+        "vrUltimaCotaSemTarifa": 277.2
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961304158,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%A9y%C3%AC%3D%1C%C2%8D%C2%95@%C2%93%C3%A0p+%C2%93%C3%B1%C3%9D%C3%9E%C2%BE%C3%B7%C3%88r%C2%B4-m%C2%B9%C3%BE%C3%8B%C2%91%C2%93%C2%8E%C2%8A%C3%95N!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:26.924",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              3,
+              11,
+              18,
+              27,
+              34,
+              41,
+              52,
+              59,
+              63,
+              71,
+              79
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              5,
+              9,
+              14,
+              22,
+              31,
+              38,
+              46,
+              57,
+              66,
+              73,
+              80
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              4,
+              9,
+              17,
+              23,
+              31,
+              38,
+              44,
+              52,
+              61,
+              73,
+              80
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              2,
+              8,
+              15,
+              21,
+              34,
+              39,
+              47,
+              55,
+              62,
+              71,
+              78
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 4,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 7,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 8,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 2,
+        "qtdNumeros": 11,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 149.68,
+        "vrCotaSemTarifa": 110.88,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1940.39,
+        "vrTarifaServicoCota": 38.8,
+        "vrTarifaServicoUltimaCota": 39.19,
+        "vrTotalBolaoComTarifa": 7484.39,
+        "vrTotalBolaoSemTarifa": 5544,
+        "vrUltimaCotaComTarifa": 150.07,
+        "vrUltimaCotaSemTarifa": 110.88
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961306035,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1Ax%C3%9C%C3%A5%C2%AA%C2%BCX%12S%C3%BC%C2%AB%C3%91P%C3%85%1C%C3%AB%C2%9BP*%C2%B7%C3%8F%C2%94c%C3%99%C2%B4%C3%97K3;r%C2%9A%C3%A3%7F!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:28.263",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              5,
+              6,
+              7,
+              13,
+              20,
+              26,
+              32,
+              38,
+              44,
+              50,
+              57
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              8,
+              9,
+              10,
+              17,
+              24,
+              30,
+              35,
+              41,
+              46,
+              52,
+              59
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              11,
+              12,
+              13,
+              19,
+              27,
+              34,
+              40,
+              45,
+              51,
+              58,
+              64
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              14,
+              15,
+              16,
+              22,
+              28,
+              36,
+              43,
+              49,
+              54,
+              61,
+              67
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              18,
+              19,
+              20,
+              25,
+              33,
+              39,
+              47,
+              53,
+              60,
+              66,
+              72
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              21,
+              22,
+              23,
+              29,
+              37,
+              42,
+              48,
+              55,
+              62,
+              68,
+              74
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              24,
+              25,
+              26,
+              31,
+              38,
+              44,
+              50,
+              57,
+              63,
+              69,
+              76
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              27,
+              28,
+              29,
+              34,
+              40,
+              46,
+              52,
+              58,
+              64,
+              70,
+              77
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              30,
+              31,
+              32,
+              36,
+              41,
+              47,
+              53,
+              59,
+              65,
+              71,
+              78
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              33,
+              34,
+              35,
+              37,
+              43,
+              48,
+              54,
+              60,
+              66,
+              73,
+              80
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": false,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 7,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 9,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 1,
+        "qtdNumeros": 11,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 374.22,
+        "vrCotaSemTarifa": 277.2,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 4851,
+        "vrTarifaServicoCota": 97.02,
+        "vrTarifaServicoUltimaCota": 97.02,
+        "vrTotalBolaoComTarifa": 18711,
+        "vrTotalBolaoSemTarifa": 13860,
+        "vrUltimaCotaComTarifa": 374.22,
+        "vrUltimaCotaSemTarifa": 277.2
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961307381,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%A5%11%C3%BBk4%C2%87%C2%92c%C3%84%5B;%C2%9Fx%C3%BB%C3%B1%C3%92%3F%C3%BA%C2%8DR%1FG%C3%B2%C3%9C@%C3%9B%5D%C2%9A%C2%AE%23%C3%AEu!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:30.018",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              1,
+              14,
+              16,
+              19,
+              22,
+              33,
+              36,
+              40,
+              41,
+              48,
+              53,
+              57
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              13,
+              24,
+              27,
+              29,
+              33,
+              45,
+              49,
+              51,
+              57,
+              64,
+              76,
+              79
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 2,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 6,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 9,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 2,
+        "qtdNumeros": 12,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 128.3,
+        "vrCotaSemTarifa": 95.04,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1663.19,
+        "vrTarifaServicoCota": 33.26,
+        "vrTarifaServicoUltimaCota": 33.45,
+        "vrTotalBolaoComTarifa": 6415.19,
+        "vrTotalBolaoSemTarifa": 4752,
+        "vrUltimaCotaComTarifa": 128.49,
+        "vrUltimaCotaSemTarifa": 95.04
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961309180,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1Am%C2%8B%C2%83~%C3%93%C3%B6%C2%80%C2%93%C2%BFI%C2%BC%C2%8D%C3%88%C3%A7ocSd%C2%BD%7F%C3%A3$%C2%AC%C2%AE%C2%81*%7F%7BT%C2%AC%5D%C3%80!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:31.937",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              1,
+              3,
+              6,
+              10,
+              12,
+              13,
+              21,
+              30,
+              42,
+              60,
+              62
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              4,
+              15,
+              20,
+              24,
+              35,
+              38,
+              43,
+              48,
+              57,
+              58,
+              68
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              2,
+              23,
+              26,
+              27,
+              29,
+              33,
+              36,
+              45,
+              46,
+              63,
+              66
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              7,
+              17,
+              40,
+              41,
+              49,
+              61,
+              71,
+              72,
+              77,
+              79,
+              80
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 4,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 2,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 13,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 2,
+        "qtdNumeros": 11,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 149.68,
+        "vrCotaSemTarifa": 110.88,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1940.39,
+        "vrTarifaServicoCota": 38.8,
+        "vrTarifaServicoUltimaCota": 39.19,
+        "vrTotalBolaoComTarifa": 7484.39,
+        "vrTotalBolaoSemTarifa": 5544,
+        "vrUltimaCotaComTarifa": 150.07,
+        "vrUltimaCotaSemTarifa": 110.88
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961311024,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%B2%C2%8F%C3%A7%C2%B1$%C3%81%C3%BA.O%5E%C3%B3b%C3%93w%C3%9E%C2%96Rg,%C2%99%C3%90%1Az%C3%B6)%C2%B9%C2%A6NQ%C3%96%C2%9Fl!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:33.530",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              10,
+              20,
+              25,
+              40,
+              42,
+              43,
+              51,
+              59,
+              63,
+              68,
+              77,
+              78
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              7,
+              9,
+              12,
+              13,
+              33,
+              46,
+              57,
+              70,
+              73,
+              77,
+              78,
+              80
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              3,
+              4,
+              7,
+              21,
+              23,
+              24,
+              30,
+              37,
+              39,
+              48,
+              50,
+              61
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              2,
+              8,
+              10,
+              19,
+              25,
+              33,
+              37,
+              39,
+              57,
+              58,
+              65,
+              75
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              5,
+              14,
+              21,
+              22,
+              38,
+              39,
+              45,
+              50,
+              55,
+              72,
+              79,
+              80
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              3,
+              20,
+              30,
+              41,
+              48,
+              53,
+              61,
+              65,
+              72,
+              74,
+              77,
+              79
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              3,
+              8,
+              25,
+              27,
+              31,
+              32,
+              33,
+              38,
+              39,
+              55,
+              59
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              2,
+              5,
+              7,
+              14,
+              22,
+              25,
+              29,
+              31,
+              33,
+              44,
+              58,
+              70
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              10,
+              11,
+              14,
+              15,
+              17,
+              38,
+              42,
+              47,
+              50,
+              53,
+              56,
+              64
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              3,
+              5,
+              7,
+              14,
+              16,
+              21,
+              29,
+              31,
+              37,
+              40,
+              48,
+              55
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": false,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 9,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 2,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 6,
+        "qtdNumeros": 12,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 641.52,
+        "vrCotaSemTarifa": 475.2,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 8316,
+        "vrTarifaServicoCota": 166.32,
+        "vrTarifaServicoUltimaCota": 166.32,
+        "vrTotalBolaoComTarifa": 32076,
+        "vrTotalBolaoSemTarifa": 23760,
+        "vrUltimaCotaComTarifa": 641.52,
+        "vrUltimaCotaSemTarifa": 475.2
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961312642,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%B9~%3D%C3%9A%C2%AE%C2%9A%C2%AE%C2%878%C2%BB%C3%A2%C3%A6%C2%93z%05%C2%B3N%7D%3CT%C3%96%C2%B7%C3%BCUe%1FY%C3%BBDw%60%C3%8A!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:35.266",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              3,
+              8,
+              15,
+              21,
+              27,
+              35,
+              41,
+              50,
+              57,
+              64,
+              76
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              4,
+              10,
+              17,
+              23,
+              32,
+              38,
+              46,
+              54,
+              61,
+              69,
+              77
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              9,
+              16,
+              24,
+              31,
+              37,
+              45,
+              53,
+              62,
+              71,
+              78
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              5,
+              12,
+              19,
+              26,
+              33,
+              40,
+              48,
+              55,
+              60,
+              67,
+              72
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 4,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 10,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 7,
+        "qtdNumeros": 11,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 149.68,
+        "vrCotaSemTarifa": 110.88,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1940.39,
+        "vrTarifaServicoCota": 38.8,
+        "vrTarifaServicoUltimaCota": 39.19,
+        "vrTotalBolaoComTarifa": 7484.39,
+        "vrTotalBolaoSemTarifa": 5544,
+        "vrUltimaCotaComTarifa": 150.07,
+        "vrUltimaCotaSemTarifa": 110.88
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961314317,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C3%BD%C2%A0%C2%A2O%06%C3%B1%C2%B1%C2%B9%C3%96%C2%A7%C3%9Bn%0A%C2%9E%C3%84%17%01%C2%BF%C2%9C%C2%A1%C2%8B%C2%BD%5C%C3%8Bo%C3%9E%C2%81v%C2%89%C2%A8O%C3%AD!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:37.035",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              1,
+              9,
+              15,
+              28,
+              33,
+              41,
+              60,
+              62,
+              66
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              4,
+              19,
+              27,
+              32,
+              34,
+              47,
+              59,
+              64,
+              67
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              6,
+              9,
+              12,
+              30,
+              39,
+              42,
+              56,
+              74,
+              80
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              5,
+              10,
+              12,
+              30,
+              37,
+              43,
+              68,
+              73,
+              76
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              3,
+              17,
+              21,
+              30,
+              33,
+              60,
+              65,
+              71,
+              74
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              20,
+              22,
+              30,
+              35,
+              48,
+              60,
+              63,
+              78
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              10,
+              14,
+              30,
+              47,
+              53,
+              70,
+              71,
+              76
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              4,
+              11,
+              20,
+              27,
+              42,
+              44,
+              50,
+              57,
+              72
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              7,
+              13,
+              29,
+              46,
+              52,
+              64,
+              70,
+              71,
+              77
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              6,
+              24,
+              37,
+              42,
+              50,
+              59,
+              61,
+              65,
+              67
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": false,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 1,
+        "qtdCotaDigital": 6,
+        "qtdCotaDisponivel": 1,
+        "qtdCotaFisica": 36,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 42,
+        "qtdCotaVendidas": 4,
+        "qtdNumeros": 9,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 121.5,
+        "vrCotaSemTarifa": 90,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1323,
+        "vrTarifaServicoCota": 31.5,
+        "vrTarifaServicoUltimaCota": 31.5,
+        "vrTotalBolaoComTarifa": 5103,
+        "vrTotalBolaoSemTarifa": 3780,
+        "vrUltimaCotaComTarifa": 121.5,
+        "vrUltimaCotaSemTarifa": 90
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961316094,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%A4%7C%C3%95%14;%C2%8C%C3%85%C3%8C%C3%81Z%C3%99%23%C2%91R%C2%AD%C2%AFb:%C3%A8%C2%A32%1DP%1A%C3%B9%1D%C2%86%C2%BEH%C3%9A%C2%A4%C2%82!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:39.009",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              6,
+              18,
+              24,
+              27,
+              35,
+              43,
+              53,
+              58,
+              62,
+              66,
+              71,
+              79
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              5,
+              14,
+              23,
+              32,
+              43,
+              44,
+              50,
+              55,
+              59,
+              66,
+              68,
+              77
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 2,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 7,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 5,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 5,
+        "qtdNumeros": 12,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 128.3,
+        "vrCotaSemTarifa": 95.04,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1663.19,
+        "vrTarifaServicoCota": 33.26,
+        "vrTarifaServicoUltimaCota": 33.45,
+        "vrTotalBolaoComTarifa": 6415.19,
+        "vrTotalBolaoSemTarifa": 4752,
+        "vrUltimaCotaComTarifa": 128.49,
+        "vrUltimaCotaSemTarifa": 95.04
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961318067,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C3%AB%C3%93%C3%9DOR_%0E%C2%8A%C2%8D%C2%AC%23%C2%8E$%C3%90%13a6%C3%8E%C2%9B%C3%A4(d%13n%C3%8F%C3%91N%C2%95N%C2%9E%C3%AAW!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:40.552",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              2,
+              4,
+              6,
+              8,
+              10,
+              11,
+              15,
+              45,
+              46
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              3,
+              5,
+              7,
+              10,
+              12,
+              14,
+              17,
+              19,
+              31
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              8,
+              10,
+              22,
+              28,
+              30,
+              34,
+              46,
+              58
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              11,
+              13,
+              16,
+              18,
+              20,
+              41,
+              44,
+              47,
+              50
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              2,
+              4,
+              7,
+              9,
+              21,
+              23,
+              25,
+              28,
+              67
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              3,
+              4,
+              23,
+              35,
+              48,
+              49,
+              74,
+              77,
+              80
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              6,
+              8,
+              11,
+              14,
+              16,
+              22,
+              28,
+              29,
+              32
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              4,
+              7,
+              9,
+              10,
+              11,
+              34,
+              47,
+              49
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              2,
+              4,
+              10,
+              14,
+              17,
+              27,
+              29,
+              31
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              12,
+              15,
+              17,
+              20,
+              31,
+              33,
+              55,
+              58,
+              60
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": false,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 1,
+        "qtdCotaDigital": 6,
+        "qtdCotaDisponivel": 5,
+        "qtdCotaFisica": 36,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 42,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 9,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 121.5,
+        "vrCotaSemTarifa": 90,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1323,
+        "vrTarifaServicoCota": 31.5,
+        "vrTarifaServicoUltimaCota": 31.5,
+        "vrTotalBolaoComTarifa": 5103,
+        "vrTotalBolaoSemTarifa": 3780,
+        "vrUltimaCotaComTarifa": 121.5,
+        "vrUltimaCotaSemTarifa": 90
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961319627,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C3%AF'%C3%BA%C3%B3%C2%88%C2%AA9J%C3%90%0F%C2%9E%0D%14%7C%C2%89%C2%9E%C3%9E!%C2%AA%2B%C2%9E%C2%AB%13%C2%BB1%C2%BEa%1Ao@%3E%10!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:42.413",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              1,
+              2,
+              3,
+              8,
+              14,
+              22,
+              27,
+              33,
+              37,
+              42,
+              47
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              4,
+              5,
+              6,
+              10,
+              15,
+              19,
+              23,
+              28,
+              34,
+              38,
+              43
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              7,
+              11,
+              16,
+              17,
+              18,
+              24,
+              29,
+              35,
+              39,
+              44,
+              48
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              9,
+              12,
+              20,
+              25,
+              30,
+              31,
+              32,
+              36,
+              40,
+              45,
+              50
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              13,
+              21,
+              26,
+              46,
+              51,
+              55,
+              59,
+              60,
+              61,
+              70,
+              74
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              17,
+              41,
+              52,
+              56,
+              62,
+              63,
+              64,
+              71,
+              75,
+              77,
+              80
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              53,
+              54,
+              57,
+              65,
+              66,
+              67,
+              68,
+              72,
+              76,
+              78,
+              79
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              3,
+              5,
+              7,
+              9,
+              11,
+              13,
+              15,
+              17,
+              19,
+              21
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              22,
+              26,
+              27,
+              28,
+              35,
+              54,
+              57,
+              61,
+              66,
+              71,
+              79
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              23,
+              30,
+              34,
+              38,
+              39,
+              40,
+              52,
+              56,
+              60,
+              63,
+              75
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": false,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 7,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 9,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 1,
+        "qtdNumeros": 11,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 374.22,
+        "vrCotaSemTarifa": 277.2,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 4851,
+        "vrTarifaServicoCota": 97.02,
+        "vrTarifaServicoUltimaCota": 97.02,
+        "vrTotalBolaoComTarifa": 18711,
+        "vrTotalBolaoSemTarifa": 13860,
+        "vrUltimaCotaComTarifa": 374.22,
+        "vrUltimaCotaSemTarifa": 277.2
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961321509,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%AA1yw%C3%968%C3%B0%C2%AF%C3%BA%0E%5B%C3%BF%C3%93%1F%C2%B8%C3%97%04CI%C2%99%3FV$%C3%91Y%C3%86P%02I.%C3%A1%0D!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:44.174",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              78,
+              79,
+              80
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              8,
+              9,
+              10,
+              18,
+              19,
+              33,
+              34,
+              35
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              31,
+              32
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              10,
+              20,
+              43,
+              44,
+              45,
+              47,
+              48,
+              50
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              10,
+              11,
+              21,
+              45,
+              50,
+              56,
+              57,
+              58
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              10,
+              11,
+              20,
+              30,
+              34,
+              71,
+              77,
+              78
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              5,
+              9,
+              25,
+              35,
+              45,
+              47,
+              57,
+              67,
+              77
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              9,
+              11,
+              16,
+              17,
+              18,
+              21,
+              31,
+              41
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              9,
+              10,
+              14,
+              24,
+              34,
+              44,
+              71,
+              72,
+              73
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              10,
+              30,
+              40,
+              50,
+              76,
+              77,
+              78,
+              79,
+              80
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": false,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 1,
+        "qtdCotaDigital": 6,
+        "qtdCotaDisponivel": 2,
+        "qtdCotaFisica": 36,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 42,
+        "qtdCotaVendidas": 3,
+        "qtdNumeros": 9,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 121.5,
+        "vrCotaSemTarifa": 90,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1323,
+        "vrTarifaServicoCota": 31.5,
+        "vrTarifaServicoUltimaCota": 31.5,
+        "vrTotalBolaoComTarifa": 5103,
+        "vrTotalBolaoSemTarifa": 3780,
+        "vrUltimaCotaComTarifa": 121.5,
+        "vrUltimaCotaSemTarifa": 90
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961323295,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1AMg-%C3%8DP%C3%83C%C2%BE@r%C2%9F%3E%1D%C2%8A%5E%C2%A3%028asz%C2%A8b%C3%81Qj%C2%A8%C2%992%22%1C%19!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:45.954",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              5,
+              14,
+              20,
+              22,
+              31,
+              36,
+              43,
+              51,
+              57,
+              66,
+              72,
+              77
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              3,
+              5,
+              18,
+              20,
+              23,
+              26,
+              35,
+              42,
+              50,
+              53,
+              65,
+              67
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 2,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 7,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 7,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 3,
+        "qtdNumeros": 12,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 128.3,
+        "vrCotaSemTarifa": 95.04,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1663.19,
+        "vrTarifaServicoCota": 33.26,
+        "vrTarifaServicoUltimaCota": 33.45,
+        "vrTotalBolaoComTarifa": 6415.19,
+        "vrTotalBolaoSemTarifa": 4752,
+        "vrUltimaCotaComTarifa": 128.49,
+        "vrUltimaCotaSemTarifa": 95.04
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961325024,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%BDyF-%C3%97y%C2%AB%1A%C3%AD%C3%A3%23$%C3%B9%C3%95%C3%97L%C2%A5C%C3%94%C2%B0@%C3%B0%C2%8F%C2%85%C3%85%C3%AC;%1D%C2%AC%C2%BEW%C2%A8!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-08T20:28:47.700",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              4,
+              10,
+              14,
+              19,
+              25,
+              28,
+              33,
+              36,
+              37,
+              44,
+              54,
+              75
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              2,
+              17,
+              23,
+              26,
+              28,
+              34,
+              39,
+              45,
+              50,
+              59,
+              68,
+              77
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 9833,
+        "lotericaFormatada": {
+          "bairro": "MEIRELES                                ",
+          "codigo": "05.009833-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 9833,
+          "idMunicipio": 440,
+          "idUF": 23,
+          "logradouro": "AV DOM LUIZ                                       ",
+          "nome": "LOTERIA ALDEOTA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERIA ALDEOTA",
+          "nomeMunicipio": "FORTALEZA                          ",
+          "nomeUF": "CEARA               ",
+          "numeroFormatado": "05.009833-0",
+          "polo": 5,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 23,
+            "digitoVerificador": 0,
+            "numero": 440
+          },
+          "nome": "FORTALEZA",
+          "uf": {
+            "id": 23,
+            "nome": "CEARA               ",
+            "sigla": "CE"
+          }
+        },
+        "nomeFantasia": "LOTERIA ALDEOTA",
+        "nomeRazaoSocial": "LOTERIA ALDEOTA LTDA",
+        "qtdApostas": 2,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 15,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 2,
+        "qtdNumeros": 12,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 23,
+          "nome": "CEARA               ",
+          "sigla": "CE"
+        },
+        "vrCotaComTarifa": 128.3,
+        "vrCotaSemTarifa": 95.04,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1663.19,
+        "vrTarifaServicoCota": 33.26,
+        "vrTarifaServicoUltimaCota": 33.45,
+        "vrTotalBolaoComTarifa": 6415.19,
+        "vrTotalBolaoSemTarifa": 4752,
+        "vrUltimaCotaComTarifa": 128.49,
+        "vrUltimaCotaSemTarifa": 95.04
+      },
+      "versao": "2.98.45.3"
+    },
+    "ts": 1780961326773,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%2BL%C3%83qJ%C3%96%C2%87%C3%8Es%C3%B6%C3%9B%C3%9Ao%C2%BBj%C3%AC%C3%A0E%C3%97%5E%C2%8BO%C3%B3%C3%A1%1E%C2%94OS%14%C2%9D%C2%8C%C3%97!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  }
+]

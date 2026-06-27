@@ -1,0 +1,6603 @@
+[
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:54:59.023",
+      "payload": {
+        "contemResiduo": false,
+        "cotas": [
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NDkyOTczNzsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": false,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 10,
+            "index": 2,
+            "loterica": 19676,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 53,
+                "digitoVerificador": 8,
+                "numero": 10
+              },
+              "nome": "BRASILIA",
+              "uf": {
+                "id": 53,
+                "nome": "DISTRITO FEDERAL    ",
+                "sigla": "DF"
+              }
+            },
+            "nomeFantasia": "LOTERICA LIGA DA SORTE",
+            "nomeRazaoSocial": "LOTERICA LIGA DA SORTE LTDA",
+            "numeroUF": 53,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 5,
+            "qtdCotaDigital": 5,
+            "qtdCotaDisponivel": 5,
+            "qtdCotaTotal": 15,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 7,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 53,
+              "nome": "DISTRITO FEDERAL    ",
+              "sigla": "DF"
+            },
+            "valorTarifaServico": 4.9,
+            "vrCotaComTarifa": 18.9,
+            "vrCotaSemTarifa": 14,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 4.9,
+            "vrUltimaCotaComTarifa": 18.9,
+            "vrUltimaCotaSemTarifa": 14
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NjE4MDMzMzsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": false,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 1520,
+            "index": 2,
+            "loterica": 7737,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 41,
+                "digitoVerificador": 0,
+                "numero": 1520
+              },
+              "nome": "MARINGA",
+              "uf": {
+                "id": 41,
+                "nome": "PARANA              ",
+                "sigla": "PR"
+              }
+            },
+            "nomeFantasia": "LOTERICA MANDACARU",
+            "nomeRazaoSocial": "LOTERICA MANDACARU LTDA",
+            "numeroUF": 41,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 4,
+            "qtdCotaDigital": 5,
+            "qtdCotaDisponivel": 2,
+            "qtdCotaTotal": 15,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 7,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 41,
+              "nome": "PARANA              ",
+              "sigla": "PR"
+            },
+            "valorTarifaServico": 3.92,
+            "vrCotaComTarifa": 15.12,
+            "vrCotaSemTarifa": 11.2,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 3.92,
+            "vrUltimaCotaComTarifa": 15.12,
+            "vrUltimaCotaSemTarifa": 11.2
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NTk0MjUxNDsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 1520,
+            "index": 2,
+            "loterica": 172,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 41,
+                "digitoVerificador": 0,
+                "numero": 1520
+              },
+              "nome": "MARINGA",
+              "uf": {
+                "id": 41,
+                "nome": "PARANA              ",
+                "sigla": "PR"
+              }
+            },
+            "nomeFantasia": "LOTERICA HERVAL",
+            "nomeRazaoSocial": "G. W. LOTERIAS LTDA",
+            "numeroUF": 41,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 10,
+            "qtdCotaDigital": 6,
+            "qtdCotaDisponivel": 6,
+            "qtdCotaTotal": 8,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 6,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 41,
+              "nome": "PARANA              ",
+              "sigla": "PR"
+            },
+            "valorTarifaServico": 2.62,
+            "vrCotaComTarifa": 10.12,
+            "vrCotaSemTarifa": 7.5,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 2.66,
+            "vrUltimaCotaComTarifa": 10.16,
+            "vrUltimaCotaSemTarifa": 7.5
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NjIzMTIwNjsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 3440,
+            "index": 2,
+            "loterica": 2802,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 31,
+                "digitoVerificador": 0,
+                "numero": 3440
+              },
+              "nome": "ITURAMA",
+              "uf": {
+                "id": 31,
+                "nome": "MINAS GERAIS        ",
+                "sigla": "MG"
+              }
+            },
+            "nomeFantasia": "ITURAMA LOTERICA",
+            "nomeRazaoSocial": "ITURAMA LOTERICA LTDA MATRIZ",
+            "numeroUF": 31,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 10,
+            "qtdCotaDigital": 8,
+            "qtdCotaDisponivel": 6,
+            "qtdCotaTotal": 8,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 6,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 31,
+              "nome": "MINAS GERAIS        ",
+              "sigla": "MG"
+            },
+            "valorTarifaServico": 2.62,
+            "vrCotaComTarifa": 10.12,
+            "vrCotaSemTarifa": 7.5,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 2.66,
+            "vrUltimaCotaComTarifa": 10.16,
+            "vrUltimaCotaSemTarifa": 7.5
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NDU4NjQwNDsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": false,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 10,
+            "index": 2,
+            "loterica": 1577,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 53,
+                "digitoVerificador": 8,
+                "numero": 10
+              },
+              "nome": "BRASILIA",
+              "uf": {
+                "id": 53,
+                "nome": "DISTRITO FEDERAL    ",
+                "sigla": "DF"
+              }
+            },
+            "nomeFantasia": "LOTERICA DEZENA PREMIADA",
+            "nomeRazaoSocial": "AGENCIA LOTERICA DEZENA PREMIADA LTDA",
+            "numeroUF": 53,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 2,
+            "qtdCotaDigital": 10,
+            "qtdCotaDisponivel": 9,
+            "qtdCotaTotal": 10,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 7,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 53,
+              "nome": "DISTRITO FEDERAL    ",
+              "sigla": "DF"
+            },
+            "valorTarifaServico": 2.94,
+            "vrCotaComTarifa": 11.34,
+            "vrCotaSemTarifa": 8.4,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 2.94,
+            "vrUltimaCotaComTarifa": 11.34,
+            "vrUltimaCotaSemTarifa": 8.4
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NjExMTIxNjsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 10,
+            "index": 2,
+            "loterica": 334,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 53,
+                "digitoVerificador": 8,
+                "numero": 10
+              },
+              "nome": "BRASILIA",
+              "uf": {
+                "id": 53,
+                "nome": "DISTRITO FEDERAL    ",
+                "sigla": "DF"
+              }
+            },
+            "nomeFantasia": "LOTERIAS LAGO NORTE",
+            "nomeRazaoSocial": "LOTERIAS LAGO NORTE",
+            "numeroUF": 53,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 10,
+            "qtdCotaDigital": 8,
+            "qtdCotaDisponivel": 8,
+            "qtdCotaTotal": 16,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 7,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 53,
+              "nome": "DISTRITO FEDERAL    ",
+              "sigla": "DF"
+            },
+            "valorTarifaServico": 9.18,
+            "vrCotaComTarifa": 35.43,
+            "vrCotaSemTarifa": 26.25,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 9.3,
+            "vrUltimaCotaComTarifa": 35.55,
+            "vrUltimaCotaSemTarifa": 26.25
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NjIyMTcwNjsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 870,
+            "index": 2,
+            "loterica": 3197,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 52,
+                "digitoVerificador": 7,
+                "numero": 870
+              },
+              "nome": "GOIANIA",
+              "uf": {
+                "id": 52,
+                "nome": "GOIAS               ",
+                "sigla": "GO"
+              }
+            },
+            "nomeFantasia": "JOGOS DA SORTE LOTERIAS",
+            "nomeRazaoSocial": "JOGOS DA SORTE LOTERIAS LTDA ME",
+            "numeroUF": 52,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 10,
+            "qtdCotaDigital": 8,
+            "qtdCotaDisponivel": 2,
+            "qtdCotaTotal": 8,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 6,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 52,
+              "nome": "GOIAS               ",
+              "sigla": "GO"
+            },
+            "valorTarifaServico": 2.62,
+            "vrCotaComTarifa": 10.12,
+            "vrCotaSemTarifa": 7.5,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 2.66,
+            "vrUltimaCotaComTarifa": 10.16,
+            "vrUltimaCotaSemTarifa": 7.5
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NDk5ODEwMjsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 1520,
+            "index": 2,
+            "loterica": 8273,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 41,
+                "digitoVerificador": 0,
+                "numero": 1520
+              },
+              "nome": "MARINGA",
+              "uf": {
+                "id": 41,
+                "nome": "PARANA              ",
+                "sigla": "PR"
+              }
+            },
+            "nomeFantasia": "LOTERICA NOVO CENTRO LTDA",
+            "nomeRazaoSocial": "LOTERICA NOVO CENTRO LTDA",
+            "numeroUF": 41,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 10,
+            "qtdCotaDigital": 8,
+            "qtdCotaDisponivel": 8,
+            "qtdCotaTotal": 8,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 6,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 41,
+              "nome": "PARANA              ",
+              "sigla": "PR"
+            },
+            "valorTarifaServico": 2.62,
+            "vrCotaComTarifa": 10.12,
+            "vrCotaSemTarifa": 7.5,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 2.66,
+            "vrUltimaCotaComTarifa": 10.16,
+            "vrUltimaCotaSemTarifa": 7.5
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NjQ1MDAwNDsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 620,
+            "index": 2,
+            "loterica": 18058,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 31,
+                "digitoVerificador": 0,
+                "numero": 620
+              },
+              "nome": "BELO HORIZONTE",
+              "uf": {
+                "id": 31,
+                "nome": "MINAS GERAIS        ",
+                "sigla": "MG"
+              }
+            },
+            "nomeFantasia": "VIA SORTE",
+            "nomeRazaoSocial": "VIA SORTE PAMPULHA LOTERICA LTDA",
+            "numeroUF": 31,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 10,
+            "qtdCotaDigital": 8,
+            "qtdCotaDisponivel": 6,
+            "qtdCotaTotal": 8,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 6,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 31,
+              "nome": "MINAS GERAIS        ",
+              "sigla": "MG"
+            },
+            "valorTarifaServico": 2.62,
+            "vrCotaComTarifa": 10.12,
+            "vrCotaSemTarifa": 7.5,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 2.66,
+            "vrUltimaCotaComTarifa": 10.16,
+            "vrUltimaCotaSemTarifa": 7.5
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NTIyNTQwODsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 7020,
+            "index": 2,
+            "loterica": 8052,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 31,
+                "digitoVerificador": 6,
+                "numero": 7020
+              },
+              "nome": "UBERLANDIA",
+              "uf": {
+                "id": 31,
+                "nome": "MINAS GERAIS        ",
+                "sigla": "MG"
+              }
+            },
+            "nomeFantasia": "CRISTAL LOTERIAS",
+            "nomeRazaoSocial": "CRISTAL LOTERIAS LTDA",
+            "numeroUF": 31,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 3,
+            "qtdCotaDigital": 10,
+            "qtdCotaDisponivel": 10,
+            "qtdCotaTotal": 10,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 7,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 31,
+              "nome": "MINAS GERAIS        ",
+              "sigla": "MG"
+            },
+            "valorTarifaServico": 4.4,
+            "vrCotaComTarifa": 17,
+            "vrCotaSemTarifa": 12.6,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 4.49,
+            "vrUltimaCotaComTarifa": 17.09,
+            "vrUltimaCotaSemTarifa": 12.6
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NDkwNzYwMTsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 1820,
+            "index": 2,
+            "loterica": 25466,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 17,
+                "digitoVerificador": 4,
+                "numero": 1820
+              },
+              "nome": "PORTO NACIONAL",
+              "uf": {
+                "id": 17,
+                "nome": "TOCANTINS           ",
+                "sigla": "TO"
+              }
+            },
+            "nomeFantasia": "LOTERICA E HOJE III",
+            "nomeRazaoSocial": "LOTERICA E HOJE A SUA SORTE LTDA",
+            "numeroUF": 17,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 10,
+            "qtdCotaDigital": 10,
+            "qtdCotaDisponivel": 10,
+            "qtdCotaTotal": 38,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 7,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 17,
+              "nome": "TOCANTINS           ",
+              "sigla": "TO"
+            },
+            "valorTarifaServico": 3.86,
+            "vrCotaComTarifa": 14.91,
+            "vrCotaSemTarifa": 11.05,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 4.18,
+            "vrUltimaCotaComTarifa": 15.33,
+            "vrUltimaCotaSemTarifa": 11.15
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NDIzODgwNzsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 455,
+            "index": 2,
+            "loterica": 21549,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 33,
+                "digitoVerificador": 7,
+                "numero": 455
+              },
+              "nome": "RIO DE JANEIRO",
+              "uf": {
+                "id": 33,
+                "nome": "RIO DE JANEIRO      ",
+                "sigla": "RJ"
+              }
+            },
+            "nomeFantasia": "VALE DO OURO",
+            "nomeRazaoSocial": "MELLO SANTOS LOTERIAS LTDA ME",
+            "numeroUF": 33,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 10,
+            "qtdCotaDigital": 8,
+            "qtdCotaDisponivel": 6,
+            "qtdCotaTotal": 8,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 6,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 33,
+              "nome": "RIO DE JANEIRO      ",
+              "sigla": "RJ"
+            },
+            "valorTarifaServico": 2.62,
+            "vrCotaComTarifa": 10.12,
+            "vrCotaSemTarifa": 7.5,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 2.66,
+            "vrUltimaCotaComTarifa": 10.16,
+            "vrUltimaCotaSemTarifa": 7.5
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NDYxNzg0MTsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": false,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 620,
+            "index": 2,
+            "loterica": 632,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 31,
+                "digitoVerificador": 0,
+                "numero": 620
+              },
+              "nome": "BELO HORIZONTE",
+              "uf": {
+                "id": 31,
+                "nome": "MINAS GERAIS        ",
+                "sigla": "MG"
+              }
+            },
+            "nomeFantasia": "AZ DE OURO",
+            "nomeRazaoSocial": "VIADUTO DA SORTE LOTERIAS LTDA",
+            "numeroUF": 31,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 10,
+            "qtdCotaDigital": 10,
+            "qtdCotaDisponivel": 10,
+            "qtdCotaTotal": 30,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 7,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 31,
+              "nome": "MINAS GERAIS        ",
+              "sigla": "MG"
+            },
+            "valorTarifaServico": 4.9,
+            "vrCotaComTarifa": 18.9,
+            "vrCotaSemTarifa": 14,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 4.9,
+            "vrUltimaCotaComTarifa": 18.9,
+            "vrUltimaCotaSemTarifa": 14
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NjI4MDMwOTsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 620,
+            "index": 2,
+            "loterica": 14292,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 31,
+                "digitoVerificador": 0,
+                "numero": 620
+              },
+              "nome": "BELO HORIZONTE",
+              "uf": {
+                "id": 31,
+                "nome": "MINAS GERAIS        ",
+                "sigla": "MG"
+              }
+            },
+            "nomeFantasia": "RICO LOTERIA",
+            "nomeRazaoSocial": "RICO LOTERIA LTDA",
+            "numeroUF": 31,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 10,
+            "qtdCotaDigital": 8,
+            "qtdCotaDisponivel": 8,
+            "qtdCotaTotal": 8,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 6,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 31,
+              "nome": "MINAS GERAIS        ",
+              "sigla": "MG"
+            },
+            "valorTarifaServico": 2.62,
+            "vrCotaComTarifa": 10.12,
+            "vrCotaSemTarifa": 7.5,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 2.66,
+            "vrUltimaCotaComTarifa": 10.16,
+            "vrUltimaCotaSemTarifa": 7.5
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NDk5NjAyNzsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 420,
+            "index": 2,
+            "loterica": 14107,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 28,
+                "digitoVerificador": 1,
+                "numero": 420
+              },
+              "nome": "MONTE ALEGRE DE SERGIPE",
+              "uf": {
+                "id": 28,
+                "nome": "SERGIPE             ",
+                "sigla": "SE"
+              }
+            },
+            "nomeFantasia": "LOTERIA SORTE SUA",
+            "nomeRazaoSocial": "LOTERIA SORTE SUA LTDA ME",
+            "numeroUF": 28,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 4,
+            "qtdCotaDigital": 13,
+            "qtdCotaDisponivel": 13,
+            "qtdCotaTotal": 46,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 8,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 28,
+              "nome": "SERGIPE             ",
+              "sigla": "SE"
+            },
+            "valorTarifaServico": 5.11,
+            "vrCotaComTarifa": 19.71,
+            "vrCotaSemTarifa": 14.6,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 5.25,
+            "vrUltimaCotaComTarifa": 20.25,
+            "vrUltimaCotaSemTarifa": 15
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NTQwNzMxMDsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 455,
+            "index": 2,
+            "loterica": 2279,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 33,
+                "digitoVerificador": 7,
+                "numero": 455
+              },
+              "nome": "RIO DE JANEIRO",
+              "uf": {
+                "id": 33,
+                "nome": "RIO DE JANEIRO      ",
+                "sigla": "RJ"
+              }
+            },
+            "nomeFantasia": "FAIM LOTERIAS LTDA",
+            "nomeRazaoSocial": "FAIM LOTERIAS LTDA-ME",
+            "numeroUF": 33,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 10,
+            "qtdCotaDigital": 35,
+            "qtdCotaDisponivel": 35,
+            "qtdCotaTotal": 40,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 7,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 33,
+              "nome": "RIO DE JANEIRO      ",
+              "sigla": "RJ"
+            },
+            "valorTarifaServico": 3.67,
+            "vrCotaComTarifa": 14.17,
+            "vrCotaSemTarifa": 10.5,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 3.87,
+            "vrUltimaCotaComTarifa": 14.37,
+            "vrUltimaCotaSemTarifa": 10.5
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NjQ0MDAwNDsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 455,
+            "index": 2,
+            "loterica": 2247,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 33,
+                "digitoVerificador": 7,
+                "numero": 455
+              },
+              "nome": "RIO DE JANEIRO",
+              "uf": {
+                "id": 33,
+                "nome": "RIO DE JANEIRO      ",
+                "sigla": "RJ"
+              }
+            },
+            "nomeFantasia": "CASA LOTERICA GRANDE LANCE LTDA",
+            "nomeRazaoSocial": "CASA LOTERICA GRANDE LANCE LTDA",
+            "numeroUF": 33,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 1,
+            "qtdCotaDigital": 36,
+            "qtdCotaDisponivel": 36,
+            "qtdCotaTotal": 36,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 9,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 33,
+              "nome": "RIO DE JANEIRO      ",
+              "sigla": "RJ"
+            },
+            "valorTarifaServico": 4.89,
+            "vrCotaComTarifa": 18.89,
+            "vrCotaSemTarifa": 14,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 5.24,
+            "vrUltimaCotaComTarifa": 19.24,
+            "vrUltimaCotaSemTarifa": 14
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NTk4MjcwNDsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 910,
+            "index": 2,
+            "loterica": 19670,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 42,
+                "digitoVerificador": 2,
+                "numero": 910
+              },
+              "nome": "JOINVILLE",
+              "uf": {
+                "id": 42,
+                "nome": "SANTA CATARINA      ",
+                "sigla": "SC"
+              }
+            },
+            "nomeFantasia": "LOTERICA MEGA SONHO",
+            "nomeRazaoSocial": "LOTERIAS ITINGA LTDA",
+            "numeroUF": 42,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 10,
+            "qtdCotaDigital": 8,
+            "qtdCotaDisponivel": 7,
+            "qtdCotaTotal": 8,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 6,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 42,
+              "nome": "SANTA CATARINA      ",
+              "sigla": "SC"
+            },
+            "valorTarifaServico": 2.62,
+            "vrCotaComTarifa": 10.12,
+            "vrCotaSemTarifa": 7.5,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 2.66,
+            "vrUltimaCotaComTarifa": 10.16,
+            "vrUltimaCotaSemTarifa": 7.5
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NTM2ODgyMDsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 2000,
+            "index": 2,
+            "loterica": 25975,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 43,
+                "digitoVerificador": 8,
+                "numero": 2000
+              },
+              "nome": "SAPUCAIA DO SUL",
+              "uf": {
+                "id": 43,
+                "nome": "RIO GRANDE DO SUL   ",
+                "sigla": "RS"
+              }
+            },
+            "nomeFantasia": "LOTERICA GIRASSOL",
+            "nomeRazaoSocial": "LOTERICA MONLEIA EIRELI",
+            "numeroUF": 43,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 10,
+            "qtdCotaDigital": 4,
+            "qtdCotaDisponivel": 4,
+            "qtdCotaTotal": 8,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 6,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 43,
+              "nome": "RIO GRANDE DO SUL   ",
+              "sigla": "RS"
+            },
+            "valorTarifaServico": 2.62,
+            "vrCotaComTarifa": 10.12,
+            "vrCotaSemTarifa": 7.5,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 2.66,
+            "vrUltimaCotaComTarifa": 10.16,
+            "vrUltimaCotaSemTarifa": 7.5
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NDIzMTk3NDsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 385,
+            "index": 2,
+            "loterica": 20457,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 51,
+                "digitoVerificador": 8,
+                "numero": 385
+              },
+              "nome": "GAUCHA DO NORTE",
+              "uf": {
+                "id": 51,
+                "nome": "MATO GROSSO         ",
+                "sigla": "MT"
+              }
+            },
+            "nomeFantasia": "LOTERICA GAUCHA DO NORTE",
+            "nomeRazaoSocial": "LOTERICA GAUCHA DO NORTE LTDA ME",
+            "numeroUF": 51,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 2,
+            "qtdCotaDigital": 6,
+            "qtdCotaDisponivel": 4,
+            "qtdCotaTotal": 6,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 7,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 51,
+              "nome": "MATO GROSSO         ",
+              "sigla": "MT"
+            },
+            "valorTarifaServico": 4.89,
+            "vrCotaComTarifa": 18.89,
+            "vrCotaSemTarifa": 14,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 4.95,
+            "vrUltimaCotaComTarifa": 18.95,
+            "vrUltimaCotaSemTarifa": 14
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NDI4OTUwOTsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 130,
+            "index": 2,
+            "loterica": 20513,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 32,
+                "digitoVerificador": 8,
+                "numero": 130
+              },
+              "nome": "CARIACICA",
+              "uf": {
+                "id": 32,
+                "nome": "ESPIRITO SANTO      ",
+                "sigla": "ES"
+              }
+            },
+            "nomeFantasia": "LOTERIA DAS AMERICA",
+            "nomeRazaoSocial": "LOTERIA DAS AMERICAS LTDA",
+            "numeroUF": 32,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 10,
+            "qtdCotaDigital": 8,
+            "qtdCotaDisponivel": 6,
+            "qtdCotaTotal": 8,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 6,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 32,
+              "nome": "ESPIRITO SANTO      ",
+              "sigla": "ES"
+            },
+            "valorTarifaServico": 2.62,
+            "vrCotaComTarifa": 10.12,
+            "vrCotaSemTarifa": 7.5,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 2.66,
+            "vrUltimaCotaComTarifa": 10.16,
+            "vrUltimaCotaSemTarifa": 7.5
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NTI2OTkwMjsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 150,
+            "index": 2,
+            "loterica": 12967,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 41,
+                "digitoVerificador": 7,
+                "numero": 150
+              },
+              "nome": "ARAPONGAS",
+              "uf": {
+                "id": 41,
+                "nome": "PARANA              ",
+                "sigla": "PR"
+              }
+            },
+            "nomeFantasia": "LOTERICA FLAMINGOS",
+            "nomeRazaoSocial": "M.A. DUTRA & CIA LTDA",
+            "numeroUF": 41,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 10,
+            "qtdCotaDigital": 8,
+            "qtdCotaDisponivel": 8,
+            "qtdCotaTotal": 8,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 6,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 41,
+              "nome": "PARANA              ",
+              "sigla": "PR"
+            },
+            "valorTarifaServico": 2.62,
+            "vrCotaComTarifa": 10.12,
+            "vrCotaSemTarifa": 7.5,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 2.66,
+            "vrUltimaCotaComTarifa": 10.16,
+            "vrUltimaCotaSemTarifa": 7.5
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NDc2NDgwNjsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": false,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 6250,
+            "index": 2,
+            "loterica": 2739,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 31,
+                "digitoVerificador": 0,
+                "numero": 6250
+              },
+              "nome": "SAO JOAO DEL REI",
+              "uf": {
+                "id": 31,
+                "nome": "MINAS GERAIS        ",
+                "sigla": "MG"
+              }
+            },
+            "nomeFantasia": "TIMOTHEO LOTERIAS",
+            "nomeRazaoSocial": "TIMOTHEO LOTERIAS LTDA",
+            "numeroUF": 31,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 5,
+            "qtdCotaDigital": 25,
+            "qtdCotaDisponivel": 5,
+            "qtdCotaTotal": 25,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 7,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 31,
+              "nome": "MINAS GERAIS        ",
+              "sigla": "MG"
+            },
+            "valorTarifaServico": 2.94,
+            "vrCotaComTarifa": 11.34,
+            "vrCotaSemTarifa": 8.4,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 2.94,
+            "vrUltimaCotaComTarifa": 11.34,
+            "vrUltimaCotaSemTarifa": 8.4
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NDc2OTYwOTsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 455,
+            "index": 2,
+            "loterica": 403,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 33,
+                "digitoVerificador": 7,
+                "numero": 455
+              },
+              "nome": "RIO DE JANEIRO",
+              "uf": {
+                "id": 33,
+                "nome": "RIO DE JANEIRO      ",
+                "sigla": "RJ"
+              }
+            },
+            "nomeFantasia": "TRILHA DA SORTE LOTERIA LTDA",
+            "nomeRazaoSocial": "TRILHA DA SORTE LOTERIA LTDA",
+            "numeroUF": 33,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 10,
+            "qtdCotaDigital": 8,
+            "qtdCotaDisponivel": 3,
+            "qtdCotaTotal": 8,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 6,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 33,
+              "nome": "RIO DE JANEIRO      ",
+              "sigla": "RJ"
+            },
+            "valorTarifaServico": 2.62,
+            "vrCotaComTarifa": 10.12,
+            "vrCotaSemTarifa": 7.5,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 2.66,
+            "vrUltimaCotaComTarifa": 10.16,
+            "vrUltimaCotaSemTarifa": 7.5
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NTAyNDk4NzsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 1500,
+            "index": 2,
+            "loterica": 10828,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 29,
+                "digitoVerificador": 7,
+                "numero": 1500
+              },
+              "nome": "ITAETE",
+              "uf": {
+                "id": 29,
+                "nome": "BAHIA               ",
+                "sigla": "BA"
+              }
+            },
+            "nomeFantasia": "MAPA DA MINA",
+            "nomeRazaoSocial": "LOTERICA MAPA DA MINA LTDA",
+            "numeroUF": 29,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 10,
+            "qtdCotaDigital": 8,
+            "qtdCotaDisponivel": 8,
+            "qtdCotaTotal": 8,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 6,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 29,
+              "nome": "BAHIA               ",
+              "sigla": "BA"
+            },
+            "valorTarifaServico": 2.62,
+            "vrCotaComTarifa": 10.12,
+            "vrCotaSemTarifa": 7.5,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 2.66,
+            "vrUltimaCotaComTarifa": 10.16,
+            "vrUltimaCotaSemTarifa": 7.5
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NjI4MDcwNzsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": false,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 140,
+            "index": 2,
+            "loterica": 17850,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 15,
+                "digitoVerificador": 2,
+                "numero": 140
+              },
+              "nome": "BELEM",
+              "uf": {
+                "id": 15,
+                "nome": "PARA                ",
+                "sigla": "PA"
+              }
+            },
+            "nomeFantasia": "ENCONTRO COM A SORTE",
+            "nomeRazaoSocial": "LOTERICA JUCARA E MESSIAS LTDA",
+            "numeroUF": 15,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 10,
+            "qtdCotaDigital": 2,
+            "qtdCotaDisponivel": 2,
+            "qtdCotaTotal": 2,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 7,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 15,
+              "nome": "PARA                ",
+              "sigla": "PA"
+            },
+            "valorTarifaServico": 73.5,
+            "vrCotaComTarifa": 283.5,
+            "vrCotaSemTarifa": 210,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 73.5,
+            "vrUltimaCotaComTarifa": 283.5,
+            "vrUltimaCotaSemTarifa": 210
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NDY5MDI1MDsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 50,
+            "index": 2,
+            "loterica": 18917,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 42,
+                "digitoVerificador": 7,
+                "numero": 50
+              },
+              "nome": "AGUAS DE CHAPECO",
+              "uf": {
+                "id": 42,
+                "nome": "SANTA CATARINA      ",
+                "sigla": "SC"
+              }
+            },
+            "nomeFantasia": "LOTERICA SANTA FE",
+            "nomeRazaoSocial": "LOTERICA ARENHARDT LTDA - ME",
+            "numeroUF": 42,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 10,
+            "qtdCotaDigital": 5,
+            "qtdCotaDisponivel": 5,
+            "qtdCotaTotal": 8,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 6,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 42,
+              "nome": "SANTA CATARINA      ",
+              "sigla": "SC"
+            },
+            "valorTarifaServico": 2.62,
+            "vrCotaComTarifa": 10.12,
+            "vrCotaSemTarifa": 7.5,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 2.66,
+            "vrUltimaCotaComTarifa": 10.16,
+            "vrUltimaCotaSemTarifa": 7.5
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NTAyOTEwMjsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": false,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 490,
+            "index": 2,
+            "loterica": 3235,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 33,
+                "digitoVerificador": 4,
+                "numero": 490
+              },
+              "nome": "SAO GONCALO",
+              "uf": {
+                "id": 33,
+                "nome": "RIO DE JANEIRO      ",
+                "sigla": "RJ"
+              }
+            },
+            "nomeFantasia": "NOVA CIDADE LOTERIA LTDA",
+            "nomeRazaoSocial": "NOVA CIDADE LOTERIA LTDA",
+            "numeroUF": 33,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 10,
+            "qtdCotaDigital": 5,
+            "qtdCotaDisponivel": 4,
+            "qtdCotaTotal": 5,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 6,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 33,
+              "nome": "RIO DE JANEIRO      ",
+              "sigla": "RJ"
+            },
+            "valorTarifaServico": 4.2,
+            "vrCotaComTarifa": 16.2,
+            "vrCotaSemTarifa": 12,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 4.2,
+            "vrUltimaCotaComTarifa": 16.2,
+            "vrUltimaCotaSemTarifa": 12
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NjIyMTMxNzsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": true,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 30,
+            "index": 2,
+            "loterica": 20477,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 28,
+                "digitoVerificador": 8,
+                "numero": 30
+              },
+              "nome": "ARACAJU",
+              "uf": {
+                "id": 28,
+                "nome": "SERGIPE             ",
+                "sigla": "SE"
+              }
+            },
+            "nomeFantasia": "ATALAIA DA SORTE",
+            "nomeRazaoSocial": "ATALAIA DA SORTE LOTERICA LTDA",
+            "numeroUF": 28,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 1,
+            "qtdCotaDigital": 11,
+            "qtdCotaDisponivel": 11,
+            "qtdCotaTotal": 12,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 8,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 28,
+              "nome": "SERGIPE             ",
+              "sigla": "SE"
+            },
+            "valorTarifaServico": 4.89,
+            "vrCotaComTarifa": 18.89,
+            "vrCotaSemTarifa": 14,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 5.01,
+            "vrUltimaCotaComTarifa": 19.01,
+            "vrUltimaCotaSemTarifa": 14
+          },
+          {
+            "codigoBolao": "MjAyNjs2OzQ2NDk3OTcwODsxMDYzNzs=",
+            "concurso": 3019,
+            "contemResiduo": false,
+            "dataSorteio": "16/06/2026",
+            "diaSorteio": "Terça-feira",
+            "horaSorteio": "21:00:00",
+            "idModalidade": 2,
+            "idMunicipio": 620,
+            "index": 2,
+            "loterica": 10434,
+            "lotericaFavorita": false,
+            "modalidade": "MEGA_SENA",
+            "municipio": {
+              "id": {
+                "codigoUF": 31,
+                "digitoVerificador": 0,
+                "numero": 620
+              },
+              "nome": "BELO HORIZONTE",
+              "uf": {
+                "id": 31,
+                "nome": "MINAS GERAIS        ",
+                "sigla": "MG"
+              }
+            },
+            "nomeFantasia": "REPUBLICA DOS SONHOS",
+            "nomeRazaoSocial": "LOTERIAS TAVARES LTDA",
+            "numeroUF": 31,
+            "operacaoExecutadaComSucesso": false,
+            "qtdApostas": 1,
+            "qtdCotaDigital": 7,
+            "qtdCotaDisponivel": 7,
+            "qtdCotaTotal": 8,
+            "qtdDuplosLoteca": 0,
+            "qtdNumeros": 8,
+            "qtdSimplesLoteca": 0,
+            "qtdTrevos": 0,
+            "qtdTriplosLoteca": 0,
+            "tipoConcurso": 1,
+            "uf": {
+              "id": 31,
+              "nome": "MINAS GERAIS        ",
+              "sigla": "MG"
+            },
+            "valorTarifaServico": 7.35,
+            "vrCotaComTarifa": 28.35,
+            "vrCotaSemTarifa": 21,
+            "vrPremioEstimado": 16000000,
+            "vrTarifaServicoUltimaCota": 7.35,
+            "vrUltimaCotaComTarifa": 28.35,
+            "vrUltimaCotaSemTarifa": 21
+          }
+        ],
+        "paginaAtual": 27,
+        "totalRegistros": 2011,
+        "ultimaPagina": 68,
+        "valorMenorCota": 3
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481296904,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL3JlY3VwZXJhci1ib2xvZXMtZGlzcG9uaXZlaXM=/?q=%5E%04%C2%B4%C3%AB%C2%82%C2%84%3D%C2%A3%0A%7D%C2%8D%C3%81e%C3%93%C3%A9%C2%BC~o%C3%A8t%C2%B8%C2%B6%2B%1F%C2%BD%18%C3%94%C2%A1N%C3%B3%C2%AD%C2%9A%C3%99%02%C3%A0%C2%93;9'%00%C3%90%C2%AF%C2%82q%19%C2%91(%C3%AF%5DUU%17Y%5D%C2%84%C2%BFHX%C2%AE%C2%A8E%C3%A0+%C2%A6%08z~p%C2%82R%C3%B5%C2%BA%C2%B8%5D%C2%82%C2%9B+%C3%BAz%C3%B8yK,D%C2%8C%C2%88%C2%BC%C2%A3%16%C3%BAS%C2%A8dz%5Cf%C2%81%C3%B41.2V%7D%C3%B8%C2%A7%C3%9D7%C3%81.%C3%B32*!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:55:11.727",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              4,
+              5,
+              25,
+              41,
+              50,
+              51,
+              55
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              15,
+              18,
+              25,
+              28,
+              34,
+              43,
+              51
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              2,
+              11,
+              12,
+              25,
+              30,
+              48
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              2,
+              7,
+              30,
+              38,
+              48,
+              50,
+              59
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              2,
+              8,
+              22,
+              27,
+              38,
+              47,
+              59
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": false,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 19676,
+        "lotericaFormatada": {
+          "bairro": "TAGUATINGA                              ",
+          "codigo": "04.019676-3",
+          "dv": 3,
+          "dvMunicipio": 8,
+          "id": 19676,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNB 13 LOTE 01 LOJA                               ",
+          "nome": "LOTERICA LIGA DA SORTE LTDA                                                                                        ",
+          "nomeFantasia": "LOTERICA LIGA DA SORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019676-3",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERICA LIGA DA SORTE",
+        "nomeRazaoSocial": "LOTERICA LIGA DA SORTE LTDA",
+        "qtdApostas": 5,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 5,
+        "qtdCotaDisponivel": 5,
+        "qtdCotaFisica": 10,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 15,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 7,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 18.9,
+        "vrCotaSemTarifa": 14,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 73.5,
+        "vrTarifaServicoCota": 4.9,
+        "vrTarifaServicoUltimaCota": 4.9,
+        "vrTotalBolaoComTarifa": 283.5,
+        "vrTotalBolaoSemTarifa": 210,
+        "vrUltimaCotaComTarifa": 18.9,
+        "vrUltimaCotaSemTarifa": 14
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481309469,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%089%22%C3%B4%C3%A5i@N%09%0B%23%12b%C2%A7D%14%0F%16%C2%B6%C2%9C%C2%BA%1F%12%7B%C2%9Dr%C2%B6B%C2%A9%C3%94%C2%9B;!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:55:14.144",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              9,
+              14,
+              26,
+              35,
+              37,
+              44,
+              57
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              6,
+              20,
+              30,
+              37,
+              47,
+              50,
+              51
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              10,
+              12,
+              15,
+              24,
+              29,
+              40,
+              49
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              2,
+              16,
+              18,
+              29,
+              30,
+              39,
+              48
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": false,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 7737,
+        "lotericaFormatada": {
+          "bairro": "JARDIM SEMINARIO                        ",
+          "codigo": "14.007737-5",
+          "dv": 5,
+          "dvMunicipio": 0,
+          "id": 7737,
+          "idMunicipio": 1520,
+          "idUF": 41,
+          "logradouro": "AV MANDACARU                                      ",
+          "nome": "LOTERICA MANDACARU LTDA                                                                                            ",
+          "nomeFantasia": "LOTERICA MANDACARU",
+          "nomeMunicipio": "MARINGA                            ",
+          "nomeUF": "PARANA              ",
+          "numeroFormatado": "14.007737-5",
+          "polo": 14,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 41,
+            "digitoVerificador": 0,
+            "numero": 1520
+          },
+          "nome": "MARINGA",
+          "uf": {
+            "id": 41,
+            "nome": "PARANA              ",
+            "sigla": "PR"
+          }
+        },
+        "nomeFantasia": "LOTERICA MANDACARU",
+        "nomeRazaoSocial": "LOTERICA MANDACARU LTDA",
+        "qtdApostas": 4,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 5,
+        "qtdCotaDisponivel": 2,
+        "qtdCotaFisica": 10,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 15,
+        "qtdCotaVendidas": 3,
+        "qtdNumeros": 7,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 41,
+          "nome": "PARANA              ",
+          "sigla": "PR"
+        },
+        "vrCotaComTarifa": 15.12,
+        "vrCotaSemTarifa": 11.2,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 58.8,
+        "vrTarifaServicoCota": 3.92,
+        "vrTarifaServicoUltimaCota": 3.92,
+        "vrTotalBolaoComTarifa": 226.8,
+        "vrTotalBolaoSemTarifa": 168,
+        "vrUltimaCotaComTarifa": 15.12,
+        "vrUltimaCotaSemTarifa": 11.2
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481311881,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1ASw%C3%AB(%C2%B1%02%C2%95%C3%84%C3%97%2B%1A%C3%9CN%22%C3%80H%C2%B3%C2%BF(%5C%C3%B0%C3%95%C2%BC%C3%8A%C3%B3d%C2%9C%07%C3%A0%C2%95)%C2%A8!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:55:16.537",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              23,
+              27,
+              48,
+              53,
+              55,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              17,
+              34,
+              44,
+              52,
+              56
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              15,
+              37,
+              43,
+              44,
+              52,
+              53
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              11,
+              13,
+              26,
+              37,
+              53,
+              59
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              12,
+              25,
+              37,
+              47,
+              50,
+              57
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              20,
+              26,
+              30,
+              32,
+              37,
+              57
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              13,
+              31,
+              49,
+              51,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              20,
+              27,
+              42,
+              43,
+              55
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              16,
+              19,
+              25,
+              36,
+              41,
+              52
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              13,
+              20,
+              35,
+              49,
+              56,
+              59
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 172,
+        "lotericaFormatada": {
+          "bairro": "CENTRO                                  ",
+          "codigo": "14.000172-7",
+          "dv": 7,
+          "dvMunicipio": 0,
+          "id": 172,
+          "idMunicipio": 1520,
+          "idUF": 41,
+          "logradouro": "AV HERVAL                                         ",
+          "nome": "G. W. LOTERIAS LTDA                                                                                                ",
+          "nomeFantasia": "LOTERICA HERVAL",
+          "nomeMunicipio": "MARINGA                            ",
+          "nomeUF": "PARANA              ",
+          "numeroFormatado": "14.000172-7",
+          "polo": 14,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 41,
+            "digitoVerificador": 0,
+            "numero": 1520
+          },
+          "nome": "MARINGA",
+          "uf": {
+            "id": 41,
+            "nome": "PARANA              ",
+            "sigla": "PR"
+          }
+        },
+        "nomeFantasia": "LOTERICA HERVAL",
+        "nomeRazaoSocial": "G. W. LOTERIAS LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 6,
+        "qtdCotaDisponivel": 6,
+        "qtdCotaFisica": 2,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 8,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 6,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 41,
+          "nome": "PARANA              ",
+          "sigla": "PR"
+        },
+        "vrCotaComTarifa": 10.12,
+        "vrCotaSemTarifa": 7.5,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 21,
+        "vrTarifaServicoCota": 2.62,
+        "vrTarifaServicoUltimaCota": 2.66,
+        "vrTotalBolaoComTarifa": 81,
+        "vrTotalBolaoSemTarifa": 60,
+        "vrUltimaCotaComTarifa": 10.16,
+        "vrUltimaCotaSemTarifa": 7.5
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481314291,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A7%C3%86%00%5Cz%0C%C2%84%C3%8B%0B%C3%AAh%15W%C2%92%C3%A9%C3%AD%C2%9BmSWC%C2%92%C2%B4%60%C3%98b%C3%A8g%C3%A1b%7B%C2%8F!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:55:18.925",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              10,
+              19,
+              25,
+              34,
+              37,
+              46
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              5,
+              11,
+              23,
+              37,
+              44,
+              53
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              13,
+              17,
+              24,
+              33,
+              41,
+              56
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              2,
+              15,
+              19,
+              24,
+              32,
+              42
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              6,
+              29,
+              50,
+              51,
+              52
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              11,
+              24,
+              25,
+              30,
+              52,
+              59
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              16,
+              21,
+              39,
+              40,
+              48,
+              51
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              2,
+              11,
+              20,
+              25,
+              27,
+              54
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              11,
+              31,
+              46,
+              49,
+              50,
+              52
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              2,
+              5,
+              9,
+              14,
+              21,
+              36
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 2802,
+        "lotericaFormatada": {
+          "bairro": "CENTRO                                  ",
+          "codigo": "11.002802-3",
+          "dv": 3,
+          "dvMunicipio": 0,
+          "id": 2802,
+          "idMunicipio": 3440,
+          "idUF": 31,
+          "logradouro": "AV CAMPINA VERDE 1373                             ",
+          "nome": "ITURAMA LOTERICA LTDA MATRIZ                                                                                       ",
+          "nomeFantasia": "ITURAMA LOTERICA",
+          "nomeMunicipio": "ITURAMA                            ",
+          "nomeUF": "MINAS GERAIS        ",
+          "numeroFormatado": "11.002802-3",
+          "polo": 11,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 31,
+            "digitoVerificador": 0,
+            "numero": 3440
+          },
+          "nome": "ITURAMA",
+          "uf": {
+            "id": 31,
+            "nome": "MINAS GERAIS        ",
+            "sigla": "MG"
+          }
+        },
+        "nomeFantasia": "ITURAMA LOTERICA",
+        "nomeRazaoSocial": "ITURAMA LOTERICA LTDA MATRIZ",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 1,
+        "qtdCotaDigital": 8,
+        "qtdCotaDisponivel": 6,
+        "qtdCotaFisica": 0,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 8,
+        "qtdCotaVendidas": 1,
+        "qtdNumeros": 6,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 31,
+          "nome": "MINAS GERAIS        ",
+          "sigla": "MG"
+        },
+        "vrCotaComTarifa": 10.12,
+        "vrCotaSemTarifa": 7.5,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 21,
+        "vrTarifaServicoCota": 2.62,
+        "vrTarifaServicoUltimaCota": 2.66,
+        "vrTotalBolaoComTarifa": 81,
+        "vrTotalBolaoSemTarifa": 60,
+        "vrUltimaCotaComTarifa": 10.16,
+        "vrUltimaCotaSemTarifa": 7.5
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481316672,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1AC%C3%AB%C3%92%C3%89%C2%9B6j%C2%9F%C3%88%1E%C2%A23%03%C3%89%14%03~c%1B%C2%A4w%C3%AB%2B%C2%9D%C2%88c%C2%80%C3%A2%C2%8A,%7Dz!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:55:21.326",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              3,
+              17,
+              30,
+              41,
+              44,
+              53,
+              54
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              6,
+              10,
+              13,
+              18,
+              31,
+              47
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": false,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 1577,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA CENTRO                        ",
+          "codigo": "04.001577-7",
+          "dv": 7,
+          "dvMunicipio": 8,
+          "id": 1577,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "CNN 01 BL E LJ                                    ",
+          "nome": "AGENCIA LOTERICA DEZENA PREMIADA LTDA                                                                              ",
+          "nomeFantasia": "LOTERICA DEZENA PREMIADA",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.001577-7",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERICA DEZENA PREMIADA",
+        "nomeRazaoSocial": "AGENCIA LOTERICA DEZENA PREMIADA LTDA",
+        "qtdApostas": 2,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 10,
+        "qtdCotaDisponivel": 9,
+        "qtdCotaFisica": 0,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 10,
+        "qtdCotaVendidas": 1,
+        "qtdNumeros": 7,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 11.34,
+        "vrCotaSemTarifa": 8.4,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 29.4,
+        "vrTarifaServicoCota": 2.94,
+        "vrTarifaServicoUltimaCota": 2.94,
+        "vrTotalBolaoComTarifa": 113.4,
+        "vrTotalBolaoSemTarifa": 84,
+        "vrUltimaCotaComTarifa": 11.34,
+        "vrUltimaCotaSemTarifa": 8.4
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481319054,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1AuJ)%C2%83%C3%95'%C3%95%C2%B1%15%C2%AEj%C2%9C$%7D%C3%94%C3%97%22%C2%82%C3%A5%C3%A9z%C3%91%C2%81%25%60%C2%A3%C2%A5%C2%9A%C3%A8s%C3%A9%C2%97!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:55:23.732",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              10,
+              15,
+              32,
+              38,
+              44,
+              46,
+              54
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              4,
+              11,
+              23,
+              30,
+              34,
+              41,
+              53
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              28,
+              33,
+              37,
+              42,
+              43,
+              56
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              10,
+              15,
+              20,
+              24,
+              30,
+              38
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              22,
+              24,
+              28,
+              29,
+              49,
+              57,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              11,
+              12,
+              19,
+              20,
+              52,
+              54,
+              55
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              22,
+              34,
+              40,
+              41,
+              51,
+              56,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              5,
+              13,
+              19,
+              28,
+              30,
+              39,
+              42
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              4,
+              6,
+              8,
+              14,
+              16,
+              26,
+              59
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              6,
+              25,
+              33,
+              38,
+              53,
+              54
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 334,
+        "lotericaFormatada": {
+          "bairro": "LAGO NORTE                              ",
+          "codigo": "04.000334-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 334,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "SHIN QI 02 LJ 13 A/E                              ",
+          "nome": "LOTERIAS LAGO NORTE                                                                                                ",
+          "nomeFantasia": "LOTERIAS LAGO NORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.000334-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS LAGO NORTE",
+        "nomeRazaoSocial": "LOTERIAS LAGO NORTE",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 8,
+        "qtdCotaDisponivel": 8,
+        "qtdCotaFisica": 8,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 16,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 7,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 35.43,
+        "vrCotaSemTarifa": 26.25,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 147,
+        "vrTarifaServicoCota": 9.18,
+        "vrTarifaServicoUltimaCota": 9.3,
+        "vrTotalBolaoComTarifa": 567,
+        "vrTotalBolaoSemTarifa": 420,
+        "vrUltimaCotaComTarifa": 35.55,
+        "vrUltimaCotaSemTarifa": 26.25
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481321473,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1AW%C2%B8%19%C3%BA%1E%C3%91%19%C2%82%C3%BD%C2%86%C2%B0%0F%C2%BF~!%60T;%C2%8E_g%C2%AF%C2%85%C3%96%C2%AF%C3%A1%C3%9C%1Ay%10%7C%C3%BA!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:55:26.128",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              13,
+              24,
+              36,
+              46,
+              47,
+              49
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              4,
+              11,
+              34,
+              45,
+              48
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              4,
+              16,
+              37,
+              43,
+              50,
+              59
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              4,
+              7,
+              23,
+              27,
+              33,
+              42
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              4,
+              7,
+              9,
+              19,
+              31,
+              56
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              7,
+              9,
+              28,
+              52,
+              59
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              5,
+              11,
+              24,
+              35,
+              37,
+              43
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              10,
+              15,
+              19,
+              24,
+              37,
+              57
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              2,
+              23,
+              27,
+              28,
+              42,
+              47
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              5,
+              18,
+              36,
+              39,
+              60
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 3197,
+        "lotericaFormatada": {
+          "bairro": "LOT NOVA VILA                           ",
+          "codigo": "08.003197-8",
+          "dv": 8,
+          "dvMunicipio": 7,
+          "id": 3197,
+          "idMunicipio": 870,
+          "idUF": 52,
+          "logradouro": "AV ARMANDO DE GODOY                               ",
+          "nome": "JOGOS DA SORTE LOTERIAS LTDA ME                                                                                    ",
+          "nomeFantasia": "JOGOS DA SORTE LOTERIAS",
+          "nomeMunicipio": "GOIANIA                            ",
+          "nomeUF": "GOIAS               ",
+          "numeroFormatado": "08.003197-8",
+          "polo": 8,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 52,
+            "digitoVerificador": 7,
+            "numero": 870
+          },
+          "nome": "GOIANIA",
+          "uf": {
+            "id": 52,
+            "nome": "GOIAS               ",
+            "sigla": "GO"
+          }
+        },
+        "nomeFantasia": "JOGOS DA SORTE LOTERIAS",
+        "nomeRazaoSocial": "JOGOS DA SORTE LOTERIAS LTDA ME",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 8,
+        "qtdCotaDisponivel": 2,
+        "qtdCotaFisica": 0,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 8,
+        "qtdCotaVendidas": 6,
+        "qtdNumeros": 6,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 52,
+          "nome": "GOIAS               ",
+          "sigla": "GO"
+        },
+        "vrCotaComTarifa": 10.12,
+        "vrCotaSemTarifa": 7.5,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 21,
+        "vrTarifaServicoCota": 2.62,
+        "vrTarifaServicoUltimaCota": 2.66,
+        "vrTotalBolaoComTarifa": 81,
+        "vrTotalBolaoSemTarifa": 60,
+        "vrUltimaCotaComTarifa": 10.16,
+        "vrUltimaCotaSemTarifa": 7.5
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481323871,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%BA7%C2%AFO%C3%81%08%0E%C3%A2%13%C2%80%C3%B4%0C!%00%C3%98%C2%AB%C3%880%17'%C3%B1%C2%8A'%C3%977%C3%82N%0BKbc%C2%BB!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:55:28.516",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              5,
+              9,
+              23,
+              27,
+              32,
+              33
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              5,
+              15,
+              30,
+              50,
+              53,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              5,
+              8,
+              19,
+              27,
+              31,
+              38
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              5,
+              19,
+              34,
+              43,
+              51
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              14,
+              26,
+              42,
+              50,
+              52,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              9,
+              19,
+              26,
+              28,
+              39,
+              52
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              4,
+              36,
+              45,
+              49,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              4,
+              21,
+              40,
+              45,
+              47,
+              54
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              13,
+              17,
+              28,
+              40,
+              44,
+              49
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              4,
+              29,
+              44,
+              48,
+              54,
+              60
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 8273,
+        "lotericaFormatada": {
+          "bairro": "NOVO CENTRO                             ",
+          "codigo": "14.008273-5",
+          "dv": 5,
+          "dvMunicipio": 0,
+          "id": 8273,
+          "idMunicipio": 1520,
+          "idUF": 41,
+          "logradouro": "AV. DUQUE DE CAXIAS                               ",
+          "nome": "LOTERICA NOVO CENTRO LTDA                                                                                          ",
+          "nomeFantasia": "LOTERICA NOVO CENTRO LTDA",
+          "nomeMunicipio": "MARINGA                            ",
+          "nomeUF": "PARANA              ",
+          "numeroFormatado": "14.008273-5",
+          "polo": 14,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 41,
+            "digitoVerificador": 0,
+            "numero": 1520
+          },
+          "nome": "MARINGA",
+          "uf": {
+            "id": 41,
+            "nome": "PARANA              ",
+            "sigla": "PR"
+          }
+        },
+        "nomeFantasia": "LOTERICA NOVO CENTRO LTDA",
+        "nomeRazaoSocial": "LOTERICA NOVO CENTRO LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 8,
+        "qtdCotaDisponivel": 8,
+        "qtdCotaFisica": 0,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 8,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 6,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 41,
+          "nome": "PARANA              ",
+          "sigla": "PR"
+        },
+        "vrCotaComTarifa": 10.12,
+        "vrCotaSemTarifa": 7.5,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 21,
+        "vrTarifaServicoCota": 2.62,
+        "vrTarifaServicoUltimaCota": 2.66,
+        "vrTotalBolaoComTarifa": 81,
+        "vrTotalBolaoSemTarifa": 60,
+        "vrUltimaCotaComTarifa": 10.16,
+        "vrUltimaCotaSemTarifa": 7.5
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481326258,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C3%AB%C2%BC%C2%8D%C2%8B%C2%AB%C3%8E%C2%B90%5CE%C3%84%C3%AE%C2%B3%C3%BF%C3%A3*%C3%AFUz;%1F%C3%8C%C2%94%C2%B2%C3%B0%C3%AA%C3%8Bz%3E%C2%8D%C3%82v!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:55:30.898",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              3,
+              9,
+              16,
+              18,
+              35,
+              38
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              14,
+              17,
+              32,
+              37,
+              39,
+              46
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              20,
+              24,
+              25,
+              43,
+              48,
+              55
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              11,
+              30,
+              31,
+              34,
+              52,
+              56
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              13,
+              21,
+              24,
+              47,
+              51,
+              54
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              2,
+              4,
+              37,
+              45,
+              54
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              6,
+              14,
+              41,
+              44,
+              53,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              13,
+              14,
+              19,
+              42,
+              45,
+              59
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              6,
+              10,
+              25,
+              26,
+              32,
+              47
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              5,
+              28,
+              35,
+              41,
+              46,
+              54
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 18058,
+        "lotericaFormatada": {
+          "bairro": "ITAPOA                                  ",
+          "codigo": "11.018058-5",
+          "dv": 5,
+          "dvMunicipio": 0,
+          "id": 18058,
+          "idMunicipio": 620,
+          "idUF": 31,
+          "logradouro": "AV DOM PEDRO I                                    ",
+          "nome": "VIA SORTE PAMPULHA LOTERICA LTDA                                                                                   ",
+          "nomeFantasia": "VIA SORTE",
+          "nomeMunicipio": "BELO HORIZONTE                     ",
+          "nomeUF": "MINAS GERAIS        ",
+          "numeroFormatado": "11.018058-5",
+          "polo": 11,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 31,
+            "digitoVerificador": 0,
+            "numero": 620
+          },
+          "nome": "BELO HORIZONTE",
+          "uf": {
+            "id": 31,
+            "nome": "MINAS GERAIS        ",
+            "sigla": "MG"
+          }
+        },
+        "nomeFantasia": "VIA SORTE",
+        "nomeRazaoSocial": "VIA SORTE PAMPULHA LOTERICA LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 8,
+        "qtdCotaDisponivel": 6,
+        "qtdCotaFisica": 0,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 8,
+        "qtdCotaVendidas": 2,
+        "qtdNumeros": 6,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 31,
+          "nome": "MINAS GERAIS        ",
+          "sigla": "MG"
+        },
+        "vrCotaComTarifa": 10.12,
+        "vrCotaSemTarifa": 7.5,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 21,
+        "vrTarifaServicoCota": 2.62,
+        "vrTarifaServicoUltimaCota": 2.66,
+        "vrTotalBolaoComTarifa": 81,
+        "vrTotalBolaoSemTarifa": 60,
+        "vrUltimaCotaComTarifa": 10.16,
+        "vrUltimaCotaSemTarifa": 7.5
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481328654,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1ABm%C2%93%C2%9F%C3%B9%C2%A8%C3%BDYe%C3%8FW%C2%86%5E%C2%BC%C2%98l7%C3%B8s%5B%C2%AC%C2%A5%C3%A1%C2%9C%1B%C3%BA%23w%C2%AB%C3%85)%08!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:55:33.307",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              3,
+              10,
+              23,
+              38,
+              54,
+              56,
+              59
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              14,
+              18,
+              23,
+              27,
+              44,
+              54,
+              55
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              4,
+              8,
+              10,
+              11,
+              32,
+              34,
+              35
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 8052,
+        "lotericaFormatada": {
+          "bairro": "BRASIL                                  ",
+          "codigo": "11.008052-1",
+          "dv": 1,
+          "dvMunicipio": 6,
+          "id": 8052,
+          "idMunicipio": 7020,
+          "idUF": 31,
+          "logradouro": "AV BRASIL                                         ",
+          "nome": "CRISTAL LOTERIAS LTDA                                                                                              ",
+          "nomeFantasia": "CRISTAL LOTERIAS",
+          "nomeMunicipio": "UBERLANDIA                         ",
+          "nomeUF": "MINAS GERAIS        ",
+          "numeroFormatado": "11.008052-1",
+          "polo": 11,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 31,
+            "digitoVerificador": 6,
+            "numero": 7020
+          },
+          "nome": "UBERLANDIA",
+          "uf": {
+            "id": 31,
+            "nome": "MINAS GERAIS        ",
+            "sigla": "MG"
+          }
+        },
+        "nomeFantasia": "CRISTAL LOTERIAS",
+        "nomeRazaoSocial": "CRISTAL LOTERIAS LTDA",
+        "qtdApostas": 3,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 10,
+        "qtdCotaDisponivel": 10,
+        "qtdCotaFisica": 0,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 10,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 7,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 31,
+          "nome": "MINAS GERAIS        ",
+          "sigla": "MG"
+        },
+        "vrCotaComTarifa": 17,
+        "vrCotaSemTarifa": 12.6,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 44.09,
+        "vrTarifaServicoCota": 4.4,
+        "vrTarifaServicoUltimaCota": 4.49,
+        "vrTotalBolaoComTarifa": 170.09,
+        "vrTotalBolaoSemTarifa": 126,
+        "vrUltimaCotaComTarifa": 17.09,
+        "vrUltimaCotaSemTarifa": 12.6
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481331040,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%9B%7Dwp2%C2%85Yx%04;-%C3%AAk6%5C%C2%87%C2%8B%C2%A2%C3%8F%C2%AD%C2%BF%C2%8B%C3%8B%C2%BC9)E%C3%87%13%C3%A3%18X!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:55:35.703",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              9,
+              10,
+              22,
+              23,
+              30,
+              45,
+              56
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              4,
+              20,
+              25,
+              39,
+              55,
+              57,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              25,
+              26,
+              33,
+              38,
+              41,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              14,
+              18,
+              25,
+              26,
+              42,
+              50,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              6,
+              12,
+              29,
+              34,
+              39,
+              55
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              12,
+              17,
+              22,
+              24,
+              27,
+              49,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              10,
+              12,
+              20,
+              23,
+              26,
+              37
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              4,
+              9,
+              17,
+              25,
+              41,
+              48,
+              57
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              9,
+              15,
+              25,
+              36,
+              47,
+              48,
+              56
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              7,
+              8,
+              23,
+              29,
+              44,
+              52,
+              54
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 25466,
+        "lotericaFormatada": {
+          "bairro": "JD EUROPA - LUZIMANGUES                 ",
+          "codigo": "23.025466-7",
+          "dv": 7,
+          "dvMunicipio": 4,
+          "id": 25466,
+          "idMunicipio": 1820,
+          "idUF": 17,
+          "logradouro": "ROD TO 080 LOTE 04 QD 01                          ",
+          "nome": "LOTERICA E HOJE A SUA SORTE LTDA                                                                                   ",
+          "nomeFantasia": "LOTERICA E HOJE III",
+          "nomeMunicipio": "PORTO NACIONAL                     ",
+          "nomeUF": "TOCANTINS           ",
+          "numeroFormatado": "23.025466-7",
+          "polo": 23,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 17,
+            "digitoVerificador": 4,
+            "numero": 1820
+          },
+          "nome": "PORTO NACIONAL",
+          "uf": {
+            "id": 17,
+            "nome": "TOCANTINS           ",
+            "sigla": "TO"
+          }
+        },
+        "nomeFantasia": "LOTERICA E HOJE III",
+        "nomeRazaoSocial": "LOTERICA E HOJE A SUA SORTE LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 10,
+        "qtdCotaDisponivel": 10,
+        "qtdCotaFisica": 28,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 38,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 7,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 17,
+          "nome": "TOCANTINS           ",
+          "sigla": "TO"
+        },
+        "vrCotaComTarifa": 14.91,
+        "vrCotaSemTarifa": 11.05,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 147,
+        "vrTarifaServicoCota": 3.86,
+        "vrTarifaServicoUltimaCota": 4.18,
+        "vrTotalBolaoComTarifa": 567,
+        "vrTotalBolaoSemTarifa": 420,
+        "vrUltimaCotaComTarifa": 15.33,
+        "vrUltimaCotaSemTarifa": 11.15
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481333439,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A(%02z%C2%93%C2%AF%2B%C3%86%C2%B1%C3%A6%10%C2%AE%C2%87%C3%BA%C2%B1%C2%B4%C2%9A%C2%BFU%13q%3Fw%2F%C2%A6%C2%B6wv%C3%96%C2%9AI%C3%AA%06!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:55:38.112",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              2,
+              16,
+              25,
+              30,
+              49,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              7,
+              12,
+              13,
+              15,
+              25,
+              52
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              4,
+              6,
+              22,
+              36,
+              39,
+              55
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              18,
+              27,
+              36,
+              47,
+              51,
+              53
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              8,
+              30,
+              33,
+              51,
+              53,
+              57
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              4,
+              11,
+              31,
+              41,
+              46,
+              56
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              31,
+              33,
+              43,
+              48,
+              59
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              23,
+              36,
+              37,
+              39,
+              40,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              2,
+              17,
+              42,
+              45,
+              49,
+              55
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              28,
+              30,
+              34,
+              47,
+              54,
+              58
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 21549,
+        "lotericaFormatada": {
+          "bairro": "CAVALCANTI                              ",
+          "codigo": "19.021549-6",
+          "dv": 6,
+          "dvMunicipio": 7,
+          "id": 21549,
+          "idMunicipio": 455,
+          "idUF": 33,
+          "logradouro": "RUA SILVA VALE                                    ",
+          "nome": "MELLO SANTOS LOTERIAS LTDA ME                                                                                      ",
+          "nomeFantasia": "VALE DO OURO",
+          "nomeMunicipio": "RIO DE JANEIRO                     ",
+          "nomeUF": "RIO DE JANEIRO      ",
+          "numeroFormatado": "19.021549-6",
+          "polo": 19,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 33,
+            "digitoVerificador": 7,
+            "numero": 455
+          },
+          "nome": "RIO DE JANEIRO",
+          "uf": {
+            "id": 33,
+            "nome": "RIO DE JANEIRO      ",
+            "sigla": "RJ"
+          }
+        },
+        "nomeFantasia": "VALE DO OURO",
+        "nomeRazaoSocial": "MELLO SANTOS LOTERIAS LTDA ME",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 8,
+        "qtdCotaDisponivel": 6,
+        "qtdCotaFisica": 0,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 8,
+        "qtdCotaVendidas": 2,
+        "qtdNumeros": 6,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 33,
+          "nome": "RIO DE JANEIRO      ",
+          "sigla": "RJ"
+        },
+        "vrCotaComTarifa": 10.12,
+        "vrCotaSemTarifa": 7.5,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 21,
+        "vrTarifaServicoCota": 2.62,
+        "vrTarifaServicoUltimaCota": 2.66,
+        "vrTotalBolaoComTarifa": 81,
+        "vrTotalBolaoSemTarifa": 60,
+        "vrUltimaCotaComTarifa": 10.16,
+        "vrUltimaCotaSemTarifa": 7.5
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481335853,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%7B%18%C3%9D%7C%C3%92@%C2%ADy%C2%847J3%16%C3%A6%C3%B6%3E%C2%BA%15%C2%80Q%60Y%C3%91%3E%C3%B9%C3%96%00%C2%91%0F%C2%84%19%C3%98!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:55:40.524",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              2,
+              11,
+              16,
+              21,
+              30,
+              32,
+              49
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              9,
+              12,
+              13,
+              15,
+              23,
+              46,
+              47
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              16,
+              45,
+              47,
+              52,
+              54,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              2,
+              8,
+              10,
+              29,
+              43,
+              56
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              7,
+              29,
+              38,
+              39,
+              41,
+              50
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              8,
+              10,
+              23,
+              29,
+              33,
+              42,
+              46
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              7,
+              10,
+              11,
+              24,
+              28,
+              29,
+              44
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              16,
+              19,
+              30,
+              33,
+              46,
+              56,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              5,
+              12,
+              14,
+              17,
+              27,
+              32,
+              42
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              5,
+              6,
+              9,
+              13,
+              41,
+              43,
+              59
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": false,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 632,
+        "lotericaFormatada": {
+          "bairro": "SAGRADA FAMILIA                         ",
+          "codigo": "11.000632-1",
+          "dv": 1,
+          "dvMunicipio": 0,
+          "id": 632,
+          "idMunicipio": 620,
+          "idUF": 31,
+          "logradouro": "AV CRISTIANO MACHADO                              ",
+          "nome": "VIADUTO DA SORTE LOTERIAS LTDA                                                                                     ",
+          "nomeFantasia": "AZ DE OURO",
+          "nomeMunicipio": "BELO HORIZONTE                     ",
+          "nomeUF": "MINAS GERAIS        ",
+          "numeroFormatado": "11.000632-1",
+          "polo": 11,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 31,
+            "digitoVerificador": 0,
+            "numero": 620
+          },
+          "nome": "BELO HORIZONTE",
+          "uf": {
+            "id": 31,
+            "nome": "MINAS GERAIS        ",
+            "sigla": "MG"
+          }
+        },
+        "nomeFantasia": "AZ DE OURO",
+        "nomeRazaoSocial": "VIADUTO DA SORTE LOTERIAS LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 10,
+        "qtdCotaDisponivel": 10,
+        "qtdCotaFisica": 20,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 30,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 7,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 31,
+          "nome": "MINAS GERAIS        ",
+          "sigla": "MG"
+        },
+        "vrCotaComTarifa": 18.9,
+        "vrCotaSemTarifa": 14,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 147,
+        "vrTarifaServicoCota": 4.9,
+        "vrTarifaServicoUltimaCota": 4.9,
+        "vrTotalBolaoComTarifa": 567,
+        "vrTotalBolaoSemTarifa": 420,
+        "vrUltimaCotaComTarifa": 18.9,
+        "vrUltimaCotaSemTarifa": 14
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481338279,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A'9%0C%C2%9C%C2%A9%C3%91%1Dm%C3%B5%C3%B9c%10%C3%9C7%C3%B9(%C2%95%C3%87%3E%C2%8A(%C2%B1rJJ%05.%C2%B9%C2%98Q%13%C2%AE!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:55:43.628",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              1,
+              24,
+              28,
+              44,
+              45,
+              49
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              9,
+              23,
+              44,
+              47,
+              53,
+              59
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              4,
+              12,
+              22,
+              30,
+              51,
+              54
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              6,
+              12,
+              16,
+              24,
+              28,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              18,
+              32,
+              44,
+              50,
+              58,
+              59
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              2,
+              15,
+              39,
+              40,
+              51,
+              55
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              20,
+              29,
+              30,
+              38,
+              39,
+              48
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              2,
+              7,
+              9,
+              10,
+              12,
+              19
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              25,
+              37,
+              47,
+              51,
+              54
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              15,
+              28,
+              37,
+              48,
+              52,
+              53
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 14292,
+        "lotericaFormatada": {
+          "bairro": "SANTA INES                              ",
+          "codigo": "11.014292-6",
+          "dv": 6,
+          "dvMunicipio": 0,
+          "id": 14292,
+          "idMunicipio": 620,
+          "idUF": 31,
+          "logradouro": "RUA MARCELINO FERREIRA                            ",
+          "nome": "RICO LOTERIA LTDA                                                                                                  ",
+          "nomeFantasia": "RICO LOTERIA",
+          "nomeMunicipio": "BELO HORIZONTE                     ",
+          "nomeUF": "MINAS GERAIS        ",
+          "numeroFormatado": "11.014292-6",
+          "polo": 11,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 31,
+            "digitoVerificador": 0,
+            "numero": 620
+          },
+          "nome": "BELO HORIZONTE",
+          "uf": {
+            "id": 31,
+            "nome": "MINAS GERAIS        ",
+            "sigla": "MG"
+          }
+        },
+        "nomeFantasia": "RICO LOTERIA",
+        "nomeRazaoSocial": "RICO LOTERIA LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 8,
+        "qtdCotaDisponivel": 8,
+        "qtdCotaFisica": 0,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 8,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 6,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 31,
+          "nome": "MINAS GERAIS        ",
+          "sigla": "MG"
+        },
+        "vrCotaComTarifa": 10.12,
+        "vrCotaSemTarifa": 7.5,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 21,
+        "vrTarifaServicoCota": 2.62,
+        "vrTarifaServicoUltimaCota": 2.66,
+        "vrTotalBolaoComTarifa": 81,
+        "vrTotalBolaoSemTarifa": 60,
+        "vrUltimaCotaComTarifa": 10.16,
+        "vrUltimaCotaSemTarifa": 7.5
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481341368,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C3%B3E%C3%8Dx%5E%C2%82%C3%A7%7C$N%C2%97z%C3%84A.%7D%04X%25m%181an%C2%A2%C2%AD%C2%BF%C3%B9%3E%C2%B2H%C2%B7!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:55:45.999",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              2,
+              13,
+              16,
+              18,
+              32,
+              40,
+              52,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              2,
+              18,
+              22,
+              26,
+              40,
+              47,
+              51,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              2,
+              15,
+              18,
+              20,
+              32,
+              39,
+              41,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              22,
+              24,
+              29,
+              31,
+              39,
+              40,
+              48,
+              56
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 14107,
+        "lotericaFormatada": {
+          "bairro": "CENTRO                                  ",
+          "codigo": "22.014107-0",
+          "dv": 0,
+          "dvMunicipio": 1,
+          "id": 14107,
+          "idMunicipio": 420,
+          "idUF": 28,
+          "logradouro": "AV. MANOEL ELIGIO DA  MOTA                        ",
+          "nome": "LOTERIA SORTE SUA LTDA ME                                                                                          ",
+          "nomeFantasia": "LOTERIA SORTE SUA",
+          "nomeMunicipio": "MONTE ALEGRE DE SERGIPE            ",
+          "nomeUF": "SERGIPE             ",
+          "numeroFormatado": "22.014107-0",
+          "polo": 22,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 28,
+            "digitoVerificador": 1,
+            "numero": 420
+          },
+          "nome": "MONTE ALEGRE DE SERGIPE",
+          "uf": {
+            "id": 28,
+            "nome": "SERGIPE             ",
+            "sigla": "SE"
+          }
+        },
+        "nomeFantasia": "LOTERIA SORTE SUA",
+        "nomeRazaoSocial": "LOTERIA SORTE SUA LTDA ME",
+        "qtdApostas": 4,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 13,
+        "qtdCotaDisponivel": 13,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 46,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 8,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 28,
+          "nome": "SERGIPE             ",
+          "sigla": "SE"
+        },
+        "vrCotaComTarifa": 19.71,
+        "vrCotaSemTarifa": 14.6,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 235.2,
+        "vrTarifaServicoCota": 5.11,
+        "vrTarifaServicoUltimaCota": 5.25,
+        "vrTotalBolaoComTarifa": 907.2,
+        "vrTotalBolaoSemTarifa": 672,
+        "vrUltimaCotaComTarifa": 20.25,
+        "vrUltimaCotaSemTarifa": 15
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481343736,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%A6KG7%7Bh%C2%B9%C3%9C%C3%A3%02F%C3%BC%C2%A77Z%C3%B7%C3%80g%C2%B0%C3%80%C3%87%25%C2%A6%3F%C3%A0%C3%B6%C2%92T%0BnG%C2%93!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:55:48.366",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              5,
+              10,
+              13,
+              27,
+              33,
+              45,
+              47
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              8,
+              15,
+              29,
+              31,
+              39,
+              42,
+              43
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              5,
+              7,
+              22,
+              25,
+              41,
+              48,
+              49
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              2,
+              4,
+              26,
+              36,
+              38,
+              49,
+              56
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              9,
+              10,
+              21,
+              23,
+              25,
+              31,
+              33
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              9,
+              14,
+              30,
+              35,
+              41,
+              49,
+              54
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              12,
+              20,
+              21,
+              27,
+              41,
+              49,
+              54
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              4,
+              7,
+              16,
+              22,
+              29,
+              36,
+              42
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              6,
+              9,
+              12,
+              17,
+              25,
+              31,
+              36
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              7,
+              12,
+              14,
+              22,
+              29,
+              33
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 2279,
+        "lotericaFormatada": {
+          "bairro": "BANGU                                   ",
+          "codigo": "19.002279-5",
+          "dv": 5,
+          "dvMunicipio": 7,
+          "id": 2279,
+          "idMunicipio": 455,
+          "idUF": 33,
+          "logradouro": "RUA SILVA CARDOSO                                 ",
+          "nome": "FAIM LOTERIAS LTDA-ME                                                                                              ",
+          "nomeFantasia": "FAIM LOTERIAS LTDA",
+          "nomeMunicipio": "RIO DE JANEIRO                     ",
+          "nomeUF": "RIO DE JANEIRO      ",
+          "numeroFormatado": "19.002279-5",
+          "polo": 19,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 33,
+            "digitoVerificador": 7,
+            "numero": 455
+          },
+          "nome": "RIO DE JANEIRO",
+          "uf": {
+            "id": 33,
+            "nome": "RIO DE JANEIRO      ",
+            "sigla": "RJ"
+          }
+        },
+        "nomeFantasia": "FAIM LOTERIAS LTDA",
+        "nomeRazaoSocial": "FAIM LOTERIAS LTDA-ME",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 35,
+        "qtdCotaDisponivel": 35,
+        "qtdCotaFisica": 5,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 40,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 7,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 33,
+          "nome": "RIO DE JANEIRO      ",
+          "sigla": "RJ"
+        },
+        "vrCotaComTarifa": 14.17,
+        "vrCotaSemTarifa": 10.5,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 147,
+        "vrTarifaServicoCota": 3.67,
+        "vrTarifaServicoUltimaCota": 3.87,
+        "vrTotalBolaoComTarifa": 567,
+        "vrTotalBolaoSemTarifa": 420,
+        "vrUltimaCotaComTarifa": 14.37,
+        "vrUltimaCotaSemTarifa": 10.5
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481346099,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1AY%C2%8A%C2%98%C2%8C%C3%91M%C3%83%1F%C3%A3%C3%89%C3%91%C2%98%C3%B8%C3%93G%C3%B9%C3%A7pLH%C3%90_%C2%BC;%5C%C2%AB%03%06%16%C3%9C%25u!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:55:50.729",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              4,
+              11,
+              15,
+              24,
+              32,
+              33,
+              40,
+              44,
+              58
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 2247,
+        "lotericaFormatada": {
+          "bairro": "CAMPO GRANDE                            ",
+          "codigo": "19.002247-7",
+          "dv": 7,
+          "dvMunicipio": 7,
+          "id": 2247,
+          "idMunicipio": 455,
+          "idUF": 33,
+          "logradouro": "R AURELIO FIGUEIREDO                              ",
+          "nome": "CASA LOTERICA GRANDE LANCE LTDA                                                                                    ",
+          "nomeFantasia": "CASA LOTERICA GRANDE LANCE LTDA",
+          "nomeMunicipio": "RIO DE JANEIRO                     ",
+          "nomeUF": "RIO DE JANEIRO      ",
+          "numeroFormatado": "19.002247-7",
+          "polo": 19,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 33,
+            "digitoVerificador": 7,
+            "numero": 455
+          },
+          "nome": "RIO DE JANEIRO",
+          "uf": {
+            "id": 33,
+            "nome": "RIO DE JANEIRO      ",
+            "sigla": "RJ"
+          }
+        },
+        "nomeFantasia": "CASA LOTERICA GRANDE LANCE LTDA",
+        "nomeRazaoSocial": "CASA LOTERICA GRANDE LANCE LTDA",
+        "qtdApostas": 1,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 36,
+        "qtdCotaDisponivel": 36,
+        "qtdCotaFisica": 0,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 36,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 9,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 33,
+          "nome": "RIO DE JANEIRO      ",
+          "sigla": "RJ"
+        },
+        "vrCotaComTarifa": 18.89,
+        "vrCotaSemTarifa": 14,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 176.39,
+        "vrTarifaServicoCota": 4.89,
+        "vrTarifaServicoUltimaCota": 5.24,
+        "vrTotalBolaoComTarifa": 680.39,
+        "vrTotalBolaoSemTarifa": 504,
+        "vrUltimaCotaComTarifa": 19.24,
+        "vrUltimaCotaSemTarifa": 14
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481348457,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%10%C3%812%C3%B3i%C2%84%7D%3E%C3%96%2B%C2%BB%C2%B1%C3%9B%C3%A3%C3%A3%C3%A4FH%C2%85%11%C2%A7%22%16%C3%91%C2%A0%C2%8A%C2%B1k8%7D%C3%93u!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:55:53.099",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              4,
+              15,
+              28,
+              35,
+              41,
+              57
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              21,
+              22,
+              25,
+              30,
+              44,
+              48
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              9,
+              25,
+              34,
+              46,
+              56
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              21,
+              32,
+              34,
+              41,
+              43
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              4,
+              6,
+              33,
+              41,
+              55,
+              56
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              14,
+              16,
+              17,
+              24,
+              45,
+              51
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              8,
+              23,
+              24,
+              44,
+              49,
+              53
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              4,
+              9,
+              29,
+              35,
+              47,
+              50
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              5,
+              18,
+              23,
+              36,
+              48
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              4,
+              7,
+              8,
+              20,
+              21,
+              27
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 19670,
+        "lotericaFormatada": {
+          "bairro": "ITINGA                                  ",
+          "codigo": "20.019670-7",
+          "dv": 7,
+          "dvMunicipio": 2,
+          "id": 19670,
+          "idMunicipio": 910,
+          "idUF": 42,
+          "logradouro": "R WALDEMIRO JOSE BORGES                           ",
+          "nome": "LOTERIAS ITINGA LTDA                                                                                               ",
+          "nomeFantasia": "LOTERICA MEGA SONHO",
+          "nomeMunicipio": "JOINVILLE                          ",
+          "nomeUF": "SANTA CATARINA      ",
+          "numeroFormatado": "20.019670-7",
+          "polo": 20,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 42,
+            "digitoVerificador": 2,
+            "numero": 910
+          },
+          "nome": "JOINVILLE",
+          "uf": {
+            "id": 42,
+            "nome": "SANTA CATARINA      ",
+            "sigla": "SC"
+          }
+        },
+        "nomeFantasia": "LOTERICA MEGA SONHO",
+        "nomeRazaoSocial": "LOTERIAS ITINGA LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 8,
+        "qtdCotaDisponivel": 7,
+        "qtdCotaFisica": 0,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 8,
+        "qtdCotaVendidas": 1,
+        "qtdNumeros": 6,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 42,
+          "nome": "SANTA CATARINA      ",
+          "sigla": "SC"
+        },
+        "vrCotaComTarifa": 10.12,
+        "vrCotaSemTarifa": 7.5,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 21,
+        "vrTarifaServicoCota": 2.62,
+        "vrTarifaServicoUltimaCota": 2.66,
+        "vrTotalBolaoComTarifa": 81,
+        "vrTotalBolaoSemTarifa": 60,
+        "vrUltimaCotaComTarifa": 10.16,
+        "vrUltimaCotaSemTarifa": 7.5
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481350843,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1AP%C2%8C%C2%BE;hz%C3%94%C2%97%5D%C3%BA'%C3%BBa%C3%9B%C2%95L%3E%C3%9D%0F*%1E%19y_o%C3%B5%C2%AF9%C3%99X%C3%87%0F!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:55:55.493",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              11,
+              12,
+              21,
+              31,
+              34,
+              48
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              8,
+              25,
+              34,
+              45,
+              46,
+              52
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              4,
+              8,
+              42,
+              52,
+              57,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              7,
+              44,
+              54,
+              58,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              13,
+              15,
+              20,
+              42,
+              46,
+              50
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              5,
+              9,
+              23,
+              25,
+              33,
+              43
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              8,
+              28,
+              29,
+              39,
+              48,
+              49
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              6,
+              23,
+              45,
+              46,
+              47,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              19,
+              27,
+              34,
+              36,
+              46
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              7,
+              10,
+              11,
+              39,
+              56,
+              59
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 25975,
+        "lotericaFormatada": {
+          "bairro": "CENTRO                                  ",
+          "codigo": "18.025975-0",
+          "dv": 0,
+          "dvMunicipio": 8,
+          "id": 25975,
+          "idMunicipio": 2000,
+          "idUF": 43,
+          "logradouro": "AV LUCIO BITTENCOURT                              ",
+          "nome": "LOTERICA MONLEIA EIRELI                                                                                            ",
+          "nomeFantasia": "LOTERICA GIRASSOL",
+          "nomeMunicipio": "SAPUCAIA DO SUL                    ",
+          "nomeUF": "RIO GRANDE DO SUL   ",
+          "numeroFormatado": "18.025975-0",
+          "polo": 18,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 43,
+            "digitoVerificador": 8,
+            "numero": 2000
+          },
+          "nome": "SAPUCAIA DO SUL",
+          "uf": {
+            "id": 43,
+            "nome": "RIO GRANDE DO SUL   ",
+            "sigla": "RS"
+          }
+        },
+        "nomeFantasia": "LOTERICA GIRASSOL",
+        "nomeRazaoSocial": "LOTERICA MONLEIA EIRELI",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 4,
+        "qtdCotaDisponivel": 4,
+        "qtdCotaFisica": 4,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 8,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 6,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 43,
+          "nome": "RIO GRANDE DO SUL   ",
+          "sigla": "RS"
+        },
+        "vrCotaComTarifa": 10.12,
+        "vrCotaSemTarifa": 7.5,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 21,
+        "vrTarifaServicoCota": 2.62,
+        "vrTarifaServicoUltimaCota": 2.66,
+        "vrTotalBolaoComTarifa": 81,
+        "vrTotalBolaoSemTarifa": 60,
+        "vrUltimaCotaComTarifa": 10.16,
+        "vrUltimaCotaSemTarifa": 7.5
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481353226,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%00PI%C2%8C%C3%84%C2%94%C2%BA%C3%B5j%7CC%C3%BD%C2%B4@y2%C3%A4%C3%83%C2%8D%C2%B3%C3%9E2%C3%9C%C3%89,f%071%7D%C2%94.%C2%98!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:55:58.007",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              7,
+              10,
+              24,
+              28,
+              39,
+              44,
+              50
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              4,
+              17,
+              40,
+              41,
+              52,
+              56
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 20457,
+        "lotericaFormatada": {
+          "bairro": "CENTRO                                  ",
+          "codigo": "10.020457-0",
+          "dv": 0,
+          "dvMunicipio": 8,
+          "id": 20457,
+          "idMunicipio": 385,
+          "idUF": 51,
+          "logradouro": "RUA CUIABA                                        ",
+          "nome": "LOTERICA GAUCHA DO NORTE LTDA ME                                                                                   ",
+          "nomeFantasia": "LOTERICA GAUCHA DO NORTE",
+          "nomeMunicipio": "GAUCHA DO NORTE                    ",
+          "nomeUF": "MATO GROSSO         ",
+          "numeroFormatado": "10.020457-0",
+          "polo": 10,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 51,
+            "digitoVerificador": 8,
+            "numero": 385
+          },
+          "nome": "GAUCHA DO NORTE",
+          "uf": {
+            "id": 51,
+            "nome": "MATO GROSSO         ",
+            "sigla": "MT"
+          }
+        },
+        "nomeFantasia": "LOTERICA GAUCHA DO NORTE",
+        "nomeRazaoSocial": "LOTERICA GAUCHA DO NORTE LTDA ME",
+        "qtdApostas": 2,
+        "qtdCotaBaixadas": 1,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 6,
+        "qtdCotaDisponivel": 4,
+        "qtdCotaFisica": 0,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 6,
+        "qtdCotaVendidas": 1,
+        "qtdNumeros": 7,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 51,
+          "nome": "MATO GROSSO         ",
+          "sigla": "MT"
+        },
+        "vrCotaComTarifa": 18.89,
+        "vrCotaSemTarifa": 14,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 29.4,
+        "vrTarifaServicoCota": 4.89,
+        "vrTarifaServicoUltimaCota": 4.95,
+        "vrTotalBolaoComTarifa": 113.4,
+        "vrTotalBolaoSemTarifa": 84,
+        "vrUltimaCotaComTarifa": 18.95,
+        "vrUltimaCotaSemTarifa": 14
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481355751,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%A0f%13%C2%A5%C3%8E%C3%AF%C2%BF%17%C3%AE%C2%A9%C2%B2%C3%9A:%C2%88S%25%C2%87Kf%C2%88%C3%BC%C2%9E%C2%BA6%3E%06x%C3%89%C2%AEr%C3%84%C2%8E!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:56:00.179",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              1,
+              5,
+              34,
+              40,
+              45,
+              55
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              19,
+              20,
+              36,
+              48,
+              50,
+              59
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              6,
+              22,
+              28,
+              31,
+              33,
+              44
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              15,
+              25,
+              29,
+              31,
+              46,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              11,
+              17,
+              31,
+              34,
+              59
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              8,
+              14,
+              42,
+              44,
+              55
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              2,
+              19,
+              20,
+              36,
+              54
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              7,
+              12,
+              18,
+              58,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              28,
+              30,
+              43,
+              50,
+              56,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              12,
+              34,
+              38,
+              44,
+              47,
+              53
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 20513,
+        "lotericaFormatada": {
+          "bairro": "JARDIM AMERICA                          ",
+          "codigo": "06.020513-0",
+          "dv": 0,
+          "dvMunicipio": 8,
+          "id": 20513,
+          "idMunicipio": 130,
+          "idUF": 32,
+          "logradouro": "AV ESPIRITO SANTO                                 ",
+          "nome": "LOTERIA DAS AMERICAS LTDA                                                                                          ",
+          "nomeFantasia": "LOTERIA DAS AMERICA",
+          "nomeMunicipio": "CARIACICA                          ",
+          "nomeUF": "ESPIRITO SANTO      ",
+          "numeroFormatado": "06.020513-0",
+          "polo": 6,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 32,
+            "digitoVerificador": 8,
+            "numero": 130
+          },
+          "nome": "CARIACICA",
+          "uf": {
+            "id": 32,
+            "nome": "ESPIRITO SANTO      ",
+            "sigla": "ES"
+          }
+        },
+        "nomeFantasia": "LOTERIA DAS AMERICA",
+        "nomeRazaoSocial": "LOTERIA DAS AMERICAS LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 8,
+        "qtdCotaDisponivel": 6,
+        "qtdCotaFisica": 0,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 8,
+        "qtdCotaVendidas": 2,
+        "qtdNumeros": 6,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 32,
+          "nome": "ESPIRITO SANTO      ",
+          "sigla": "ES"
+        },
+        "vrCotaComTarifa": 10.12,
+        "vrCotaSemTarifa": 7.5,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 21,
+        "vrTarifaServicoCota": 2.62,
+        "vrTarifaServicoUltimaCota": 2.66,
+        "vrTotalBolaoComTarifa": 81,
+        "vrTotalBolaoSemTarifa": 60,
+        "vrUltimaCotaComTarifa": 10.16,
+        "vrUltimaCotaSemTarifa": 7.5
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481357925,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%AE%C2%99B$%C3%B2%C3%86%C2%8DD*%C2%A4%C2%A4%13%C3%9Ex~%C2%BDq%C3%A6%C2%BE3%C2%85%C3%9D%C2%BD%C3%B1%C3%81%C2%A30%C2%A2%C2%88%C2%A21%C3%A2!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:56:02.575",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              2,
+              7,
+              15,
+              23,
+              44,
+              50
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              14,
+              25,
+              38,
+              39,
+              51,
+              60
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              6,
+              9,
+              22,
+              27,
+              33,
+              55
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              7,
+              17,
+              29,
+              43,
+              49,
+              55
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              6,
+              14,
+              15,
+              16,
+              28
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              25,
+              32,
+              45,
+              51,
+              57,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              14,
+              20,
+              38,
+              41,
+              54,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              2,
+              3,
+              8,
+              10,
+              21,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              4,
+              5,
+              48,
+              55,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              6,
+              7,
+              14,
+              19,
+              22,
+              42
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 12967,
+        "lotericaFormatada": {
+          "bairro": "CENTRO                                  ",
+          "codigo": "14.012967-7",
+          "dv": 7,
+          "dvMunicipio": 7,
+          "id": 12967,
+          "idMunicipio": 150,
+          "idUF": 41,
+          "logradouro": "RUA UIRAPURU                                      ",
+          "nome": "M.A. DUTRA & CIA LTDA                                                                                              ",
+          "nomeFantasia": "LOTERICA FLAMINGOS",
+          "nomeMunicipio": "ARAPONGAS                          ",
+          "nomeUF": "PARANA              ",
+          "numeroFormatado": "14.012967-7",
+          "polo": 14,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 41,
+            "digitoVerificador": 7,
+            "numero": 150
+          },
+          "nome": "ARAPONGAS",
+          "uf": {
+            "id": 41,
+            "nome": "PARANA              ",
+            "sigla": "PR"
+          }
+        },
+        "nomeFantasia": "LOTERICA FLAMINGOS",
+        "nomeRazaoSocial": "M.A. DUTRA & CIA LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 8,
+        "qtdCotaDisponivel": 8,
+        "qtdCotaFisica": 0,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 8,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 6,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 41,
+          "nome": "PARANA              ",
+          "sigla": "PR"
+        },
+        "vrCotaComTarifa": 10.12,
+        "vrCotaSemTarifa": 7.5,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 21,
+        "vrTarifaServicoCota": 2.62,
+        "vrTarifaServicoUltimaCota": 2.66,
+        "vrTotalBolaoComTarifa": 81,
+        "vrTotalBolaoSemTarifa": 60,
+        "vrUltimaCotaComTarifa": 10.16,
+        "vrUltimaCotaSemTarifa": 7.5
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481360318,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C3%AA%C3%85%C3%BB%0D1%C3%AB%19%08Dq%C3%B1%C3%B7%C2%8Fc%C3%89%C2%A2%C3%B1i%C2%A3%14%1A%C3%85%1E%C2%B1%C2%9F%16%C2%A3X%3E$%C2%86%1B!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:56:04.932",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              9,
+              14,
+              19,
+              37,
+              39,
+              44,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              10,
+              22,
+              25,
+              44,
+              47,
+              54,
+              56
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              6,
+              11,
+              18,
+              24,
+              28,
+              42,
+              57
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              10,
+              13,
+              17,
+              29,
+              47,
+              54,
+              56
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              11,
+              18,
+              22,
+              31,
+              32,
+              49,
+              60
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": false,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 2739,
+        "lotericaFormatada": {
+          "bairro": "CENTRO                                  ",
+          "codigo": "11.002739-6",
+          "dv": 6,
+          "dvMunicipio": 0,
+          "id": 2739,
+          "idMunicipio": 6250,
+          "idUF": 31,
+          "logradouro": "R MAL DEODORO                                     ",
+          "nome": "TIMOTHEO LOTERIAS LTDA                                                                                             ",
+          "nomeFantasia": "TIMOTHEO LOTERIAS",
+          "nomeMunicipio": "SAO JOAO DEL REI                   ",
+          "nomeUF": "MINAS GERAIS        ",
+          "numeroFormatado": "11.002739-6",
+          "polo": 11,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 31,
+            "digitoVerificador": 0,
+            "numero": 6250
+          },
+          "nome": "SAO JOAO DEL REI",
+          "uf": {
+            "id": 31,
+            "nome": "MINAS GERAIS        ",
+            "sigla": "MG"
+          }
+        },
+        "nomeFantasia": "TIMOTHEO LOTERIAS",
+        "nomeRazaoSocial": "TIMOTHEO LOTERIAS LTDA",
+        "qtdApostas": 5,
+        "qtdCotaBaixadas": 20,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 25,
+        "qtdCotaDisponivel": 5,
+        "qtdCotaFisica": 0,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 25,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 7,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 31,
+          "nome": "MINAS GERAIS        ",
+          "sigla": "MG"
+        },
+        "vrCotaComTarifa": 11.34,
+        "vrCotaSemTarifa": 8.4,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 73.5,
+        "vrTarifaServicoCota": 2.94,
+        "vrTarifaServicoUltimaCota": 2.94,
+        "vrTotalBolaoComTarifa": 283.5,
+        "vrTotalBolaoSemTarifa": 210,
+        "vrUltimaCotaComTarifa": 11.34,
+        "vrUltimaCotaSemTarifa": 8.4
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481362700,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1AWc%C2%BB%0EKE%7B%3C%7F%3D%11yk%C2%A5%C2%95%19%08%15%13%C3%97%3E%3D%C2%B37%09B%C3%A1%60%C2%AD%C3%96q%C3%B2!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:56:07.290",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              3,
+              4,
+              18,
+              19,
+              23,
+              51
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              21,
+              24,
+              29,
+              35,
+              41,
+              57
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              13,
+              16,
+              43,
+              50,
+              53
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              34,
+              37,
+              47,
+              57,
+              58,
+              59
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              6,
+              24,
+              29,
+              32,
+              35,
+              42
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              14,
+              17,
+              21,
+              25,
+              27,
+              45
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              11,
+              12,
+              13,
+              35,
+              38,
+              49
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              9,
+              12,
+              23,
+              24,
+              41,
+              52
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              8,
+              22,
+              31,
+              43,
+              55
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              7,
+              32,
+              48,
+              49,
+              50,
+              54
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 403,
+        "lotericaFormatada": {
+          "bairro": "ANDARAI                                 ",
+          "codigo": "19.000403-7",
+          "dv": 7,
+          "dvMunicipio": 7,
+          "id": 403,
+          "idMunicipio": 455,
+          "idUF": 33,
+          "logradouro": "RUA URUGUAI                                       ",
+          "nome": "TRILHA DA SORTE LOTERIA LTDA                                                                                       ",
+          "nomeFantasia": "TRILHA DA SORTE LOTERIA LTDA",
+          "nomeMunicipio": "RIO DE JANEIRO                     ",
+          "nomeUF": "RIO DE JANEIRO      ",
+          "numeroFormatado": "19.000403-7",
+          "polo": 19,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 33,
+            "digitoVerificador": 7,
+            "numero": 455
+          },
+          "nome": "RIO DE JANEIRO",
+          "uf": {
+            "id": 33,
+            "nome": "RIO DE JANEIRO      ",
+            "sigla": "RJ"
+          }
+        },
+        "nomeFantasia": "TRILHA DA SORTE LOTERIA LTDA",
+        "nomeRazaoSocial": "TRILHA DA SORTE LOTERIA LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 8,
+        "qtdCotaDisponivel": 3,
+        "qtdCotaFisica": 0,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 8,
+        "qtdCotaVendidas": 5,
+        "qtdNumeros": 6,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 33,
+          "nome": "RIO DE JANEIRO      ",
+          "sigla": "RJ"
+        },
+        "vrCotaComTarifa": 10.12,
+        "vrCotaSemTarifa": 7.5,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 21,
+        "vrTarifaServicoCota": 2.62,
+        "vrTarifaServicoUltimaCota": 2.66,
+        "vrTotalBolaoComTarifa": 81,
+        "vrTotalBolaoSemTarifa": 60,
+        "vrUltimaCotaComTarifa": 10.16,
+        "vrUltimaCotaSemTarifa": 7.5
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481365022,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C3%B4z%07%C2%80%C3%A7%C2%A5%C2%85%0E%C3%B3%C2%A6%C2%89)%C3%A2%C2%AAu%C2%A1%C2%BA-%0C%C3%93%2F%C3%A4Wr%C2%B6p%C3%94F!%C3%99%08%C3%BB!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:56:09.670",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              13,
+              23,
+              24,
+              50,
+              51,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              5,
+              13,
+              17,
+              22,
+              35,
+              37
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              23,
+              25,
+              39,
+              42,
+              47,
+              56
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              15,
+              19,
+              22,
+              25,
+              35,
+              42
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              16,
+              33,
+              40,
+              42,
+              50,
+              57
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              2,
+              5,
+              16,
+              20,
+              32,
+              43
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              2,
+              11,
+              14,
+              17,
+              43,
+              59
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              7,
+              21,
+              25,
+              28,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              16,
+              27,
+              30,
+              46,
+              49,
+              51
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              7,
+              20,
+              50,
+              51,
+              52,
+              53
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 10828,
+        "lotericaFormatada": {
+          "bairro": "Centro                                  ",
+          "codigo": "03.010828-4",
+          "dv": 4,
+          "dvMunicipio": 7,
+          "id": 10828,
+          "idMunicipio": 1500,
+          "idUF": 29,
+          "logradouro": "RUA DR INOCENCIO MONTEIRO DE SOUZA                ",
+          "nome": "LOTERICA MAPA DA MINA LTDA                                                                                         ",
+          "nomeFantasia": "MAPA DA MINA",
+          "nomeMunicipio": "ITAETE                             ",
+          "nomeUF": "BAHIA               ",
+          "numeroFormatado": "03.010828-4",
+          "polo": 3,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 29,
+            "digitoVerificador": 7,
+            "numero": 1500
+          },
+          "nome": "ITAETE",
+          "uf": {
+            "id": 29,
+            "nome": "BAHIA               ",
+            "sigla": "BA"
+          }
+        },
+        "nomeFantasia": "MAPA DA MINA",
+        "nomeRazaoSocial": "LOTERICA MAPA DA MINA LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 8,
+        "qtdCotaDisponivel": 8,
+        "qtdCotaFisica": 0,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 8,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 6,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 29,
+          "nome": "BAHIA               ",
+          "sigla": "BA"
+        },
+        "vrCotaComTarifa": 10.12,
+        "vrCotaSemTarifa": 7.5,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 21,
+        "vrTarifaServicoCota": 2.62,
+        "vrTarifaServicoUltimaCota": 2.66,
+        "vrTotalBolaoComTarifa": 81,
+        "vrTotalBolaoSemTarifa": 60,
+        "vrUltimaCotaComTarifa": 10.16,
+        "vrUltimaCotaSemTarifa": 7.5
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481367402,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1As%C2%BE%C3%B3i9%C2%80%C3%9A%C2%AB%C3%BEU%1E%5B%1B%14%C3%9B%C2%93%C3%8B,)%0E%0B%3F%C3%8FB'%C2%B6%C2%AD%C2%BC%0C%C2%86Y%C3%96!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:56:12.034",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              4,
+              15,
+              21,
+              32,
+              44,
+              54,
+              57
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              7,
+              15,
+              20,
+              30,
+              44,
+              48,
+              60
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              1,
+              6,
+              12,
+              26,
+              40,
+              48,
+              59
+            ],
+            "indicadorSurpresinha": false
+          },
+          {
+            "dezenas": [
+              4,
+              31,
+              35,
+              39,
+              51,
+              54,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              5,
+              13,
+              15,
+              28,
+              38,
+              41
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              7,
+              15,
+              23,
+              33,
+              53,
+              55
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              17,
+              26,
+              35,
+              39,
+              58,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              2,
+              8,
+              10,
+              28,
+              43,
+              49,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              20,
+              23,
+              29,
+              30,
+              40,
+              45,
+              50
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              4,
+              6,
+              9,
+              10,
+              13,
+              24,
+              35
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": false,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 17850,
+        "lotericaFormatada": {
+          "bairro": "SACRAMENTA                              ",
+          "codigo": "12.017850-8",
+          "dv": 8,
+          "dvMunicipio": 2,
+          "id": 17850,
+          "idMunicipio": 140,
+          "idUF": 15,
+          "logradouro": "AV SENADOR LEMOS                                  ",
+          "nome": "LOTERICA JUCARA E MESSIAS LTDA                                                                                     ",
+          "nomeFantasia": "ENCONTRO COM A SORTE",
+          "nomeMunicipio": "BELEM                              ",
+          "nomeUF": "PARA                ",
+          "numeroFormatado": "12.017850-8",
+          "polo": 12,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 15,
+            "digitoVerificador": 2,
+            "numero": 140
+          },
+          "nome": "BELEM",
+          "uf": {
+            "id": 15,
+            "nome": "PARA                ",
+            "sigla": "PA"
+          }
+        },
+        "nomeFantasia": "ENCONTRO COM A SORTE",
+        "nomeRazaoSocial": "LOTERICA JUCARA E MESSIAS LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 2,
+        "qtdCotaDisponivel": 2,
+        "qtdCotaFisica": 0,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 2,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 7,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 15,
+          "nome": "PARA                ",
+          "sigla": "PA"
+        },
+        "vrCotaComTarifa": 283.5,
+        "vrCotaSemTarifa": 210,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 147,
+        "vrTarifaServicoCota": 73.5,
+        "vrTarifaServicoUltimaCota": 73.5,
+        "vrTotalBolaoComTarifa": 567,
+        "vrTotalBolaoSemTarifa": 420,
+        "vrUltimaCotaComTarifa": 283.5,
+        "vrUltimaCotaSemTarifa": 210
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481369773,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%1Ap%C2%A5~%C3%BD%C2%AE%C2%BC%19F%C3%87%C2%BF%C2%AC%1E%07GJ9%C3%9B%C2%87%C3%A6%C3%97%C2%B7%60%C2%93%1D%C3%BA3q8%C3%99%C3%A6$!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:56:14.382",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              25,
+              26,
+              29,
+              40,
+              44,
+              53
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              15,
+              31,
+              46,
+              47,
+              51
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              7,
+              18,
+              25,
+              51,
+              52,
+              55
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              4,
+              5,
+              15,
+              25,
+              41,
+              51
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              16,
+              20,
+              22,
+              49,
+              50,
+              59
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              4,
+              7,
+              33,
+              37,
+              48
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              9,
+              21,
+              22,
+              24,
+              28,
+              50
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              9,
+              13,
+              24,
+              29,
+              54,
+              59
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              12,
+              26,
+              32,
+              38,
+              39,
+              53
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              12,
+              23,
+              41,
+              51,
+              58,
+              60
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 18917,
+        "lotericaFormatada": {
+          "bairro": "CENTRO                                  ",
+          "codigo": "20.018917-4",
+          "dv": 4,
+          "dvMunicipio": 7,
+          "id": 18917,
+          "idMunicipio": 50,
+          "idUF": 42,
+          "logradouro": "RUA JOINVILLE                                     ",
+          "nome": "LOTERICA ARENHARDT LTDA - ME                                                                                       ",
+          "nomeFantasia": "LOTERICA SANTA FE",
+          "nomeMunicipio": "AGUAS DE CHAPECO                   ",
+          "nomeUF": "SANTA CATARINA      ",
+          "numeroFormatado": "20.018917-4",
+          "polo": 20,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 42,
+            "digitoVerificador": 7,
+            "numero": 50
+          },
+          "nome": "AGUAS DE CHAPECO",
+          "uf": {
+            "id": 42,
+            "nome": "SANTA CATARINA      ",
+            "sigla": "SC"
+          }
+        },
+        "nomeFantasia": "LOTERICA SANTA FE",
+        "nomeRazaoSocial": "LOTERICA ARENHARDT LTDA - ME",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 5,
+        "qtdCotaDisponivel": 5,
+        "qtdCotaFisica": 3,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 8,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 6,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 42,
+          "nome": "SANTA CATARINA      ",
+          "sigla": "SC"
+        },
+        "vrCotaComTarifa": 10.12,
+        "vrCotaSemTarifa": 7.5,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 21,
+        "vrTarifaServicoCota": 2.62,
+        "vrTarifaServicoUltimaCota": 2.66,
+        "vrTotalBolaoComTarifa": 81,
+        "vrTotalBolaoSemTarifa": 60,
+        "vrUltimaCotaComTarifa": 10.16,
+        "vrUltimaCotaSemTarifa": 7.5
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481372117,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1Aw%5B%C3%9A9%08O%C3%B3f%C2%A63%C2%9E%C3%9E%22%04%C3%99%C3%BD%1E%C2%90v%00%C2%AAk%C3%8E%C3%A5%C2%81%C3%92%07%C3%B5%1A)F%C2%A3!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:56:16.881",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              6,
+              11,
+              27,
+              38,
+              51,
+              52
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              12,
+              15,
+              35,
+              36,
+              49,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              10,
+              14,
+              16,
+              33,
+              51,
+              56
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              12,
+              16,
+              22,
+              46,
+              54,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              9,
+              11,
+              13,
+              50,
+              53,
+              57
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              2,
+              7,
+              8,
+              30,
+              36,
+              42
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              5,
+              19,
+              22,
+              29,
+              44,
+              51
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              6,
+              13,
+              26,
+              33,
+              37,
+              57
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              12,
+              34,
+              39,
+              40,
+              43,
+              56
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              2,
+              7,
+              8,
+              15,
+              32,
+              57
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": false,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 3235,
+        "lotericaFormatada": {
+          "bairro": "TRINDADE                                ",
+          "codigo": "19.003235-9",
+          "dv": 9,
+          "dvMunicipio": 4,
+          "id": 3235,
+          "idMunicipio": 490,
+          "idUF": 33,
+          "logradouro": "RUA DR. NILO PECANHA                              ",
+          "nome": "NOVA CIDADE LOTERIA LTDA                                                                                           ",
+          "nomeFantasia": "NOVA CIDADE LOTERIA LTDA",
+          "nomeMunicipio": "SAO GONCALO                        ",
+          "nomeUF": "RIO DE JANEIRO      ",
+          "numeroFormatado": "19.003235-9",
+          "polo": 19,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 33,
+            "digitoVerificador": 4,
+            "numero": 490
+          },
+          "nome": "SAO GONCALO",
+          "uf": {
+            "id": 33,
+            "nome": "RIO DE JANEIRO      ",
+            "sigla": "RJ"
+          }
+        },
+        "nomeFantasia": "NOVA CIDADE LOTERIA LTDA",
+        "nomeRazaoSocial": "NOVA CIDADE LOTERIA LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 5,
+        "qtdCotaDisponivel": 4,
+        "qtdCotaFisica": 0,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 5,
+        "qtdCotaVendidas": 1,
+        "qtdNumeros": 6,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 33,
+          "nome": "RIO DE JANEIRO      ",
+          "sigla": "RJ"
+        },
+        "vrCotaComTarifa": 16.2,
+        "vrCotaSemTarifa": 12,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 21,
+        "vrTarifaServicoCota": 4.2,
+        "vrTarifaServicoUltimaCota": 4.2,
+        "vrTotalBolaoComTarifa": 81,
+        "vrTotalBolaoSemTarifa": 60,
+        "vrUltimaCotaComTarifa": 16.2,
+        "vrUltimaCotaSemTarifa": 12
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481374635,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A9%C2%A4OdN%C2%8E%C2%94;%C2%9CT.%26VX%C3%922%7C%C3%BAhX%C3%A8'%C3%AB%0C%C2%A8%C3%9CMD%C2%B1%C2%9Bi-!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:56:19.717",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              1,
+              6,
+              8,
+              11,
+              14,
+              16,
+              20,
+              24
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": true,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 20477,
+        "lotericaFormatada": {
+          "bairro": "ATALAIA                                 ",
+          "codigo": "22.020477-2",
+          "dv": 2,
+          "dvMunicipio": 8,
+          "id": 20477,
+          "idMunicipio": 30,
+          "idUF": 28,
+          "logradouro": "AV. SANTOS DUMONT                                 ",
+          "nome": "ATALAIA DA SORTE LOTERICA LTDA                                                                                     ",
+          "nomeFantasia": "ATALAIA DA SORTE",
+          "nomeMunicipio": "ARACAJU                            ",
+          "nomeUF": "SERGIPE             ",
+          "numeroFormatado": "22.020477-2",
+          "polo": 22,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 28,
+            "digitoVerificador": 8,
+            "numero": 30
+          },
+          "nome": "ARACAJU",
+          "uf": {
+            "id": 28,
+            "nome": "SERGIPE             ",
+            "sigla": "SE"
+          }
+        },
+        "nomeFantasia": "ATALAIA DA SORTE",
+        "nomeRazaoSocial": "ATALAIA DA SORTE LOTERICA LTDA",
+        "qtdApostas": 1,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 11,
+        "qtdCotaDisponivel": 11,
+        "qtdCotaFisica": 1,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 12,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 8,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 28,
+          "nome": "SERGIPE             ",
+          "sigla": "SE"
+        },
+        "vrCotaComTarifa": 18.89,
+        "vrCotaSemTarifa": 14,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 58.8,
+        "vrTarifaServicoCota": 4.89,
+        "vrTarifaServicoUltimaCota": 5.01,
+        "vrTotalBolaoComTarifa": 226.8,
+        "vrTotalBolaoSemTarifa": 168,
+        "vrUltimaCotaComTarifa": 19.01,
+        "vrUltimaCotaSemTarifa": 14
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481377441,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%A8%26u%C3%87%C2%A8.%7F%C2%BB%23%C2%93%C2%AE%C3%90d%C2%98%C2%B7%C2%8A%17_%17%C2%99%C2%8E%C3%B4%1F%C2%8D%C2%97gI%0Bi%C3%8D%C2%91%C3%A7!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-14T20:56:22.070",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              7,
+              21,
+              23,
+              26,
+              31,
+              35,
+              43,
+              58
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 3019,
+        "contemResiduo": false,
+        "dataSorteio": "16/06/2026",
+        "diaSorteio": "Terça-feira",
+        "horaSorteio": "21:00:00",
+        "loterica": 10434,
+        "lotericaFormatada": {
+          "bairro": "SERRA                                   ",
+          "codigo": "11.010434-0",
+          "dv": 0,
+          "dvMunicipio": 0,
+          "id": 10434,
+          "idMunicipio": 620,
+          "idUF": 31,
+          "logradouro": "AV CONTORNO                                       ",
+          "nome": "LOTERIAS TAVARES LTDA                                                                                              ",
+          "nomeFantasia": "REPUBLICA DOS SONHOS",
+          "nomeMunicipio": "BELO HORIZONTE                     ",
+          "nomeUF": "MINAS GERAIS        ",
+          "numeroFormatado": "11.010434-0",
+          "polo": 11,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "MEGA_SENA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 31,
+            "digitoVerificador": 0,
+            "numero": 620
+          },
+          "nome": "BELO HORIZONTE",
+          "uf": {
+            "id": 31,
+            "nome": "MINAS GERAIS        ",
+            "sigla": "MG"
+          }
+        },
+        "nomeFantasia": "REPUBLICA DOS SONHOS",
+        "nomeRazaoSocial": "LOTERIAS TAVARES LTDA",
+        "qtdApostas": 1,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 7,
+        "qtdCotaDisponivel": 7,
+        "qtdCotaFisica": 1,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 8,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 8,
+        "tipoConcurso": 1,
+        "uf": {
+          "id": 31,
+          "nome": "MINAS GERAIS        ",
+          "sigla": "MG"
+        },
+        "vrCotaComTarifa": 28.35,
+        "vrCotaSemTarifa": 21,
+        "vrPremioEstimado": 16000000,
+        "vrTarifaBolao": 58.8,
+        "vrTarifaServicoCota": 7.35,
+        "vrTarifaServicoUltimaCota": 7.35,
+        "vrTotalBolaoComTarifa": 226.8,
+        "vrTotalBolaoSemTarifa": 168,
+        "vrUltimaCotaComTarifa": 28.35,
+        "vrUltimaCotaSemTarifa": 21
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781481379796,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%22%C2%AB%0A%C3%87%C2%83%3C3%C3%B6%C2%81%3D%C2%8F%C2%95%13K0W%C3%B0%C2%A4%1B%23%C2%AC%0C%C2%B4%08j:3o%C3%85%C2%A4%C3%B5Y!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  }
+]

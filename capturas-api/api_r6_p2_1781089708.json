@@ -1,0 +1,631 @@
+[
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-10T08:07:39.996",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              6,
+              7,
+              13,
+              30,
+              38,
+              49,
+              54,
+              60,
+              63,
+              79,
+              80
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 15224,
+        "lotericaFormatada": {
+          "bairro": "CORAL                                   ",
+          "codigo": "20.015224-6",
+          "dv": 6,
+          "dvMunicipio": 0,
+          "id": 15224,
+          "idMunicipio": 930,
+          "idUF": 42,
+          "logradouro": "AV. LUIZ  DE CAMOES                               ",
+          "nome": "ROCHA LOTERIAS LTDA                                                                                                ",
+          "nomeFantasia": "A CUTIA LOTERIAS",
+          "nomeMunicipio": "LAGES                              ",
+          "nomeUF": "SANTA CATARINA      ",
+          "numeroFormatado": "20.015224-6",
+          "polo": 20,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 42,
+            "digitoVerificador": 0,
+            "numero": 930
+          },
+          "nome": "LAGES",
+          "uf": {
+            "id": 42,
+            "nome": "SANTA CATARINA      ",
+            "sigla": "SC"
+          }
+        },
+        "nomeFantasia": "A CUTIA LOTERIAS",
+        "nomeRazaoSocial": "ROCHA LOTERIAS LTDA",
+        "qtdApostas": 1,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 13,
+        "qtdCotaDisponivel": 12,
+        "qtdCotaFisica": 5,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 18,
+        "qtdCotaVendidas": 1,
+        "qtdNumeros": 11,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 42,
+          "nome": "SANTA CATARINA      ",
+          "sigla": "SC"
+        },
+        "vrCotaComTarifa": 103.94,
+        "vrCotaSemTarifa": 77,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 485.09,
+        "vrTarifaServicoCota": 26.94,
+        "vrTarifaServicoUltimaCota": 27.11,
+        "vrTotalBolaoComTarifa": 1871.09,
+        "vrTotalBolaoSemTarifa": 1386,
+        "vrUltimaCotaComTarifa": 104.11,
+        "vrUltimaCotaSemTarifa": 77
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781089658989,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C3%83%C3%8E%0C%06%11%C3%94%C3%8C%60%1EtT%C3%B6%C2%97%26%C3%A5%5E%C3%A6%C3%B1%1B%C3%B6%09u%1BT%C2%90%C2%ABG%C3%86%C2%A5%C2%9C%C3%B7%7C!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-10T08:07:42.366",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              3,
+              12,
+              25,
+              57,
+              66,
+              70,
+              78
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              6,
+              8,
+              10,
+              16,
+              23,
+              45,
+              47
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              2,
+              7,
+              8,
+              19,
+              53,
+              56,
+              71
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              16,
+              19,
+              20,
+              22,
+              29,
+              42,
+              66
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              15,
+              26,
+              29,
+              56,
+              59,
+              60
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": false,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 15224,
+        "lotericaFormatada": {
+          "bairro": "CORAL                                   ",
+          "codigo": "20.015224-6",
+          "dv": 6,
+          "dvMunicipio": 0,
+          "id": 15224,
+          "idMunicipio": 930,
+          "idUF": 42,
+          "logradouro": "AV. LUIZ  DE CAMOES                               ",
+          "nome": "ROCHA LOTERIAS LTDA                                                                                                ",
+          "nomeFantasia": "A CUTIA LOTERIAS",
+          "nomeMunicipio": "LAGES                              ",
+          "nomeUF": "SANTA CATARINA      ",
+          "numeroFormatado": "20.015224-6",
+          "polo": 20,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 42,
+            "digitoVerificador": 0,
+            "numero": 930
+          },
+          "nome": "LAGES",
+          "uf": {
+            "id": 42,
+            "nome": "SANTA CATARINA      ",
+            "sigla": "SC"
+          }
+        },
+        "nomeFantasia": "A CUTIA LOTERIAS",
+        "nomeRazaoSocial": "ROCHA LOTERIAS LTDA",
+        "qtdApostas": 5,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 21,
+        "qtdCotaDisponivel": 16,
+        "qtdCotaFisica": 0,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 21,
+        "qtdCotaVendidas": 5,
+        "qtdNumeros": 7,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 42,
+          "nome": "SANTA CATARINA      ",
+          "sigla": "SC"
+        },
+        "vrCotaComTarifa": 20.25,
+        "vrCotaSemTarifa": 15,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 110.25,
+        "vrTarifaServicoCota": 5.25,
+        "vrTarifaServicoUltimaCota": 5.25,
+        "vrTotalBolaoComTarifa": 425.25,
+        "vrTotalBolaoSemTarifa": 315,
+        "vrUltimaCotaComTarifa": 20.25,
+        "vrUltimaCotaSemTarifa": 15
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781089661363,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C3%A9%C3%98%C2%BA%C3%B0%C3%A3%C2%B8%07%C3%9D%05D%C3%8BK%C2%89U%C3%A30%C3%B7%13%C3%B3%C2%B6%C3%9E%C3%9F%12%22%C2%A2%13%C2%95%C3%B5e%C3%A7%C2%B5%C2%8D!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-10T08:07:44.699",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              2,
+              21,
+              27,
+              55,
+              65,
+              79
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              10,
+              29,
+              43,
+              59,
+              73
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              12,
+              45,
+              66,
+              70,
+              72,
+              78
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              8,
+              17,
+              39,
+              53,
+              61,
+              70
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              2,
+              45,
+              70,
+              71,
+              72
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              6,
+              22,
+              44,
+              55,
+              74,
+              79
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              7,
+              12,
+              23,
+              31,
+              53,
+              54
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              5,
+              27,
+              39,
+              44,
+              66
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              6,
+              14,
+              39,
+              47,
+              74
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              7,
+              9,
+              10,
+              20,
+              42,
+              44
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 15224,
+        "lotericaFormatada": {
+          "bairro": "CORAL                                   ",
+          "codigo": "20.015224-6",
+          "dv": 6,
+          "dvMunicipio": 0,
+          "id": 15224,
+          "idMunicipio": 930,
+          "idUF": 42,
+          "logradouro": "AV. LUIZ  DE CAMOES                               ",
+          "nome": "ROCHA LOTERIAS LTDA                                                                                                ",
+          "nomeFantasia": "A CUTIA LOTERIAS",
+          "nomeMunicipio": "LAGES                              ",
+          "nomeUF": "SANTA CATARINA      ",
+          "numeroFormatado": "20.015224-6",
+          "polo": 20,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 42,
+            "digitoVerificador": 0,
+            "numero": 930
+          },
+          "nome": "LAGES",
+          "uf": {
+            "id": 42,
+            "nome": "SANTA CATARINA      ",
+            "sigla": "SC"
+          }
+        },
+        "nomeFantasia": "A CUTIA LOTERIAS",
+        "nomeRazaoSocial": "ROCHA LOTERIAS LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 24,
+        "qtdCotaDisponivel": 15,
+        "qtdCotaFisica": 0,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 24,
+        "qtdCotaVendidas": 9,
+        "qtdNumeros": 6,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 42,
+          "nome": "SANTA CATARINA      ",
+          "sigla": "SC"
+        },
+        "vrCotaComTarifa": 10.12,
+        "vrCotaSemTarifa": 7.5,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 62.99,
+        "vrTarifaServicoCota": 2.62,
+        "vrTarifaServicoUltimaCota": 2.73,
+        "vrTotalBolaoComTarifa": 242.99,
+        "vrTotalBolaoSemTarifa": 180,
+        "vrUltimaCotaComTarifa": 10.23,
+        "vrUltimaCotaSemTarifa": 7.5
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781089663702,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C3%8B%5C:%C2%9F%C2%B1%5B%3D%07%C3%B8%C3%A4%5Eew%3C%0D%C3%A5%C2%B0%C3%B7%C2%8F6%C3%93%C2%89%C3%B5%C3%BB%03%C3%82%1D%C3%8F%C2%A5%C2%9F%C2%ACp!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-10T08:07:47.105",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              9,
+              14,
+              18,
+              27,
+              36,
+              38,
+              47,
+              61,
+              65,
+              80
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 15224,
+        "lotericaFormatada": {
+          "bairro": "CORAL                                   ",
+          "codigo": "20.015224-6",
+          "dv": 6,
+          "dvMunicipio": 0,
+          "id": 15224,
+          "idMunicipio": 930,
+          "idUF": 42,
+          "logradouro": "AV. LUIZ  DE CAMOES                               ",
+          "nome": "ROCHA LOTERIAS LTDA                                                                                                ",
+          "nomeFantasia": "A CUTIA LOTERIAS",
+          "nomeMunicipio": "LAGES                              ",
+          "nomeUF": "SANTA CATARINA      ",
+          "numeroFormatado": "20.015224-6",
+          "polo": 20,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 42,
+            "digitoVerificador": 0,
+            "numero": 930
+          },
+          "nome": "LAGES",
+          "uf": {
+            "id": 42,
+            "nome": "SANTA CATARINA      ",
+            "sigla": "SC"
+          }
+        },
+        "nomeFantasia": "A CUTIA LOTERIAS",
+        "nomeRazaoSocial": "ROCHA LOTERIAS LTDA",
+        "qtdApostas": 1,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 2,
+        "qtdCotaDigital": 10,
+        "qtdCotaDisponivel": 3,
+        "qtdCotaFisica": 10,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 20,
+        "qtdCotaVendidas": 5,
+        "qtdNumeros": 10,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 42,
+          "nome": "SANTA CATARINA      ",
+          "sigla": "SC"
+        },
+        "vrCotaComTarifa": 51.02,
+        "vrCotaSemTarifa": 37.8,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 264.59,
+        "vrTarifaServicoCota": 13.22,
+        "vrTarifaServicoUltimaCota": 13.41,
+        "vrTotalBolaoComTarifa": 1020.59,
+        "vrTotalBolaoSemTarifa": 756,
+        "vrUltimaCotaComTarifa": 51.21,
+        "vrUltimaCotaSemTarifa": 37.8
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781089666091,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%87%C2%A4%C3%BF%1EqFv%C2%83:%C3%99q%C2%87%02%C2%A2-%1A%10%C3%91;%14E%C2%80%C3%8Du%C2%A1%C3%97B%22%12ED%C3%AD!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-10T08:07:49.455",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              7,
+              19,
+              53,
+              54,
+              58,
+              61,
+              67,
+              72,
+              76
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              5,
+              35,
+              39,
+              40,
+              45,
+              46,
+              66,
+              69,
+              70
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 15224,
+        "lotericaFormatada": {
+          "bairro": "CORAL                                   ",
+          "codigo": "20.015224-6",
+          "dv": 6,
+          "dvMunicipio": 0,
+          "id": 15224,
+          "idMunicipio": 930,
+          "idUF": 42,
+          "logradouro": "AV. LUIZ  DE CAMOES                               ",
+          "nome": "ROCHA LOTERIAS LTDA                                                                                                ",
+          "nomeFantasia": "A CUTIA LOTERIAS",
+          "nomeMunicipio": "LAGES                              ",
+          "nomeUF": "SANTA CATARINA      ",
+          "numeroFormatado": "20.015224-6",
+          "polo": 20,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 42,
+            "digitoVerificador": 0,
+            "numero": 930
+          },
+          "nome": "LAGES",
+          "uf": {
+            "id": 42,
+            "nome": "SANTA CATARINA      ",
+            "sigla": "SC"
+          }
+        },
+        "nomeFantasia": "A CUTIA LOTERIAS",
+        "nomeRazaoSocial": "ROCHA LOTERIAS LTDA",
+        "qtdApostas": 2,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 24,
+        "qtdCotaDisponivel": 23,
+        "qtdCotaFisica": 10,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 34,
+        "qtdCotaVendidas": 1,
+        "qtdNumeros": 9,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 42,
+          "nome": "SANTA CATARINA      ",
+          "sigla": "SC"
+        },
+        "vrCotaComTarifa": 30.01,
+        "vrCotaSemTarifa": 22.23,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 264.59,
+        "vrTarifaServicoCota": 7.78,
+        "vrTarifaServicoUltimaCota": 7.85,
+        "vrTotalBolaoComTarifa": 1020.59,
+        "vrTotalBolaoSemTarifa": 756,
+        "vrUltimaCotaComTarifa": 30.26,
+        "vrUltimaCotaSemTarifa": 22.41
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781089668446,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%A5%C3%9Aa%C2%AD%C3%9D%C3%AE%C3%B2%C3%B7%C2%96%C2%AA%22%16%C3%B0%C2%89%C2%A9c%5DU%1E1%C2%B4%C3%A5%C3%B8%C3%B9F'%7Dc%C2%8E%C2%B8%C3%85%C3%8C!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  }
+]

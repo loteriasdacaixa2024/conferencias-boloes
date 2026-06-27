@@ -1,0 +1,717 @@
+[
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-10T08:25:58.402",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              1,
+              4,
+              16,
+              25,
+              33,
+              39,
+              45,
+              52,
+              69,
+              73
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 13829,
+        "lotericaFormatada": {
+          "bairro": "Praia do Canto                          ",
+          "codigo": "06.013829-7",
+          "dv": 7,
+          "dvMunicipio": 9,
+          "id": 13829,
+          "idMunicipio": 530,
+          "idUF": 32,
+          "logradouro": "Av Nossa Senhora da Penha                         ",
+          "nome": "LOTERIA PINTE A SORTE LTDA ME                                                                                      ",
+          "nomeFantasia": "LOTERICA PINTE A SORTE",
+          "nomeMunicipio": "VITORIA                            ",
+          "nomeUF": "ESPIRITO SANTO      ",
+          "numeroFormatado": "06.013829-7",
+          "polo": 6,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 32,
+            "digitoVerificador": 9,
+            "numero": 530
+          },
+          "nome": "VITORIA",
+          "uf": {
+            "id": 32,
+            "nome": "ESPIRITO SANTO      ",
+            "sigla": "ES"
+          }
+        },
+        "nomeFantasia": "LOTERICA PINTE A SORTE",
+        "nomeRazaoSocial": "LOTERIA PINTE A SORTE LTDA ME",
+        "qtdApostas": 1,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 1,
+        "qtdCotaDigital": 10,
+        "qtdCotaDisponivel": 9,
+        "qtdCotaFisica": 2,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 12,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 10,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 32,
+          "nome": "ESPIRITO SANTO      ",
+          "sigla": "ES"
+        },
+        "vrCotaComTarifa": 85.04,
+        "vrCotaSemTarifa": 63,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 264.59,
+        "vrTarifaServicoCota": 22.04,
+        "vrTarifaServicoUltimaCota": 22.15,
+        "vrTotalBolaoComTarifa": 1020.59,
+        "vrTotalBolaoSemTarifa": 756,
+        "vrUltimaCotaComTarifa": 85.15,
+        "vrUltimaCotaSemTarifa": 63
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781090757333,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%7C%5D3(%C3%BDL@_%C3%84%C2%90%3C%C3%9F6%C2%B8%0D%C2%83%C2%95)t%2F%3C%C3%AD%02k%C2%9A%0E%C2%95%19%C2%BD%11%12-!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-10T08:26:00.785",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              9,
+              20,
+              31,
+              39,
+              56,
+              73,
+              79
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              6,
+              33,
+              34,
+              50,
+              54,
+              61,
+              78
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              6,
+              7,
+              43,
+              46,
+              60,
+              80
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              12,
+              13,
+              35,
+              59,
+              63,
+              64,
+              71
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              17,
+              23,
+              26,
+              37,
+              72,
+              75
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": false,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 13829,
+        "lotericaFormatada": {
+          "bairro": "Praia do Canto                          ",
+          "codigo": "06.013829-7",
+          "dv": 7,
+          "dvMunicipio": 9,
+          "id": 13829,
+          "idMunicipio": 530,
+          "idUF": 32,
+          "logradouro": "Av Nossa Senhora da Penha                         ",
+          "nome": "LOTERIA PINTE A SORTE LTDA ME                                                                                      ",
+          "nomeFantasia": "LOTERICA PINTE A SORTE",
+          "nomeMunicipio": "VITORIA                            ",
+          "nomeUF": "ESPIRITO SANTO      ",
+          "numeroFormatado": "06.013829-7",
+          "polo": 6,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 32,
+            "digitoVerificador": 9,
+            "numero": 530
+          },
+          "nome": "VITORIA",
+          "uf": {
+            "id": 32,
+            "nome": "ESPIRITO SANTO      ",
+            "sigla": "ES"
+          }
+        },
+        "nomeFantasia": "LOTERICA PINTE A SORTE",
+        "nomeRazaoSocial": "LOTERIA PINTE A SORTE LTDA ME",
+        "qtdApostas": 5,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 2,
+        "qtdCotaDigital": 13,
+        "qtdCotaDisponivel": 10,
+        "qtdCotaFisica": 2,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 15,
+        "qtdCotaVendidas": 1,
+        "qtdNumeros": 7,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 32,
+          "nome": "ESPIRITO SANTO      ",
+          "sigla": "ES"
+        },
+        "vrCotaComTarifa": 28.35,
+        "vrCotaSemTarifa": 21,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 110.25,
+        "vrTarifaServicoCota": 7.35,
+        "vrTarifaServicoUltimaCota": 7.35,
+        "vrTotalBolaoComTarifa": 425.25,
+        "vrTotalBolaoSemTarifa": 315,
+        "vrUltimaCotaComTarifa": 28.35,
+        "vrUltimaCotaSemTarifa": 21
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781090759747,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1AnU%C3%9E3W%08W%C3%B7%10%C2%B7%C2%86!%C3%B79%7D%C2%86%C2%89%01%08%C3%AA%C3%B5%3E(*%C3%B8L~z%08%C3%9F;%C2%80!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-10T08:26:03.117",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              29,
+              32,
+              33,
+              36,
+              42,
+              49,
+              55,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              24,
+              31,
+              38,
+              50,
+              55,
+              59,
+              68,
+              72
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              10,
+              16,
+              27,
+              29,
+              38,
+              40,
+              42,
+              56
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 13829,
+        "lotericaFormatada": {
+          "bairro": "Praia do Canto                          ",
+          "codigo": "06.013829-7",
+          "dv": 7,
+          "dvMunicipio": 9,
+          "id": 13829,
+          "idMunicipio": 530,
+          "idUF": 32,
+          "logradouro": "Av Nossa Senhora da Penha                         ",
+          "nome": "LOTERIA PINTE A SORTE LTDA ME                                                                                      ",
+          "nomeFantasia": "LOTERICA PINTE A SORTE",
+          "nomeMunicipio": "VITORIA                            ",
+          "nomeUF": "ESPIRITO SANTO      ",
+          "numeroFormatado": "06.013829-7",
+          "polo": 6,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 32,
+            "digitoVerificador": 9,
+            "numero": 530
+          },
+          "nome": "VITORIA",
+          "uf": {
+            "id": 32,
+            "nome": "ESPIRITO SANTO      ",
+            "sigla": "ES"
+          }
+        },
+        "nomeFantasia": "LOTERICA PINTE A SORTE",
+        "nomeRazaoSocial": "LOTERIA PINTE A SORTE LTDA ME",
+        "qtdApostas": 3,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 1,
+        "qtdCotaDigital": 13,
+        "qtdCotaDisponivel": 12,
+        "qtdCotaFisica": 2,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 15,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 8,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 32,
+          "nome": "ESPIRITO SANTO      ",
+          "sigla": "ES"
+        },
+        "vrCotaComTarifa": 45.35,
+        "vrCotaSemTarifa": 33.6,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 176.39,
+        "vrTarifaServicoCota": 11.75,
+        "vrTarifaServicoUltimaCota": 11.89,
+        "vrTotalBolaoComTarifa": 680.39,
+        "vrTotalBolaoSemTarifa": 504,
+        "vrUltimaCotaComTarifa": 45.49,
+        "vrUltimaCotaSemTarifa": 33.6
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781090762048,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%B7%C2%9Fm2%C2%A9%C3%8F%C3%81%5EK%C3%91Z%C2%87%1F%C3%90%C3%B8%3D%C2%80%04%C3%87@%04)%C2%8B%C2%BA%C3%9B%13i%C3%B2%C3%93g%7D%C3%96!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-10T08:26:05.451",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              4,
+              17,
+              32,
+              39,
+              49,
+              67
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              7,
+              31,
+              41,
+              56,
+              67,
+              74
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              5,
+              26,
+              33,
+              55,
+              56
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              24,
+              29,
+              40,
+              48,
+              65,
+              66
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              9,
+              40,
+              41,
+              51,
+              62
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              11,
+              14,
+              29,
+              33,
+              47,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              10,
+              45,
+              55,
+              56,
+              60,
+              64
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 13829,
+        "lotericaFormatada": {
+          "bairro": "Praia do Canto                          ",
+          "codigo": "06.013829-7",
+          "dv": 7,
+          "dvMunicipio": 9,
+          "id": 13829,
+          "idMunicipio": 530,
+          "idUF": 32,
+          "logradouro": "Av Nossa Senhora da Penha                         ",
+          "nome": "LOTERIA PINTE A SORTE LTDA ME                                                                                      ",
+          "nomeFantasia": "LOTERICA PINTE A SORTE",
+          "nomeMunicipio": "VITORIA                            ",
+          "nomeUF": "ESPIRITO SANTO      ",
+          "numeroFormatado": "06.013829-7",
+          "polo": 6,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 32,
+            "digitoVerificador": 9,
+            "numero": 530
+          },
+          "nome": "VITORIA",
+          "uf": {
+            "id": 32,
+            "nome": "ESPIRITO SANTO      ",
+            "sigla": "ES"
+          }
+        },
+        "nomeFantasia": "LOTERICA PINTE A SORTE",
+        "nomeRazaoSocial": "LOTERIA PINTE A SORTE LTDA ME",
+        "qtdApostas": 7,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 2,
+        "qtdCotaDigital": 15,
+        "qtdCotaDisponivel": 13,
+        "qtdCotaFisica": 1,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 16,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 6,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 32,
+          "nome": "ESPIRITO SANTO      ",
+          "sigla": "ES"
+        },
+        "vrCotaComTarifa": 10.62,
+        "vrCotaSemTarifa": 7.87,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 44.09,
+        "vrTarifaServicoCota": 2.75,
+        "vrTarifaServicoUltimaCota": 2.84,
+        "vrTotalBolaoComTarifa": 170.09,
+        "vrTotalBolaoSemTarifa": 126,
+        "vrUltimaCotaComTarifa": 10.79,
+        "vrUltimaCotaSemTarifa": 7.95
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781090764390,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A;%C3%88%17%2B%C2%AC%C3%AFyU(%C3%82%C2%A9F%C3%BDa%C2%B2%5Cmr%C2%A3%C2%A030%C3%8D%C2%9AM%C3%B9%C3%9E%C3%A2%C3%B3%C3%8D%C2%BA%C3%8D!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-10T08:26:07.804",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              4,
+              8,
+              17,
+              25,
+              35,
+              39,
+              49,
+              64,
+              69
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              9,
+              16,
+              19,
+              23,
+              31,
+              40,
+              41,
+              75
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 13829,
+        "lotericaFormatada": {
+          "bairro": "Praia do Canto                          ",
+          "codigo": "06.013829-7",
+          "dv": 7,
+          "dvMunicipio": 9,
+          "id": 13829,
+          "idMunicipio": 530,
+          "idUF": 32,
+          "logradouro": "Av Nossa Senhora da Penha                         ",
+          "nome": "LOTERIA PINTE A SORTE LTDA ME                                                                                      ",
+          "nomeFantasia": "LOTERICA PINTE A SORTE",
+          "nomeMunicipio": "VITORIA                            ",
+          "nomeUF": "ESPIRITO SANTO      ",
+          "numeroFormatado": "06.013829-7",
+          "polo": 6,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 32,
+            "digitoVerificador": 9,
+            "numero": 530
+          },
+          "nome": "VITORIA",
+          "uf": {
+            "id": 32,
+            "nome": "ESPIRITO SANTO      ",
+            "sigla": "ES"
+          }
+        },
+        "nomeFantasia": "LOTERICA PINTE A SORTE",
+        "nomeRazaoSocial": "LOTERIA PINTE A SORTE LTDA ME",
+        "qtdApostas": 2,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 1,
+        "qtdCotaDigital": 16,
+        "qtdCotaDisponivel": 15,
+        "qtdCotaFisica": 2,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 18,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 9,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 32,
+          "nome": "ESPIRITO SANTO      ",
+          "sigla": "ES"
+        },
+        "vrCotaComTarifa": 56.69,
+        "vrCotaSemTarifa": 42,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 264.59,
+        "vrTarifaServicoCota": 14.69,
+        "vrTarifaServicoUltimaCota": 14.86,
+        "vrTotalBolaoComTarifa": 1020.59,
+        "vrTotalBolaoSemTarifa": 756,
+        "vrUltimaCotaComTarifa": 56.86,
+        "vrUltimaCotaSemTarifa": 42
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781090766732,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%82%C2%86%C3%A4%C3%B1%3C%C3%84s%C3%A9%C2%811%C3%9F%C3%A9%C3%B8%C2%9C%C3%B9%3C%C3%A2A%C2%AA%C2%A8%1C3%C3%B1%C2%8B%14Fd%C3%8F%C2%9B%C3%AC5h!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-10T08:26:10.141",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              3,
+              9,
+              18,
+              22,
+              36,
+              40,
+              45,
+              47,
+              54,
+              63,
+              71
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 13829,
+        "lotericaFormatada": {
+          "bairro": "Praia do Canto                          ",
+          "codigo": "06.013829-7",
+          "dv": 7,
+          "dvMunicipio": 9,
+          "id": 13829,
+          "idMunicipio": 530,
+          "idUF": 32,
+          "logradouro": "Av Nossa Senhora da Penha                         ",
+          "nome": "LOTERIA PINTE A SORTE LTDA ME                                                                                      ",
+          "nomeFantasia": "LOTERICA PINTE A SORTE",
+          "nomeMunicipio": "VITORIA                            ",
+          "nomeUF": "ESPIRITO SANTO      ",
+          "numeroFormatado": "06.013829-7",
+          "polo": 6,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 32,
+            "digitoVerificador": 9,
+            "numero": 530
+          },
+          "nome": "VITORIA",
+          "uf": {
+            "id": 32,
+            "nome": "ESPIRITO SANTO      ",
+            "sigla": "ES"
+          }
+        },
+        "nomeFantasia": "LOTERICA PINTE A SORTE",
+        "nomeRazaoSocial": "LOTERIA PINTE A SORTE LTDA ME",
+        "qtdApostas": 1,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 2,
+        "qtdCotaDigital": 13,
+        "qtdCotaDisponivel": 6,
+        "qtdCotaFisica": 2,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 15,
+        "qtdCotaVendidas": 5,
+        "qtdNumeros": 11,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 32,
+          "nome": "ESPIRITO SANTO      ",
+          "sigla": "ES"
+        },
+        "vrCotaComTarifa": 124.73,
+        "vrCotaSemTarifa": 92.4,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 485.09,
+        "vrTarifaServicoCota": 32.33,
+        "vrTarifaServicoUltimaCota": 32.47,
+        "vrTotalBolaoComTarifa": 1871.09,
+        "vrTotalBolaoSemTarifa": 1386,
+        "vrUltimaCotaComTarifa": 124.87,
+        "vrUltimaCotaSemTarifa": 92.4
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781090769073,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%AB%C2%8F%C3%A3;%26%C2%92%C2%B1%C2%9D8Q%C3%AF$%01%C2%A4%01%C3%9C%C3%A2%C2%8A%C3%AC%C2%A3%5EoP%C2%B3G%C3%B5b%1A%60J%C3%93%C3%8B!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  }
+]

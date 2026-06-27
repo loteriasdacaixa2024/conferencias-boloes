@@ -1,0 +1,2621 @@
+[
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:54:28.008",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              8,
+              10,
+              13,
+              17,
+              21,
+              27,
+              29,
+              32,
+              40,
+              43,
+              54,
+              69,
+              73,
+              75,
+              76
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 1,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 15,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 2,
+        "qtdNumeros": 15,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 243.24,
+        "vrCotaSemTarifa": 180.18,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 3153.14,
+        "vrTarifaServicoCota": 63.06,
+        "vrTarifaServicoUltimaCota": 63.2,
+        "vrTotalBolaoComTarifa": 12162.14,
+        "vrTotalBolaoSemTarifa": 9009,
+        "vrUltimaCotaComTarifa": 243.38,
+        "vrUltimaCotaSemTarifa": 180.18
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045667530,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1AP%03u%C2%8A%C2%84%C3%97%C2%9FX%05nxG%C2%BC,Tw%C2%A0%C2%9B%3E%C3%8A9%C3%B5%C2%93%C2%B5L%C2%9C%C3%96j!%26%C2%9F%C3%95!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:54:30.373",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              1,
+              6,
+              27,
+              34,
+              39,
+              41,
+              52,
+              62,
+              65,
+              66,
+              71,
+              75,
+              77
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 1,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 25,
+        "qtdCotaDisponivel": 24,
+        "qtdCotaFisica": 25,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 1,
+        "qtdNumeros": 13,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 104.24,
+        "vrCotaSemTarifa": 77.22,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1351.35,
+        "vrTarifaServicoCota": 27.02,
+        "vrTarifaServicoUltimaCota": 27.37,
+        "vrTotalBolaoComTarifa": 5212.35,
+        "vrTotalBolaoSemTarifa": 3861,
+        "vrUltimaCotaComTarifa": 104.59,
+        "vrUltimaCotaSemTarifa": 77.22
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045669897,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1Ahf%C2%9A%C3%91%C2%92O%2Fs%C3%9D%C3%9E%C2%91%C3%9F%1D%C3%A3IT%C2%A2%C2%93%C2%A6%7B%3Cm%13%C2%A1%C3%8BkLL%C2%95Q%C3%87%C2%92!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:54:32.773",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              9,
+              13,
+              27,
+              30,
+              33,
+              37,
+              59,
+              61,
+              65,
+              72
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 1,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 29,
+        "qtdCotaDisponivel": 29,
+        "qtdCotaFisica": 1,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 30,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 10,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 34.01,
+        "vrCotaSemTarifa": 25.2,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 264.59,
+        "vrTarifaServicoCota": 8.81,
+        "vrTarifaServicoUltimaCota": 9.1,
+        "vrTotalBolaoComTarifa": 1020.59,
+        "vrTotalBolaoSemTarifa": 756,
+        "vrUltimaCotaComTarifa": 34.3,
+        "vrUltimaCotaSemTarifa": 25.2
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045672300,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1AlS%C3%8C%C3%87%7C%0Fy%10jR%C2%8E%1A%C3%BA%C3%9A%C3%8F%C3%92%C2%8A%C2%936%C3%AB5%14%17%C2%93%25%3C%C2%A83z%5E%C3%A2%1E!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:54:35.779",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              7,
+              8,
+              18,
+              34,
+              42,
+              60,
+              68,
+              71,
+              73,
+              74,
+              76
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 1,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 48,
+        "qtdCotaDisponivel": 47,
+        "qtdCotaFisica": 1,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 49,
+        "qtdCotaVendidas": 1,
+        "qtdNumeros": 11,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 38.17,
+        "vrCotaSemTarifa": 28.28,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 485.09,
+        "vrTarifaServicoCota": 9.89,
+        "vrTarifaServicoUltimaCota": 10.37,
+        "vrTotalBolaoComTarifa": 1871.09,
+        "vrTotalBolaoSemTarifa": 1386,
+        "vrUltimaCotaComTarifa": 38.93,
+        "vrUltimaCotaSemTarifa": 28.56
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045675391,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A3q%C2%9C%C2%B1%C3%B69%C2%99d%C2%A7%7Ch%C3%BC%C2%B3%C3%80%10%C3%9Aw%C2%AAO%03%10%C2%87%19%C3%92%C3%B2%C2%B6%C2%BES%C2%86%C2%A6%C2%83%C3%98!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:54:38.228",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              1,
+              2,
+              3,
+              35,
+              37,
+              45,
+              46,
+              47,
+              57,
+              80
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 1,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 17,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 10,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 20.41,
+        "vrCotaSemTarifa": 15.12,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 264.59,
+        "vrTarifaServicoCota": 5.29,
+        "vrTarifaServicoUltimaCota": 5.38,
+        "vrTotalBolaoComTarifa": 1020.59,
+        "vrTotalBolaoSemTarifa": 756,
+        "vrUltimaCotaComTarifa": 20.5,
+        "vrUltimaCotaSemTarifa": 15.12
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045677833,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%B3%C2%B4C%C2%82%11Nuo%C3%BD%C2%81%0A%C2%8F%C3%A8%2B%C3%81h%C3%84%C2%89%C3%BFE%C3%A3%23%1Dk%C2%BD%C3%9E%18%C2%80%1D%C3%82W%C2%8E!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:54:40.646",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              7,
+              9,
+              11,
+              17,
+              22,
+              23,
+              34,
+              36,
+              42,
+              56,
+              59,
+              66,
+              69,
+              76,
+              78
+            ],
+            "indicadorSurpresinha": false
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 1,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 4,
+        "qtdCotaDisponivel": 4,
+        "qtdCotaFisica": 8,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 12,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 15,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 1013.51,
+        "vrCotaSemTarifa": 750.75,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 3153.14,
+        "vrTarifaServicoCota": 262.76,
+        "vrTarifaServicoUltimaCota": 262.78,
+        "vrTotalBolaoComTarifa": 12162.14,
+        "vrTotalBolaoSemTarifa": 9009,
+        "vrUltimaCotaComTarifa": 1013.53,
+        "vrUltimaCotaSemTarifa": 750.75
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045680189,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A8v%C3%AD%14%13%C3%8C_%C2%AE(%0F%7B%C2%91%C3%99%C3%A9%14%C2%B8f%26s%00%04%C2%81%2Fh*%C3%B2%14%C3%BBe%C3%B9%C3%9B%C2%9B!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:54:43.060",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              6,
+              9,
+              19,
+              39,
+              46,
+              52,
+              57,
+              63,
+              80
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              14,
+              16,
+              23,
+              28,
+              41,
+              44,
+              50,
+              55,
+              60
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 2,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 34,
+        "qtdCotaDisponivel": 34,
+        "qtdCotaFisica": 1,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 35,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 9,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 29.15,
+        "vrCotaSemTarifa": 21.6,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 264.59,
+        "vrTarifaServicoCota": 7.55,
+        "vrTarifaServicoUltimaCota": 7.89,
+        "vrTotalBolaoComTarifa": 1020.59,
+        "vrTotalBolaoSemTarifa": 756,
+        "vrUltimaCotaComTarifa": 29.49,
+        "vrUltimaCotaSemTarifa": 21.6
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045682585,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C3%81%C2%BC%C3%95@%C3%8A%C3%92%C3%AF%C3%8C%7D%C3%A1D%C3%AF%C2%8B%05%C2%9B%1D%C2%8B6%C2%95rp%C3%8A%C3%97%C2%A5%C3%96%0A%C2%9D%00%C3%97I%C2%86l!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:54:45.953",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              12,
+              23,
+              28,
+              42,
+              48,
+              55,
+              58,
+              66
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              7,
+              13,
+              16,
+              21,
+              36,
+              46,
+              59,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              7,
+              11,
+              31,
+              39,
+              41,
+              47,
+              52,
+              59
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              12,
+              13,
+              22,
+              25,
+              27,
+              42,
+              55,
+              72
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              31,
+              35,
+              36,
+              43,
+              46,
+              48,
+              58,
+              63
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": false,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 5,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 49,
+        "qtdCotaDisponivel": 48,
+        "qtdCotaFisica": 1,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 1,
+        "qtdNumeros": 8,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 22.68,
+        "vrCotaSemTarifa": 16.8,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 294,
+        "vrTarifaServicoCota": 5.88,
+        "vrTarifaServicoUltimaCota": 5.88,
+        "vrTotalBolaoComTarifa": 1134,
+        "vrTotalBolaoSemTarifa": 840,
+        "vrUltimaCotaComTarifa": 22.68,
+        "vrUltimaCotaSemTarifa": 16.8
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045685488,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%BC%C3%9A;)%5D%C2%A6%C3%87P%5E%C3%A0:Uvu.%C2%81%C2%A4rS%12%0DtS%C2%87Z%C2%91%3F%C3%AB%C2%AC%C3%9A%C2%BD%C3%BB!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:54:48.231",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              3,
+              6,
+              13,
+              17,
+              31,
+              43,
+              68,
+              71
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              5,
+              35,
+              65,
+              71,
+              73,
+              74,
+              78
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              18,
+              19,
+              49,
+              54,
+              59,
+              70,
+              71
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              10,
+              27,
+              62,
+              64,
+              67,
+              68,
+              79,
+              80
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              13,
+              14,
+              16,
+              20,
+              24,
+              70,
+              78,
+              80
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              6,
+              16,
+              17,
+              21,
+              22,
+              46,
+              62,
+              77
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              20,
+              47,
+              52,
+              54,
+              57,
+              59,
+              60,
+              62
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              24,
+              28,
+              29,
+              37,
+              43,
+              58,
+              63,
+              64
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              5,
+              8,
+              11,
+              47,
+              51,
+              56,
+              60,
+              78
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              7,
+              16,
+              19,
+              23,
+              32,
+              38,
+              47,
+              48
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 11,
+        "qtdCotaDisponivel": 11,
+        "qtdCotaFisica": 35,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 46,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 8,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 49.3,
+        "vrCotaSemTarifa": 36.52,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 588,
+        "vrTarifaServicoCota": 12.78,
+        "vrTarifaServicoUltimaCota": 12.9,
+        "vrTotalBolaoComTarifa": 2268,
+        "vrTotalBolaoSemTarifa": 1680,
+        "vrUltimaCotaComTarifa": 49.5,
+        "vrUltimaCotaSemTarifa": 36.6
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045687770,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1Av%C3%8F%C3%BD%C3%AC%C2%ACs%C3%94U%C2%AF%C2%8A%C2%A9%C3%AA%07W%C3%9D%C2%89%C3%9A3S%C3%B2%C3%B7%C3%A7%C2%BC%C3%90V%C2%9C%C2%8DQ%7B%C2%BC%C3%B5z!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:54:50.636",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              4,
+              10,
+              11,
+              16,
+              26,
+              30,
+              39,
+              53,
+              61
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              5,
+              14,
+              21,
+              23,
+              26,
+              63,
+              64,
+              69,
+              79
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 2,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 34,
+        "qtdCotaDisponivel": 34,
+        "qtdCotaFisica": 1,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 35,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 9,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 29.15,
+        "vrCotaSemTarifa": 21.6,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 264.59,
+        "vrTarifaServicoCota": 7.55,
+        "vrTarifaServicoUltimaCota": 7.89,
+        "vrTotalBolaoComTarifa": 1020.59,
+        "vrTotalBolaoSemTarifa": 756,
+        "vrUltimaCotaComTarifa": 29.49,
+        "vrUltimaCotaSemTarifa": 21.6
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045690163,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1AGC%1E%C3%94%1A%C2%AFD%C3%95%0D%7F2%C3%88%3F-o%13%C3%A4%5E%C2%95%C3%81%18D%C3%99fi%C2%92%C2%B31%5E%C2%8B%C3%B9t!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:54:53.079",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              13,
+              26,
+              44,
+              45,
+              48,
+              52,
+              70,
+              72,
+              73,
+              74
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 1,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 29,
+        "qtdCotaDisponivel": 29,
+        "qtdCotaFisica": 1,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 30,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 10,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 34.01,
+        "vrCotaSemTarifa": 25.2,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 264.59,
+        "vrTarifaServicoCota": 8.81,
+        "vrTarifaServicoUltimaCota": 9.1,
+        "vrTotalBolaoComTarifa": 1020.59,
+        "vrTotalBolaoSemTarifa": 756,
+        "vrUltimaCotaComTarifa": 34.3,
+        "vrUltimaCotaSemTarifa": 25.2
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045692600,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A1%C3%91%C2%94%04%C2%93%C3%B8,N%1A%C3%A9,%08%C3%87%60%C3%9F%C2%8E%C3%91O%60%22%C2%BA%C3%AFw%C2%BD%0E%C3%B46G_-%25%5E!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:54:55.542",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              9,
+              10,
+              27,
+              30,
+              37,
+              41,
+              45,
+              53,
+              67
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              30,
+              32,
+              33,
+              39,
+              42,
+              48,
+              66,
+              69,
+              78
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 2,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 34,
+        "qtdCotaDisponivel": 34,
+        "qtdCotaFisica": 1,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 35,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 9,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 29.15,
+        "vrCotaSemTarifa": 21.6,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 264.59,
+        "vrTarifaServicoCota": 7.55,
+        "vrTarifaServicoUltimaCota": 7.89,
+        "vrTotalBolaoComTarifa": 1020.59,
+        "vrTotalBolaoSemTarifa": 756,
+        "vrUltimaCotaComTarifa": 29.49,
+        "vrUltimaCotaSemTarifa": 21.6
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045695068,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1AS%C3%BF!%C3%91%C2%B2x%3F.%C2%8C%162%01%18ghN%5C5%14%C2%93%17%2B%C3%9FRw%C2%BA%C2%87!%C3%B1%C2%AF%22%C3%B4!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:54:58.412",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              11,
+              14,
+              16,
+              35,
+              38,
+              53,
+              62,
+              66,
+              70,
+              73
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 1,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 16,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 1,
+        "qtdNumeros": 10,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 20.41,
+        "vrCotaSemTarifa": 15.12,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 264.59,
+        "vrTarifaServicoCota": 5.29,
+        "vrTarifaServicoUltimaCota": 5.38,
+        "vrTotalBolaoComTarifa": 1020.59,
+        "vrTotalBolaoSemTarifa": 756,
+        "vrUltimaCotaComTarifa": 20.5,
+        "vrUltimaCotaSemTarifa": 15.12
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045697946,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1Ax%15~8%C2%8E%C3%8B%C2%BE%1B%C2%99%C2%91%C2%8F%C3%8A%C3%A2%C2%BE*%3F%1EI%C2%98%01%C3%8A%13%3C%C3%A5f%C2%A5%C2%BA%C3%BCnpK%C3%94!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:55:01.640",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              5,
+              27,
+              31,
+              38,
+              66,
+              67,
+              71,
+              80
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              17,
+              24,
+              27,
+              28,
+              29,
+              34,
+              59,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              31,
+              36,
+              39,
+              49,
+              57,
+              63,
+              69,
+              78
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              6,
+              15,
+              46,
+              48,
+              50,
+              55,
+              64,
+              80
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              6,
+              20,
+              23,
+              32,
+              47,
+              67,
+              75,
+              80
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": false,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 5,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 49,
+        "qtdCotaDisponivel": 47,
+        "qtdCotaFisica": 1,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 2,
+        "qtdNumeros": 8,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 22.68,
+        "vrCotaSemTarifa": 16.8,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 294,
+        "vrTarifaServicoCota": 5.88,
+        "vrTarifaServicoUltimaCota": 5.88,
+        "vrTotalBolaoComTarifa": 1134,
+        "vrTotalBolaoSemTarifa": 840,
+        "vrUltimaCotaComTarifa": 22.68,
+        "vrUltimaCotaSemTarifa": 16.8
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045701205,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%3E%C2%A10V%C2%82%C3%92z%C2%92%C3%A9%C2%80%5E.b'%C3%9D%C2%92%C3%AFa%C3%B4qV%C2%88%C3%83%25V%13%00Gv%C3%8C7%C3%B6!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:55:04.133",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              3,
+              4,
+              27,
+              59,
+              61,
+              70,
+              78,
+              79
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              6,
+              12,
+              13,
+              21,
+              56,
+              68,
+              73,
+              78
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              2,
+              13,
+              29,
+              37,
+              47,
+              48,
+              67,
+              74
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              8,
+              30,
+              47,
+              52,
+              64,
+              70,
+              74,
+              78
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              9,
+              11,
+              14,
+              53,
+              56,
+              57,
+              73,
+              75
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": false,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 5,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 49,
+        "qtdCotaDisponivel": 48,
+        "qtdCotaFisica": 1,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 1,
+        "qtdNumeros": 8,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 22.68,
+        "vrCotaSemTarifa": 16.8,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 294,
+        "vrTarifaServicoCota": 5.88,
+        "vrTarifaServicoUltimaCota": 5.88,
+        "vrTotalBolaoComTarifa": 1134,
+        "vrTotalBolaoSemTarifa": 840,
+        "vrUltimaCotaComTarifa": 22.68,
+        "vrUltimaCotaSemTarifa": 16.8
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045703679,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C3%A0N%C2%A2%C2%BD%C3%AC%C3%A2)'%25%C2%BEICc%C2%B0%5C%C3%8BG%C3%AC%C2%9C%C3%B0Ph%C3%BAKDi%C3%AE%C2%987%C2%8F%C3%98%C2%9D!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:55:06.962",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              3,
+              7,
+              8,
+              10,
+              25,
+              31,
+              35,
+              55,
+              61,
+              63,
+              69
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 1,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 15,
+        "qtdCotaDisponivel": 14,
+        "qtdCotaFisica": 35,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 1,
+        "qtdNumeros": 11,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 37.42,
+        "vrCotaSemTarifa": 27.72,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 485.09,
+        "vrTarifaServicoCota": 9.7,
+        "vrTarifaServicoUltimaCota": 9.79,
+        "vrTotalBolaoComTarifa": 1871.09,
+        "vrTotalBolaoSemTarifa": 1386,
+        "vrUltimaCotaComTarifa": 37.51,
+        "vrUltimaCotaSemTarifa": 27.72
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045706487,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%7B%C3%91%C2%95%C3%B2F%C3%A6I%C2%B8%C2%BB%C2%B2%C3%A3%19%C2%A98%C3%AAc%C2%BE%5C%C2%AF%C2%B3%C2%91%7C%C2%895%C2%88%7B%1C%C2%81J%C2%88%C2%AB%02!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:55:09.310",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              1,
+              2,
+              3,
+              4,
+              38,
+              40,
+              56,
+              57,
+              58,
+              64,
+              72,
+              76,
+              78
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 1,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 49,
+        "qtdCotaDisponivel": 13,
+        "qtdCotaFisica": 1,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 36,
+        "qtdNumeros": 13,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 104.24,
+        "vrCotaSemTarifa": 77.22,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 1351.35,
+        "vrTarifaServicoCota": 27.02,
+        "vrTarifaServicoUltimaCota": 27.37,
+        "vrTotalBolaoComTarifa": 5212.35,
+        "vrTotalBolaoSemTarifa": 3861,
+        "vrUltimaCotaComTarifa": 104.59,
+        "vrUltimaCotaSemTarifa": 77.22
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045708829,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%A7-%C2%9C%C2%8D%C3%B6%22W@%C2%9D%C2%91%C3%B5:%C2%AEL3%0D%C2%A9%11%C3%B9%C3%81%C2%AE%C3%BF%C2%87%1E%C2%A6%C2%80%C3%AE%C2%85%C2%80X%7B%C3%81!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:55:12.070",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              1,
+              6,
+              11,
+              39,
+              44,
+              50,
+              60,
+              66,
+              69,
+              71
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              14,
+              17,
+              20,
+              21,
+              32,
+              43,
+              44,
+              46,
+              47,
+              65
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              30,
+              41,
+              44,
+              47,
+              48,
+              58,
+              61,
+              64,
+              65,
+              75
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              8,
+              11,
+              14,
+              26,
+              29,
+              33,
+              37,
+              39,
+              43,
+              57
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              9,
+              14,
+              20,
+              21,
+              23,
+              24,
+              26,
+              28,
+              56,
+              77
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              6,
+              10,
+              11,
+              20,
+              25,
+              46,
+              64,
+              69,
+              80
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              10,
+              27,
+              28,
+              30,
+              47,
+              48,
+              52,
+              75,
+              78
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              15,
+              20,
+              29,
+              40,
+              51,
+              53,
+              56,
+              65,
+              72
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              6,
+              11,
+              16,
+              22,
+              23,
+              33,
+              48,
+              65,
+              75
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              6,
+              8,
+              33,
+              43,
+              45,
+              52,
+              70,
+              74,
+              75,
+              77
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": false,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 17,
+        "qtdCotaDisponivel": 17,
+        "qtdCotaFisica": 33,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 10,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 204.12,
+        "vrCotaSemTarifa": 151.2,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 2646,
+        "vrTarifaServicoCota": 52.92,
+        "vrTarifaServicoUltimaCota": 52.92,
+        "vrTotalBolaoComTarifa": 10206,
+        "vrTotalBolaoSemTarifa": 7560,
+        "vrUltimaCotaComTarifa": 204.12,
+        "vrUltimaCotaSemTarifa": 151.2
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045711625,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%B2%C3%95%C3%82%26%1A%C3%B2%C2%9B%C2%A1%C3%85%C2%92%1F%C2%81%C2%81%2B%5E%C3%BEG%C2%A6%15%C2%B8%C3%AC%C3%8E%17%C3%9A%C2%94Y%C3%B6%C3%A4%C3%B3%1E%C3%A1%C3%A2!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:55:14.478",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              7,
+              25,
+              32,
+              34,
+              61,
+              64,
+              69,
+              78
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              25,
+              31,
+              49,
+              53,
+              55,
+              63,
+              65,
+              68
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              12,
+              17,
+              22,
+              40,
+              44,
+              62,
+              69
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              18,
+              27,
+              50,
+              52,
+              55,
+              57,
+              76
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              16,
+              31,
+              37,
+              43,
+              49,
+              52,
+              54,
+              80
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              9,
+              12,
+              24,
+              42,
+              47,
+              62,
+              63,
+              68
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              19,
+              23,
+              43,
+              56,
+              60,
+              70,
+              71,
+              77
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              6,
+              12,
+              17,
+              30,
+              38,
+              49,
+              71
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              2,
+              7,
+              10,
+              11,
+              26,
+              28,
+              51,
+              75
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              21,
+              28,
+              29,
+              36,
+              46,
+              53,
+              59,
+              64
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 10,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 11,
+        "qtdCotaDisponivel": 11,
+        "qtdCotaFisica": 35,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 46,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 8,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 49.3,
+        "vrCotaSemTarifa": 36.52,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 588,
+        "vrTarifaServicoCota": 12.78,
+        "vrTarifaServicoUltimaCota": 12.9,
+        "vrTotalBolaoComTarifa": 2268,
+        "vrTotalBolaoSemTarifa": 1680,
+        "vrUltimaCotaComTarifa": 49.5,
+        "vrUltimaCotaSemTarifa": 36.6
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045714040,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%BF%1F%C3%9Crr%C3%AB%C3%A8(%03%C3%86%13%5E%5CK3%C3%B3r%C2%8Dd%C3%BE%C2%BF+%C2%8A%C2%AD%C2%BDG%1E6M!h%C2%B0!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:55:16.913",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              15,
+              29,
+              34,
+              47,
+              49,
+              56,
+              58,
+              67,
+              69,
+              70,
+              71,
+              72
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": true,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 1,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 49,
+        "qtdCotaDisponivel": 47,
+        "qtdCotaFisica": 1,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 2,
+        "qtdNumeros": 12,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 64.15,
+        "vrCotaSemTarifa": 47.52,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 831.59,
+        "vrTarifaServicoCota": 16.63,
+        "vrTarifaServicoUltimaCota": 16.72,
+        "vrTotalBolaoComTarifa": 3207.59,
+        "vrTotalBolaoSemTarifa": 2376,
+        "vrUltimaCotaComTarifa": 64.24,
+        "vrUltimaCotaSemTarifa": 47.52
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045716433,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%22%C2%B2e%C2%8A%C3%AE%C2%A4%C3%93y%C3%BAT%C2%95%C3%B9s%7D:%C3%B6%11%C2%A1%C3%8B%C3%B5%3D%5C6%04%C2%BD%7D%C3%93%0B%C3%AE%C3%B5Bj!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  },
+  {
+    "data": {
+      "dataHoraServidor": "2026-06-09T19:55:20.220",
+      "payload": {
+        "apostas": [
+          {
+            "dezenas": [
+              4,
+              7,
+              16,
+              27,
+              35,
+              49,
+              56,
+              65
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              5,
+              11,
+              30,
+              37,
+              61,
+              66,
+              72,
+              78
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              13,
+              19,
+              29,
+              34,
+              40,
+              45,
+              63,
+              67
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              6,
+              10,
+              18,
+              48,
+              50,
+              79,
+              80
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              26,
+              44,
+              48,
+              50,
+              54,
+              65,
+              71,
+              72
+            ],
+            "indicadorSurpresinha": true
+          }
+        ],
+        "concurso": 7051,
+        "contemResiduo": false,
+        "dataSorteio": "28/06/2026",
+        "diaSorteio": "Domingo",
+        "horaSorteio": "11:00:00",
+        "loterica": 19014,
+        "lotericaFormatada": {
+          "bairro": "CEILANDIA                               ",
+          "codigo": "04.019014-5",
+          "dv": 5,
+          "dvMunicipio": 8,
+          "id": 19014,
+          "idMunicipio": 10,
+          "idUF": 53,
+          "logradouro": "QNM 33 AREA ESPECIAL E                            ",
+          "nome": "LOTERIAS CASTELO FORTE CEILANDIA LTDA                                                                              ",
+          "nomeFantasia": "LOTERIAS CASTELO FORTE",
+          "nomeMunicipio": "BRASILIA                           ",
+          "nomeUF": "DISTRITO FEDERAL    ",
+          "numeroFormatado": "04.019014-5",
+          "polo": 4,
+          "situacao": {
+            "descricao": "ATIVO                              ",
+            "valor": 1
+          }
+        },
+        "modalidade": "QUINA",
+        "municipioCota": {
+          "id": {
+            "codigoUF": 53,
+            "digitoVerificador": 8,
+            "numero": 10
+          },
+          "nome": "BRASILIA",
+          "uf": {
+            "id": 53,
+            "nome": "DISTRITO FEDERAL    ",
+            "sigla": "DF"
+          }
+        },
+        "nomeFantasia": "LOTERIAS CASTELO FORTE",
+        "nomeRazaoSocial": "LOTERIAS CASTELO FORTE CEILANDIA LTDA",
+        "qtdApostas": 5,
+        "qtdCotaBaixadas": 0,
+        "qtdCotaBaixadasImpressas": 0,
+        "qtdCotaDigital": 49,
+        "qtdCotaDisponivel": 49,
+        "qtdCotaFisica": 1,
+        "qtdCotaReservada": 0,
+        "qtdCotaTotal": 50,
+        "qtdCotaVendidas": 0,
+        "qtdNumeros": 8,
+        "tipoConcurso": 2,
+        "uf": {
+          "id": 53,
+          "nome": "DISTRITO FEDERAL    ",
+          "sigla": "DF"
+        },
+        "vrCotaComTarifa": 22.68,
+        "vrCotaSemTarifa": 16.8,
+        "vrPremioEstimado": 250000000,
+        "vrTarifaBolao": 294,
+        "vrTarifaServicoCota": 5.88,
+        "vrTarifaServicoUltimaCota": 5.88,
+        "vrTotalBolaoComTarifa": 1134,
+        "vrTotalBolaoSemTarifa": 840,
+        "vrUltimaCotaComTarifa": 22.68,
+        "vrUltimaCotaSemTarifa": 16.8
+      },
+      "versao": "2.98.46.5"
+    },
+    "ts": 1781045719754,
+    "url": "/silce-servico-rest/rest/v1/Ym9sb2VzL2RldGFsaGFyLWJvbGFv/?q=%60%0F%26%04Ra%1B%C3%B8$%C3%9C%C3%BCg%03%C2%B2$%1A%C2%92%C2%BB%C2%BB%C3%95$T%C2%B8h%C3%89%C2%87G%C3%87,%C3%B7%C3%94%C2%96.@%C2%BE%C3%95%17O%C2%A4r%1F;%C2%82%C2%8A%C2%BCw%C2%B8%C3%93!%23!%23!%C2%85%C3%BA%C3%88YSY%0Bl%C3%A4ta%C2%A4%C2%9Ahl%1B!%23!%23!forge.random.get"
+  }
+]
